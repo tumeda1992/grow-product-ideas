@@ -2,8 +2,6 @@
 
 プロダクトのアイデアを、作り始める前に決めるべきことが全部決まった状態まで詰めるリポジトリ。決めるべきことを問いの形で持っていて、答えが揃うまで出さない。
 
-設計の正本は `.steering/2026/202609/20260912-design-build-ready-idea-lab-skeleton/design.md`。
-
 ## 常用する plugin
 
 ### genshijin
