@@ -1,0 +1,26 @@
+# 議論記録
+
+## 論点一覧
+
+- [論点1: 今回の段階をどこで区切るか](task-design-discussion-1-5.md)
+- [論点2: 最小のレールに何を含めるか](task-design-discussion-1-5.md)
+- [論点3: 各要素の中身をこのdesignで決めるか、子designへ分けるか](task-design-discussion-1-5.md)
+- [論点4: 各要素の中身を「1件を通せる程度」にとどめる基準](task-design-discussion-1-5.md)
+- [論点5: skillの配置先](task-design-discussion-1-5.md)
+- [論点6: Codexへプロジェクト指示を渡す方法](task-design-discussion-6-10.md)
+- [論点7: アイデアを通すworkflow（skill間の起動関係・状態・gate）](task-design-discussion-6-10.md)
+- [論点8: skill14種の名前](task-design-discussion-6-10.md)
+- [論点9: プロダクト1件の正本ファイル名](task-design-discussion-6-10.md)
+- [論点10: 材料の識別と`materials/`の中の置き方](task-design-discussion-6-10.md)
+- [論点11: 受け入れ基準と「1件を通し始められる」の観測方法](task-design-discussion-11-15.md)
+- [論点12: build-readyの`product-plans/<slug>/`を、後続のリポジトリで読み切れる状態にする方法](task-design-discussion-11-15.md)
+- [論点13: `what-defines-a-product/README.md`の見出し構成](task-design-discussion-11-15.md)
+- [論点14: 作る順（`what-defines-a-product/README.md`をいつ確定させるか）](task-design-discussion-11-15.md)
+- [論点15: `why-to-build.md`の問い](task-design-discussion-11-15.md)
+- [論点16: `what-to-build.md`の問い](task-design-discussion-16-20.md)
+- [論点17: 残りの層fileの作り方](task-design-discussion-16-20.md)
+- [論点18: 複数のskillが共通で使うfileの置き場所](task-design-discussion-16-20.md)
+- [論点19: 自演の扱いを恒久のskillから外す](task-design-discussion-16-20.md)
+- [論点20: 問いに答える手順をskillにし、層skill4種との関係をどうするか](task-design-discussion-16-20.md)
+- [論点21: 層skill4種をまとめたskillの名前](task-design-discussion-21-25.md)
+- [論点22: 問いを扱うskillが、問いに答える以外に何を担うか](task-design-discussion-21-25.md)
