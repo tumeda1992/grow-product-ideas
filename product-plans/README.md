@@ -2,45 +2,81 @@
 
 アイデア1件ごとに1directoryを持つ。レールを通したアイデアの判断記録の堆積である。
 
-このREADMEは、`product-plans/<slug>/`の中の配置と名前、材料の入口の形を定める唯一の場所である。
-各skillは、正本・決定過程・材料の入口を、file名ではなく役割で参照し、場所はこのREADMEで引く。
+このREADMEは、`product-plans/<slug>/`の中の配置と名前、各fileの役割、材料の入口の形を定める唯一の場所である。
+各skillは、正本・層ごとの記録・材料の入口を、file名ではなく役割で参照し、場所はこのREADMEで引く。
 
 ## 配置
 
 ```text
 product-plans/<slug>/
-├── README.md                 # 正本
-├── discussion.md             # 決定過程（facilitate-discussion が作る）
-├── internal-records/         # 決定過程の内部検討記録（facilitate-discussion が作る）
+├── README.md                     # 正本。プロダクトの説明
+├── <層file名>/                   # why-to-build、what-to-build、how-far-to-build、how-to-build
+│   ├── README.md                 # この層の問いの一覧と、この層で広がった視野
+│   ├── questions/
+│   │   └── <問いのslug>.md       # 問いごとの決着の記録
+│   ├── discussion.md             # この層の決定過程（facilitate-discussion が作る）
+│   └── internal-records/         # この層の論点の内部検討記録（facilitate-discussion が作る）
 └── materials/
-    └── <材料の識別子>/
-        ├── README.md         # 材料の入口
-        └── ...               # 付随file。分け方は材料skillが分量に応じて決める
+    ├── <材料の識別子>.md          # 材料の入口。既定は一つのfile
+    └── <材料の識別子>/            # 付随fileができた材料だけ、directoryへ育てる
+        ├── README.md             # 材料の入口
+        └── ...                   # 付随file（技術検証のcode、画像等）
 ```
 
 | 役割 | 場所 | 作る担当 | 形 |
 | --- | --- | --- | --- |
-| 正本 | `product-plans/<slug>/README.md` | `grow-product-idea`（受け入れ時） | `grow-product-idea`の雛形 |
-| 決定過程 | `product-plans/<slug>/discussion.md` | `settle-question`が`facilitate-discussion`で作る | `facilitate-discussion`の形式 |
-| 材料の入口 | `product-plans/<slug>/materials/<材料の識別子>/README.md` | 材料skill | [材料の入口の形](#材料の入口の形) |
+| 正本 | `product-plans/<slug>/README.md` | `grow-product-idea`が受け入れ時に作り、`settle-question`が問いを閉じるたびに節を書き足す | `grow-product-idea`の正本の雛形 |
+| 層の問いの一覧 | `product-plans/<slug>/<層file名>/README.md` | `grow-product-idea`が受け入れ時に作り、`settle-question`が更新する | `grow-product-idea`の層の雛形 |
+| 問いの決着の記録 | `product-plans/<slug>/<層file名>/questions/<問いのslug>.md` | `settle-question`が問いに取りかかる時に作る | `settle-question`の問いの雛形 |
+| 層の決定過程 | `product-plans/<slug>/<層file名>/discussion.md` | `settle-question`と`grow-product-idea`が`facilitate-discussion`で作る | `facilitate-discussion`の形式 |
+| 材料の入口 | `product-plans/<slug>/materials/<材料の識別子>.md`。付随fileがある材料は`product-plans/<slug>/materials/<材料の識別子>/README.md` | 材料skill | [材料の入口の形](#材料の入口の形) |
 
-slugは`YYYYMMDD-`で始まる。
+slugは`YYYYMMDD-`で始まる。問いのslugは、問いのidentifier（`<層file名>/<問いのslug>`）の後半である。
+
+材料は層をまたいで使うため、層のdirectoryではなく直下に置く。
+
+材料は、既定では一つのfileにする。付随file（技術検証のcode、ラフ画の画像等）ができた時に、同じ識別子のdirectoryへ移し、入口を`README.md`にする。入口を確かめる時は、どちらかの形があればよい。directoryに入口しか無いなら、一つのfileに戻す。
+
+## 三つの記録の分け方
+
+| 記録 | 持つもの | 並び | 主に読む人 |
+| --- | --- | --- | --- |
+| 正本 | このプロダクトが何で、誰の何の痛みを解き、何をどこまでどう作るか。決まった内容を構成要素ごとに書き、根拠として論点と材料へlinkする | プロダクトの構成要素の順 | build-ready後の後続、プロダクトを説明される他の人、層の閉じと出口判定の利用者 |
+| 問いの決着の記録（層の`README.md`と`questions/`。問いの状態と層の状態は層の`README.md`だけに持つ） | 問いごとに、一般の問いをこのアイデアの問いへどう立て直したか、どこまで詰めたか、立てた下位の問い、答えに至った筋、確認、広がった視野。答えの全文は持たない | 層fileの問いの順 | 層の閉じの利用者、`grow-product-idea`、還元skill |
+| 層の決定過程（`discussion.md`） | 判断ごとの論点。提案、検討記録、利用者の応答、決定 | 起きた順 | 層の閉じの利用者、還元skill、後続のプロダクト |
+
+問いは、プロダクトを決めるための手段であり、プロダクトを説明する構成要素ではない。正本は問いの構造を写さず、問いの答えを材料にしてプロダクトを説明する。
+
+### 決定過程の役割
+
+決定過程は、このプロダクトの判断の芯であり、後続のプロダクトへ雪だるまのように積み上がる。速く済ませる手間ではない。
+目的は、細部まで合意すること、さらに、発案者が気づかなかったところまで視野を広げることである。
+
+そのため、全ての問いで`facilitate-discussion`の全手順で記録する。
+
+- 論点は、問いに答える中で、利用者の採否が要る判断、または発案者の視野を広げる点が生じた時に立てる。一つの問いから複数立つことも、一つも立たないこともある。論点を問いごとに機械的に立てない
+- 論点の題は判断の内容にし、問いの文面にしない
+- 検討記録の最初の行に、起点の問い（同じ層の`questions/`の問いのfile）へのlinkを書く
+- 各論点の提案には、合意できるだけの細部と、発案者の視野の外にあった点を、それと分かるように書く。一往復で決まりそうな論点でも省かない
+- 利用者しか持たない事実を問う時は、認識合わせとして論点を立てる
+- 出口判定は、判定した時点の層の記録に論点として置く。起点には、作らない・保留を示した問いを、build-readyなら四つの層の問いの一覧を書く
+- 利用者が対案を退けた理由が他の選択にも効く時は、同じ論点の次の回で条件として扱うかを確かめ、扱うなら正本の「前提にする条件」へ論点へのlinkとともに足す
+- 論点の並びと論点の中の回は、起きた順である。固定の並びに流し込まない
 
 ### 名前と構成が仮置きであること
 
-正本と材料の入口の名前、正本を1fileにする構成は仮置きである。
-アイデアを実際に通す中で、正本や材料が読み書きしにくい分量になった時に見直す。見直しは`refine-what-defines-a-product`の対象である。
-見直す時は、このREADMEと正本の雛形だけを直す。各skillは役割で参照しているため、skillの本文は直さない。
+正本・層の記録・材料の入口の名前と構成は、実際にアイデアを通す中で見直す。正本や記録が読み書きしにくくなった時が見直す時である。見直しは`refine-what-defines-a-product`の対象である。
+見直す時は、このREADMEと`grow-product-idea`の雛形を直す。各skillは役割で参照しているため、skillの本文は直さない。
 
 ## directoryの中だけで読み切れるようにする
 
 `product-plans/<slug>/`は、build-readyになると写しが新しいリポジトリへ持っていかれ、初回構築の入力になる。後続のリポジトリには`what-defines-a-product/`もこのリポジトリのskillも無い。
 そのため、どの出口でも、作る時からdirectoryの中だけで読み切れるように書く。
 
-- 正本の各問いには、identifierと一緒に問いの文面と、このアイデアでの問い（言い直した文面と基準）を書く
+- 問いの決着の記録には、identifierと一緒に問いの文面と、層fileの満たさない例を写す
 - 定石から選んだ時は、選んだ選択肢と比べた選択肢の中身を決定過程に書く。定石の名前だけで参照しない
 - 外の資料は、要点を書いたうえで出典として示す
-- linkは、このdirectoryの中（正本、決定過程、材料）だけに張る
+- linkは、このdirectoryの中だけに張る。file間のlinkは相対pathで書き、別のfileの見出しを指す時はfile名を省かない
 
 `product-plans/<slug>/`は、出口に関わらず残す。後続へ渡す時も写しを持っていき、このリポジトリの`product-plans/<slug>/`は残す。
 

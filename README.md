@@ -40,7 +40,7 @@ grow-product-idea で、このアイデアを詰めたい。
 ### build-readyの後
 
 1. `product-plans/<slug>/`の写しを、`initial_product_plan`のような名前で新しいリポジトリへ置く。
-2. 新しいリポジトリで、その写しを入力に`tumeda-dev`の`steering`／`task-design`で初回構築を始める。最初に作る分は「どこまで作るか」の答えに、AIが利用者に聞かずに進めてよい範囲は「利用者に聞かずにAIが進めてよい範囲はどこまでか」の答えにある。
+2. 新しいリポジトリで、その写しの`README.md`（プロダクトの説明）を入力に`tumeda-dev`の`steering`／`task-design`で初回構築を始める。最初に作るものは「最初に作る分」の節に、AIが利用者に聞かずに進めてよい範囲は「AIに任せる範囲」の節にある。なぜそう決めたかは、層ごとのdirectoryの決定過程にある。
 
 `product-plans/<slug>/`は、作る時からdirectoryの中だけで読み切れるように書かれている。新しいリポジトリに`what-defines-a-product/`やこのリポジトリのskillが無くても読める。
 写しの作成、名前の変更、新しいリポジトリの作成は、利用者が行う。
@@ -62,7 +62,7 @@ grow-product-ideas/
 | 置き場所 | 役割 |
 | --- | --- |
 | [`what-defines-a-product/`](what-defines-a-product/README.md) | プロダクトをbuild-readyにするために答える問いのセット。層ごとに、問い、水準（満たさない答えの例）、定石（選択肢と判断軸）を持つ |
-| [`product-plans/`](product-plans/README.md) | アイデア1件ごとの正本、決定過程、材料。中の配置と名前は`product-plans/README.md`が定める |
+| [`product-plans/`](product-plans/README.md) | アイデア1件ごとに、プロダクトの説明（正本）、層ごとの問いの決着の記録と決定過程、材料。中の配置と名前は`product-plans/README.md`が定める |
 | `.agents/skills/` | レールのskill。Claude Code は`.claude/skills`から、Codex は`.agents/skills`から読む |
 
 ### skill
@@ -71,7 +71,8 @@ grow-product-ideas/
 | --- | --- | --- |
 | 全体制御 | `grow-product-idea` | アイデアを受け取り、次の問いを選び、`settle-question`を起動し、出口まで運ぶ。入口はこれ |
 | 問い | `settle-question` | 問い一つを、このアイデアの問いへ立て直し、詰める深さを決め、材料を揃えて対案と比べて答え、漏れを確認して閉じる |
-| 材料（調査） | `find-existing-alternatives`、`compare-build-and-alternative-costs`、`gather-target-user-voices` | 代案、費用の比較、利用者の声を集める |
+| 材料（対案） | `propose-alternatives` | 要求の状態を、やり方を変える・あり物・組み合わせ・作る道で覆う対案を、候補の事実と費用を添えて挙げる |
+| 材料（調査） | `gather-target-user-voices` | 利用者の声と、同じ痛みを持つ人のしのぎ方を集める |
 | 材料（生成） | `sketch-experience`、`design-core-logic`、`design-tables`、`design-modules` | 体験とラフ画、心臓部のロジック、テーブル構成、モジュール構成の複数案を作る |
 | 材料（検証） | `verify-technical-feasibility` | 動かさないと分からないことを、最小限のcodeで確かめる |
 | 還元 | `refine-what-defines-a-product` | 出口へ着いた1件から、問い・水準・定石とskillの過不足を判定し、レールを育てる |

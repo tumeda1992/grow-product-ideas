@@ -1,6 +1,6 @@
 ---
 name: sketch-experience
-description: アイデアの体験の流れと、全画面を一度に並べたラフ画の複数案を、要求された粒度で作る材料skill（experience-sketch）。費用の見積り用の粗いものから、画面構成を決める詳しいものまで、同じ材料を育てる。`settle-question`から起動される。
+description: アイデアの体験の流れと、全画面を一度に並べたラフ画の複数案を、要求された粒度で作る材料skill（experience-sketch）。解き方を比べる粗いものから、画面構成を決める詳しいものまで、同じ材料を育てる。`settle-question`から起動される。
 ---
 
 # sketch-experience
@@ -13,9 +13,9 @@ description: アイデアの体験の流れと、全画面を一度に並べた�
 
 | 要求する問い | 粒度 |
 | --- | --- |
-| `why-to-build/build-cost-pays-off` | 画面の枚数と主要な操作が分かる程度 |
 | `what-to-build/solution-shape` | 解き方の案ごとに、主要な操作の流れが分かる程度 |
 | `how-far-to-build/first-build-cut` | スコープの内の主要な場面の流れが分かる程度 |
+| `how-far-to-build/build-cost-pays-off` | 最初に作る分の画面の枚数と主要な操作が分かる程度 |
 | `how-to-build/experience` | 最初に作る分の全ての場面について、きっかけ、操作、起きること、終わり方が分かる程度 |
 | `how-to-build/screens` | 最初に作る分の全ての画面について、表示する情報と操作が分かる程度 |
 
