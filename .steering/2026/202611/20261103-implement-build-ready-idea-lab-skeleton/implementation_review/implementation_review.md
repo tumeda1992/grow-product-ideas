@@ -43,3 +43,4 @@
 - [論点39: 層をどの順で、いつ閉じ、閉じた後に返ってきたものをどう扱うか](implementation_review-36-40.md)
 - [論点40: 層fileの決め方の決まりのうち、実物に当てて満たせない、または重すぎる所をどう直すか](implementation_review-36-40.md)
 - [論点41: なぜ作るか層は、何を決める層か](implementation_review-41-45.md)
+- [論点42: Claude CodeからCodexへ作業を引き継ぐ](implementation_review-41-45.md)
