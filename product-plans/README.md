@@ -10,7 +10,7 @@
 ```text
 product-plans/<slug>/
 ├── README.md                     # 正本
-├── <層>/                         # what-must-hold、how-to-solve（層fileの名前）
+├── <層>/                         # why-to-build、what-must-hold、how-to-solve（層fileの名前）
 │   ├── README.md                 # 層の記録
 │   ├── discussion.md             # 層の決定過程（facilitate-discussion が作る）
 │   └── internal-records/         # 層の論点の内部検討記録（facilitate-discussion が作る）

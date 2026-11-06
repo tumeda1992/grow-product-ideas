@@ -66,8 +66,6 @@ description: プロダクトのアイデアを受け取り、what-defines-a-prod
 
 `what-defines-a-product/README.md`の「層」の表の順に、閉じていない最初の層を選ぶ。次の層は、前の層が閉じてから始める（同じREADMEの「層の順」）。
 
-なぜ作るか層は、まだ今の形で書いていない。それが書かれるまでは、何が成り立てばよいか層を始める前に、受け入れ時の入力から、痛み、作ることで得たいもの、アウトカムを利用者と置き、正本の「なぜ作るか」に、なぜ作るか層の閉じを通っていない仮のものとして書く。
-
 ### 3. 層を決める
 
 1. [templates/layer-record.md](templates/layer-record.md)から、層の記録を作る（`product-plans/README.md`が定める場所）。状態を「決めている」にする。
