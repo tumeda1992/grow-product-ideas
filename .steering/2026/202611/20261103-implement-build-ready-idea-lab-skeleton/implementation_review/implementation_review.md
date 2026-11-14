@@ -72,3 +72,4 @@
 - [論点68: 新しい条件でhowを比較し、今回の達成範囲と解き方を選ぶ](implementation_review-66-70.md)
 - [論点69: sketch-experienceを、候補の体験を判断できる材料へ磨く](implementation_review-66-70.md)
 - [論点70: どこまで作るかを独立層として残す必要があるか](implementation_review-66-70.md)
+- [論点71: 選んだ版の設計を、どう作るか層でどこまで決めて渡すか](implementation_review-71-75.md)
