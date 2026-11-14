@@ -2,7 +2,7 @@
 
 ## 論点71: 選んだ版の設計を、どう作るか層でどこまで決めて渡すか
 
-**ステータス:** 反映済み
+**ステータス:** 分解済み
 
 **親論点:** 論点70
 
@@ -1360,6 +1360,7 @@ functional-structure-designの本文171行を作成し、提案3の既存四file
 実API・利用者の操作・版全体を通す実現の検証は未実施である。build-readyの定義を維持し、75の122行の変更は適用していない。
 模型・archive・他の専門の本文・shared pluginは変更していない。commit・pushは行っていない。
 [反映・材料の試作・reviewでの修正・照合とorigin review: イテレーション3・記録2](../internal-records/implementation_review.md.topic-74.md#iteration-3-record-2)
+
 
 ## 論点75: 業務とソフトウェアの接点で閉じる設計と、後続の内部設計の受渡しを定める
 

@@ -1,0 +1,368 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "os": "Linux",
+    "journal_mode": "WAL",
+    "busy_timeout_ms": 0,
+    "transaction": "BEGIN IMMEDIATE"
+  },
+  "schema_sha256": "474e84a562bb9573af4e6cfabab12deb9f71f605cbd2f31b5d3808868c318418",
+  "method": "sequential interleaving of independent connections; not a load test",
+  "cases": [
+    {
+      "case": "current R2 keeps R1 signature, not submission",
+      "expected": {
+        "current": [
+          2,
+          "2026-11-19T08:00:00+09:00",
+          "B1"
+        ],
+        "evidence": [
+          [
+            1,
+            "signed"
+          ]
+        ],
+        "submitted": 0
+      },
+      "observed": {
+        "current": [
+          2,
+          "2026-11-19T08:00:00+09:00",
+          "B1"
+        ],
+        "evidence": [
+          [
+            1,
+            "signed"
+          ]
+        ],
+        "submitted": 0
+      },
+      "matched": true
+    },
+    {
+      "case": "same body supports old signature",
+      "expected": 1,
+      "observed": 1,
+      "matched": true
+    },
+    {
+      "case": "changed body does not support old signature",
+      "expected": 0,
+      "observed": 0,
+      "matched": true
+    },
+    {
+      "case": "same R2 stale token rejects second write",
+      "expected": {
+        "first": {
+          "outcome": "saved",
+          "saved_token": 2
+        },
+        "second": {
+          "outcome": "stale",
+          "rows": 0
+        },
+        "tokens": [
+          [
+            "S1",
+            2
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "accepted": [
+          [
+            "mother"
+          ]
+        ]
+      },
+      "observed": {
+        "first": {
+          "outcome": "saved",
+          "saved_token": 2
+        },
+        "second": {
+          "outcome": "stale",
+          "rows": 0
+        },
+        "tokens": [
+          [
+            "S1",
+            2
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "accepted": [
+          [
+            "mother"
+          ]
+        ]
+      },
+      "matched": true
+    },
+    {
+      "case": "lost successful response does not repeat changes",
+      "expected": {
+        "retry": {
+          "outcome": "repeat",
+          "saved_token": 1
+        },
+        "tokens": [
+          [
+            "S1",
+            1
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "evidence": 1
+      },
+      "observed": {
+        "retry": {
+          "outcome": "repeat",
+          "saved_token": 1
+        },
+        "tokens": [
+          [
+            "S1",
+            1
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "evidence": 1
+      },
+      "matched": true
+    },
+    {
+      "case": "same command different payload",
+      "expected": "command_id_reused",
+      "observed": "command_id_reused",
+      "matched": true
+    },
+    {
+      "case": "partial transaction rolls back all",
+      "expected": {
+        "tokens": [
+          [
+            "S1",
+            0
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "evidence": 0,
+        "commands": 0
+      },
+      "observed": {
+        "tokens": [
+          [
+            "S1",
+            0
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "evidence": 0,
+        "commands": 0
+      },
+      "matched": true
+    },
+    {
+      "case": "different items compete for same person",
+      "expected": {
+        "error": "overlap",
+        "tokens": [
+          [
+            "S1",
+            1
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "booking": [
+          [
+            "S1"
+          ]
+        ]
+      },
+      "observed": {
+        "error": "overlap",
+        "tokens": [
+          [
+            "S1",
+            1
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "booking": [
+          [
+            "S1"
+          ]
+        ]
+      },
+      "matched": true
+    },
+    {
+      "case": "booking UPDATE cannot bypass insertion checks",
+      "expected": "replace_booking_in_transaction",
+      "observed": "replace_booking_in_transaction",
+      "matched": true
+    },
+    {
+      "case": "adjacent slots can both be reserved",
+      "expected": 2,
+      "observed": 2,
+      "matched": true
+    },
+    {
+      "case": "source change removes only affected booking",
+      "expected": {
+        "slots": [
+          [
+            "S2"
+          ]
+        ],
+        "source": 2
+      },
+      "observed": {
+        "slots": [
+          [
+            "S2"
+          ]
+        ],
+        "source": 2
+      },
+      "matched": true
+    },
+    {
+      "case": "writer lock is BUSY, not stale rows",
+      "expected": {
+        "name": "SQLITE_BUSY",
+        "code": 5,
+        "commands": 0
+      },
+      "observed": {
+        "name": "SQLITE_BUSY",
+        "code": 5,
+        "commands": 0
+      },
+      "matched": true
+    },
+    {
+      "case": "explicit retry after lock release",
+      "expected": {
+        "outcome": "saved",
+        "saved_token": 1
+      },
+      "observed": {
+        "outcome": "saved",
+        "saved_token": 1
+      },
+      "matched": true
+    },
+    {
+      "case": "current revision cannot use another item source",
+      "expected": [
+        1,
+        0
+      ],
+      "observed": [
+        1,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "case": "empty evidence basis rejected",
+      "expected": 0,
+      "observed": 0,
+      "matched": true
+    },
+    {
+      "case": "backup while writing contains committed state only",
+      "expected": {
+        "tokens": [
+          [
+            "S1",
+            0
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "evidence": 0,
+        "fk": []
+      },
+      "observed": {
+        "tokens": [
+          [
+            "S1",
+            0
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "evidence": 0,
+        "fk": []
+      },
+      "matched": true
+    },
+    {
+      "case": "backup after commit restores whole state",
+      "expected": {
+        "tokens": [
+          [
+            "S1",
+            1
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "evidence": 1,
+        "fk": []
+      },
+      "observed": {
+        "tokens": [
+          [
+            "S1",
+            1
+          ],
+          [
+            "S2",
+            0
+          ]
+        ],
+        "evidence": 1,
+        "fk": []
+      },
+      "matched": true
+    }
+  ]
+}
