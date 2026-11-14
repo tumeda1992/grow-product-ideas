@@ -75,3 +75,5 @@
 - [論点71: 選んだ版の設計を、どう作るか層でどこまで決めて渡すか](implementation_review-71-75.md)
 - [論点72: 中核ロジックの材料を、設計に使える専門の仕事へ立て直す](implementation_review-71-75.md)
 - [論点73: 情報構造の専門を、現行の事実と根拠を支える設計へ立て直す](implementation_review-71-75.md)
+- [論点74: 処理の責務と境界を、失敗後も続けられる構成へ設計する専門を整える](implementation_review-71-75.md)
+- [論点75: 業務とソフトウェアの接点で閉じる設計と、後続の内部設計の受渡しを定める](implementation_review-71-75.md)
