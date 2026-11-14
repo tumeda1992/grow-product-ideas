@@ -81,3 +81,5 @@
 - [論点77: 専門材料を繋いだ設計の成立と、不足時の停止をどう試運転するか](implementation_review-76-80.md)
 - [論点78: 利用者の声を、仮説と判断の根拠を吟味できる材料へ整える](implementation_review-76-80.md)
 - [論点79: 完了判定に残る旧構成を、現行の仕事と受渡しへ同期する](implementation_review-76-80.md)
+- [論点80: 最新のレールを新しい一件へ通し、必要な仕事を確かめる](implementation_review-76-80.md)
+- [論点81: レール整備の進め方と、各レイヤで合意する範囲・完了条件を立て直す](implementation_review-81-85.md)
