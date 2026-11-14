@@ -45,6 +45,15 @@ recipeをエージェント側へcacheし、待機通知と、復帰後のcheckp
 [escalate用の006の記録](../pending-escalations/006-cloud-environment-recovery-and-resume.md)には、観測した開始条件、scriptの場所、通知と再開の経路、未確認の原因と限界を保存した。
 外部の提供元へ送信・受領された状態ではない。
 
+### 長時間offlineの再発と保全（論点61・事後記録）
+
+11月13日〜14日の再発では、状態APIがrunningでもconnectivityはofflineで、shellが使えない状態が続いた。
+再起動UIを確認せず操作を頼んだ案内を訂正し、端末・ブラウザ・回線の切替後も実行不能だったこと、短いサマリでは実データの保全にならないという利用者の指摘を受け止めた。
+実行復帰後にfeature-16の議論・内部記録と未コミット変更を読み、実データのarchiveを作成した。利用者の指示による66fileのWIP commitとpushも実際のremoteとの一致まで確認した。
+根本原因と正確な失効日時、サポートの対応との因果は未確認である。監視の継続・停止とcacheの限界を区別し、復帰後は70の二重適用をせず未完の確認から再開した。
+詳細な原文の指摘・toolの結果・訂正・保全と限界は[事後記録](../internal-records/implementation_review.md.topic-61.md#iteration-0-record-2)、引き渡す注意は[006の追記](../pending-escalations/006-cloud-environment-recovery-and-resume.md#long-offline-recurrence)にある。
+
+
 ## 論点62: 模型の必要条件を、案を判別できる根拠と一緒に組み直す
 
 **ステータス:** 分解済み
