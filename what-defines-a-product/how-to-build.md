@@ -97,9 +97,9 @@ howの選定とwhatの条件を読み、まず対象の全場面と境界を並�
 
 これは全てを別file・別skillにする指定ではない。選んだ版の判断に必要な材料を依頼するための分け方である。
 専門の仕事の詳細な方法は、その専門が持つ。層は依頼と受領・照合・選定を持ち、表の各欄を自分の思いつきで埋めて専門材料の代わりにしない。
-現行で使える材料skillは`propose-alternatives`、`sketch-experience`、`design-core-logic`、`design-data-model`、`functional-structure-design`である。
-技術検証のskillは退避中であり、起動できる専門として数えない。
-必要なら未整備の専門として吟味へ返し、その材料が無いままこの層を閉じない。
+現行で使える材料skillは`propose-alternatives`、`sketch-experience`、`design-core-logic`、`design-data-model`、`functional-structure-design`、`verify-technical-feasibility`である。
+使えるskillの一覧と、個別の版で必要な材料・判断・検証が揃ったことは分ける。
+一覧に無い専門が不可欠なら、その不足を吟味へ返す。必要な材料や成立の裏づけが無いまま、この層を閉じない。
 
 学校の仮の版では、外部予定の結果不明を扱う方法が、情報の持ち方と処理の分け方を規定する。
 相手の予定を照合できる根拠があるかを確かめずに、先にtableとmoduleの形を確定しても設計は成立しない。

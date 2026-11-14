@@ -402,7 +402,7 @@ build-ready時に外への参照を展開して整える工程は置かない。
 | `what-defines-a-product/why-to-build.md`、`what-must-hold.md`、`how-to-solve.md`、`how-to-build.md` | 四つの層file |
 | `product-plans/README.md` | 置き方、記録の役割、層の記録の形、決定過程の役割、材料の入口の形 |
 | `.agents/skills/grow-product-idea/` | 進め方と、正本・層の記録の雛形 |
-| `.agents/skills/propose-alternatives/`、`sketch-experience/`、`design-core-logic/`、`design-data-model/`、`functional-structure-design/` | 層が頼む材料skill |
+| `.agents/skills/propose-alternatives/`、`sketch-experience/`、`design-core-logic/`、`design-data-model/`、`functional-structure-design/`、`verify-technical-feasibility/` | 層が頼む材料skill |
 | このsteeringの`archive/` | 退避した旧の層fileとskill |
 
 ### 受け入れ基準との関係
@@ -412,7 +412,7 @@ build-ready時に外への参照を展開して整える工程は置かない。
 ### 残り
 
 - どう作るか層を作る版へ実際に通し、必要な専門材料と、体験・情報・処理・外との接続、導入・修正・復旧、設計上の裁量を揃えられるか検証する。方法の定義だけで、その版の設計の成立やbuild-readyを確認したことにしない
-- 退避中のskill（利用者の声、技術検証、還元）の吟味。整備済みの専門も、作る版の設計への適用検証は残る
+- 退避中のskill（利用者の声、還元）の吟味。整備済みの専門も、作る版の設計への適用検証は残る
 - 新しいセッションで、新しいアイデアを`grow-product-idea`に通し、skillを新しい頼み方で起動して確かめる（試運転の摩擦48）
 - 保留メモ001〜003の引き渡し（最後にまとめて行い、plugin repositoryへ移る前に利用者に確かめる）
 
