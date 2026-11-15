@@ -85,3 +85,5 @@
 - [論点81: レール整備の進め方と、各レイヤで合意する範囲・完了条件を立て直す](implementation_review-81-85.md)
 - [論点82: 現時点の差分を保存するコミット計画を決める](implementation_review-81-85.md)
 - [論点83: アイデアから出口・知見の還元までの仕事を、責任と受渡しで全体構造へ揃える](implementation_review-81-85.md)
+- [論点84: 版の成立と費用を左右する実現構成の案を、どの仕事と方法で作るか](implementation_review-81-85.md)
+- [論点85: 実現構成の専門の呼び名と、材料の識別子・配置を揃える](implementation_review-81-85.md)
