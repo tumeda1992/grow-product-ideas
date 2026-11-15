@@ -89,3 +89,4 @@
 - [論点85: 実現構成の専門の呼び名と、材料の識別子・配置を揃える](implementation_review-81-85.md)
 - [論点86: 判断に必要な他者の体験を、どの方法で調べて全体へ返すか](implementation_review-86-90.md)
 - [論点87: 案件の知見を、レールの改善の吟味と反映へどう返すか](implementation_review-86-90.md)
+- [論点88: 解決策の選定と選んだ版の設計を、名前・判断権・受渡しで分ける](implementation_review-86-90.md)
