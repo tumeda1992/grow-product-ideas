@@ -58,6 +58,14 @@ build-readyの後、`product-plans/<slug>/`の写しは`initial_product_plan`の
 [論点85](implementation_review/implementation_review-81-85.md#決定論点85)で、呼び名を実装構成設計、skill名を`implementation-structure-design`、材料の識別子を`implementation-structure`と確定した。正本は`.agents/skills/implementation-structure-design/SKILL.md`とし、材料の配置は`product-plans/README.md`の既存規則に従う。
 本文と具体例・局所の吟味はまだ未整備であり、使用可能なskill一覧へは未登録である。構造と名前の採用だけでBの表層全体の合意や、方法の詳細の完成、一式適用の成立を示さない。
 
+### 判断に必要な事実と、他者の体験の取得（論点86）
+
+[論点86](implementation_review/implementation_review-86-90.md#決定論点86)で、必要性に応じた取得と返却の接続を採用した。本人の認識は本人との対話・提供記録へ、規則等は原資料へ、候補の機能・規約・費用はpropose-alternativesへ、技術の性質はverify-technical-feasibilityへ繋ぐ。
+依頼者の経験だけでは捉えられない他者の行い・事情・しのぎ方が判断を左右する時、体験の探索と整理を専門の材料として依頼する。目的と対象、一回の経過と文脈から、異なる立場・良い体験・反例を探り、問いと探索先も育てる。
+whyへは価値の可能性と本人への問い、whatへは条件群の欠けを吟味する場面と事実、howへは候補に使うしのぎ方と成立条件を返す。本人の優先・規則や機能の事実を他者の声で代用せず、件数や出典の存在だけで受領しない。
+取得できない所は範囲・不足と判断への影響を返す。本人や原資料で足りる所に一律の外部調査を足さず、各層が自分の方法で判断と閉じを持つ。
+78のskillと変更集合は引き続き未採用である。実体化する時に具体の用途と不足を返して保留条件と案を再評価し、構造の採用だけで使用可能な能力として登録しない。
+
 ### このdesignが持つものと、実fileが持つもの
 
 各要素の中身は子designへ分けず、このdesign一つで扱う。
