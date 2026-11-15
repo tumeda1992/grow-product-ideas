@@ -183,3 +183,10 @@ core-logicは規則と処理方式、data-modelは必要な読み書きと情報
 originのdoc-enricher提案reviewでは、既存のroot・層の案内と82の議論に照らした。今回増えたのはこの保存計画と実行の記録であり、通常利用のREADMEへ追加する新しい一般知識の候補は無い。
 この記録と利用者の合意を第11コミットへ含め、その後origin/feature-16へ通常のpushを行う。ここは第11を作成する前の保存時点であり、未実施のpushや第11自身のSHAを成功済みとして記述しない。
 最終の累積内容・cleanな作業tree・実remote HEADの一致を確認してchatへ報告する。既存commitのamend・rebase・force pushは行わない。
+
+#### 第11の作成・pushと、次の検討への復帰
+
+第11をd8d506307782ed9d003e047c06e7ce1a9d4ea9a2として作成し、実際のcommit数が11、比較元からの変更集合が57file、各fileの内容が保存対象のSHA-256と一致することを確認した。
+通常のgit push origin feature-16は成功し、fa38fa7..d8d5063を送信した。その後git ls-remoteで得たorigin/feature-16のHEADは上記SHAと一致した。作業treeもcleanだった。
+利用者は完了報告へ「OK。続きやろう」と応答した。Aの全体構造の点検へ復帰するにあたり、この実行結果を事後追記する。
+この追記自体と、以後の議論の変更が、すでに送信した第11へ含まれるという意味ではない。既存commitをamendしていない。
