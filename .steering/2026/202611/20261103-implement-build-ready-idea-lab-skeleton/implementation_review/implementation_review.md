@@ -84,3 +84,4 @@
 - [論点80: 最新のレールを新しい一件へ通し、必要な仕事を確かめる](implementation_review-76-80.md)
 - [論点81: レール整備の進め方と、各レイヤで合意する範囲・完了条件を立て直す](implementation_review-81-85.md)
 - [論点82: 現時点の差分を保存するコミット計画を決める](implementation_review-81-85.md)
+- [論点83: アイデアから出口・知見の還元までの仕事を、責任と受渡しで全体構造へ揃える](implementation_review-81-85.md)
