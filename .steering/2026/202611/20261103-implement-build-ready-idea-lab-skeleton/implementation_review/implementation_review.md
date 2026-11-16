@@ -100,3 +100,5 @@
 - [論点96: 採用した体験探索を、各層の依頼・受領と候補の根拠へ接続する](implementation_review-96-100.md)
 - [論点97: 部分案を、改善が成立する行いと残る損失を持つ候補へ育てる](implementation_review-96-100.md)
 - [論点98: 合意済みのレールの波及を横断して洗い出し、一括で同期する](implementation_review-96-100.md)
+
+- [論点99: Bの実行方法を完了と判じられるか](implementation_review-96-100.md)
