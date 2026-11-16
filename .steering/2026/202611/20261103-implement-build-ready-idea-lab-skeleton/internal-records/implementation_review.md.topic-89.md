@@ -54,3 +54,10 @@ Git indexと作業treeを変えずに再構成した。その後、確認結果�
 
 計画の第1〜6を作成した。第1はc2227a2fc0、第6はebb4126f05であり、各段の対象file・stagedのblob・parentとtreeを再構成した版と照合した。全段のgit diff --cached --checkは問題無しだった。
 この実行結果と採用・許可の記録を第7へ保存し、その後origin/feature-16へ通常のpushを行う。この記述は第7の作成前であり、push成功の先取りではない。実際の最終SHA・remoteとの一致は作成と送信の後に確認する。
+
+### 第7の作成・pushと議論の再開
+
+第7を6246ecdb9d3c0f9a7e1cf728a8a1ba421239a99dとして作成した。比較元d8d5063からのcommit数が7、変更集合が計画の12file、各fileの累積内容が保存対象のSHA-256と一致することを確認した。
+git push origin feature-16はd8d5063..6246ecdを送信して成功した。その後のgit ls-remoteのfeature-16も上記SHAと一致した。保存完了の確認時点の作業treeはcleanだった。
+このoriginへのdoc-enricherの提案reviewでは、今回増えたのは保存計画と実行の個別記録であり、通常のREADMEへ追加する新しい一般知識は無いと判じた。実行記録を恒久の手順へ重複させない。
+利用者は実行と同時に完了後の議論再開も指示しているため、83へ戻る。この実行結果の追記と、以後の議論はpushした第7には含まれない。記録を追記してamendや追加のpushを自動で繰り返さない。
