@@ -410,7 +410,7 @@ build-ready時に外への参照を展開して整える工程は置かない。
 - 接合面が実fileで一致している。現在採用したskillが`.agents/skills/<skill名>/SKILL.md`として存在し、frontmatterの名前・案内・材料一覧と一致し、`.claude/skills`から同じ実体を辿れる。実際の層の依頼に必要な専門の方法と材料が対応し、何を渡し何を受け取るか、未確認をどこへ返すかが繋がる。必要な方法・判断・成立の根拠が無い版をbuild-readyにしない。正本と材料の入口の配置を定めるのが`product-plans/README.md`だけであり、各skillは役割で参照している。
 - assistantが用意した出来合いのアイデア3件ほど（出口が分かれそうなもの）を、出口まで自演で通せる。assistantは全体制御skillから各skillの手順どおりに進め、ユーザー確認gateと着想・動機・体験の質感を問われた場面ではユーザー役を演じ、ユーザー役の回答であることを`discussion.md`に区別して残す。各件の出口と、止まった・迷った箇所を記録し、原因が担当skillの中身か接合面かを分けて該当fileを直し、影響範囲を通し直す。自演で作った`product-plans/<slug>/`は、このsteeringのdirectory直下の`product-plans/`に残す。
 - 新しいsessionで、Codexが`.agents/skills/`のskillと`AGENTS.md`を、Claude Codeが`.claude/skills`経由でskillを読み込む。
-- 自演でbuild-readyになった`product-plans/<slug>/`が、directoryの外へのlinkを持たず、directoryの中のlinkとアンカーが全て辿れる。正本から選んだ価値・条件・解き方・設計と根拠を読め、層の記録に受け取った基準・具体の出力・材料への依頼と返り・確認があり、決定過程から採否と理由を辿れる。選んだ定石や比較の内容を名前だけで参照していない。
+- 自演でbuild-readyになった`product-plans/<slug>/`が、directory外のrepository内fileに依存せず、directoryの中のlinkとアンカーが全て辿れる。外部公開資料の出典URLは、使った要点・対象と時点・限界を内側に残している。正本から選んだ価値・条件・解き方・設計と根拠を読め、層の記録に受け取った基準・具体の出力・材料への依頼と返り・確認があり、決定過程から採否と理由を辿れる。選んだ定石や比較の内容を名前だけで参照していない。
 
 自演の前に利用者がsessionを閉じてresumeで再開し、新しいskillが読み込まれた状態で自演を行う。自演の直前にassistantが再開を依頼する。ユーザー役の回答を区別して残すのは、`product-plans/`を判断記録として残すため、後から読む人が実際の利用者の判断と取り違えないようにするためである。
 
