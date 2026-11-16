@@ -102,3 +102,5 @@
 - [論点98: 合意済みのレールの波及を横断して洗い出し、一括で同期する](implementation_review-96-100.md)
 
 - [論点99: Bの実行方法を完了と判じられるか](implementation_review-96-100.md)
+
+- [論点100: Cの一式試運転を、どの題材と区切りで進めるか](implementation_review-96-100.md)
