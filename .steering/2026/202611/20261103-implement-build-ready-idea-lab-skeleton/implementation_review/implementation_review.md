@@ -95,3 +95,5 @@
 - [論点91: Codexの曖昧な設計で進め方を階層ごとに論点化し、局所検証する改善を保留する](implementation_review-91-95.md)
 - [論点92: 採用した実装構成設計を、依頼・受領・再見積もりへ接続する](implementation_review-91-95.md)
 - [論点93: 選定を左右する技術の性質を、検証担当へ依頼して比較へ戻す](implementation_review-91-95.md)
+- [論点94: 層の判断境界と、選んだ版全体の受渡しを方法・進行・記録へ揃える](implementation_review-91-95.md)
+- [論点98: 合意済みのレールの波及を横断して洗い出し、一括で同期する](implementation_review-96-100.md)
