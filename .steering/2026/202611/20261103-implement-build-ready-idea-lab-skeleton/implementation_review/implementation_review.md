@@ -104,3 +104,4 @@
 - [論点99: Bの実行方法を完了と判じられるか](implementation_review-96-100.md)
 
 - [論点100: Cの一式試運転を、どの題材と区切りで進めるか](implementation_review-96-100.md)
+- [論点101: 現在の差分を、成立する仕事と取り消す効果に沿ってコミットへ分ける](implementation_review-101-105.md)
