@@ -92,4 +92,5 @@
 - [論点88: 解決策の選定と選んだ版の設計を、名前・判断権・受渡しで分ける](implementation_review-86-90.md)
 - [論点89: 今回の構想と合意を意味単位で保存するコミット計画](implementation_review-86-90.md)
 - [論点90: 実装構成設計の方法を、確定の境界と再開の根拠から具体化する](implementation_review-86-90.md)
+- [論点91: Codexの曖昧な設計で進め方を階層ごとに論点化し、局所検証する改善を保留する](implementation_review-91-95.md)
 - [論点92: 採用した実装構成設計を、依頼・受領・再見積もりへ接続する](implementation_review-91-95.md)
