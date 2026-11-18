@@ -108,3 +108,5 @@
 
 - [論点102: Cの結果から直したいものと、追加の要望を記録する](implementation_review-101-105.md)
 - [論点103: 作る前提の案件でも、規模と解き方を探索できる入口を設ける](implementation_review-101-105.md)
+
+- [論点104: 全条件が真かを確かめてから、反例で条件を直す](implementation_review-101-105.md)
