@@ -586,6 +586,12 @@ build-ready時に外への参照を展開して整える工程は置かない。
 | `.agents/skills/propose-alternatives/`、`sketch-experience/`、`design-core-logic/`、`design-data-model/`、`functional-structure-design/`、`implementation-structure-design/`、`verify-technical-feasibility/`、`gather-target-user-voices/` | 層が頼む材料skill |
 | このsteeringの`archive/` | 退避した旧の層fileとskill |
 
+### 開発方針を指定した案件
+
+案件の入口は任意のbuild_policyを受け取る。未指定のopenでは非開発も選べる。require-buildでは、価値又は明示された制作上の目的へ働く作る部分を版全体に含め、非開発だけの版を採用して終わらない。制作規模と解き方、人/既存道具との分担は検討で選ぶ。
+有効値と本人の指定の原文/出典を正本へ保存し、再開と選定/出口で読み直す。why/whatの探索と導出、強い非開発との費用比較、根拠/入力/予算不足での保留は保つ。制作の指定から楽しみや節約の効果を捏造せず、本人の変更なしにopenへ戻さない。
+意味の正本は層間の共通README、進行/保存/出口の照合はgrow、版の採用はhow-to-solveが持つ。正本と層の雛形、記録規約、rootの使い方まで同じ指定を受け渡す。既存の方針行が無い案件は従来のopenとして読み、過去の入力や採否を書き換えない。
+
 ### 受け入れ基準との関係
 
 [受け入れ基準](#受け入れ基準)のうち、コードを作る版をbuild-readyまで通すことは、まだ満たしていない。どう作るか層の方法と正本への受渡しを定義しても、必要な専門材料の吟味と、実際に作る版の設計・検証は残る。今回届ける範囲・費用・運用の選定はhow-to-solveが持ち、独立したどこまで作るか層は復元しない。`product-plans/20261103-track-kids-makeup-lessons/`の模型は、why・what・howを通し直して学校限定の非開発試行を選んだ記録であり、作る版の設計を通した検証ではない。同じ担当の机上検査と、別の担当・新しいセッションが文書とskillだけで通せることも区別する。
@@ -618,6 +624,7 @@ build-ready時に外への参照を展開して整える工程は置かない。
 | `what-defines-a-product/why-to-build.md` | 論点15の5問を、READMEの問いの書き方に従って作成。各問いに必要な材料、水準（満たさない答えの例と一段目）、定石（選択肢、判断軸、個人版への翻訳と落ちる精度）を書いた | 作成時観点でreview。他の問いの答えを材料にする書き方がREADMEに無かったため、READMEの約束（必要な材料、一段目）へ追記した。利用者が実fileをreviewし「ok」 | [知識体系](#知識体系what-defines-a-product) |
 | `AGENTS.md`（利用者が適用） | 冒頭の「設計の正本は`.steering/2026/202609/20260912-design-build-ready-idea-lab-skeleton/design.md`」を削除。使い方と構成はリポジトリの`README.md`、設計の記録は`.steering/`が持つため | 利用者が直接編集。`git show HEAD:CLAUDE.md`との差分が、この削除と論点6の2行だけであることを確認 | [file成果物](#file成果物) |
 | `AGENTS.md`、`CLAUDE.md` | 旧`CLAUDE.md`の本文を`AGENTS.md`へ移し、自己参照の2行を`AGENTS.md`へ変更。`CLAUDE.md`を`AGENTS.md`へのsymbolic linkにした | `git show HEAD:CLAUDE.md`と`AGENTS.md`のdiffが35行目・37行目の2行だけであること、`CLAUDE.md -> AGENTS.md`のlinkが成立していることを確認 | [file成果物](#file成果物) |
+| 開発方針の入口・共通契約・grow・雛形・記録規約・選定の7file | 未指定openとrequire-buildを、保存/再開/選定/出口まで接続。制作規模と作り方を固定せず、根拠/予算不足の保留を保持 | 提案0のafterと7file全文一致、編集後の構造/文書review、机上の分岐と再開・保留、参照20件を確認。新規案件の一式適用は後続 | [開発方針を指定した案件](#開発方針を指定した案件) |
 
 ### task-design内の対象成果物反映待ち
 

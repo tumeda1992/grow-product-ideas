@@ -37,6 +37,10 @@ description: プロダクトのアイデアを受け取り、what-defines-a-prod
 | 正本の雛形 | [templates/canonical.md](templates/canonical.md) |
 | 層の記録の雛形 | [templates/layer-record.md](templates/layer-record.md) |
 
+## 任意の入力
+
+`build_policy`を、対話又は引渡しの依頼文から受け取る。有効値・既定値・再開と変更時の意味は`what-defines-a-product/README.md`の「開発方針」に従う。新しい必須の質問にはしない。
+
 ## 流れ
 
 ```text
@@ -63,7 +67,7 @@ description: プロダクトのアイデアを受け取り、what-defines-a-prod
 
 1. 利用者から、アイデア、作りたい動機、既にある着想を受け取る。足りないものだけを利用者へ尋ねる。動機と着想は寝かせないと出てこないものであり、このskillが代わりに作らない。
 2. slugを決める。`tumeda-dev`の`name-work-directory`が使える時はそれでアイデアと今日の日付から`YYYYMMDD-slug`を決め、使えない時は同じ形（日付と英小文字のkebab-case）で決める。
-3. `product-plans/README.md`に従って`product-plans/<slug>/`を作り、[templates/canonical.md](templates/canonical.md)から正本を作る。受け入れ時の入力は、利用者の言葉を言い換えずに書く。
+3. `product-plans/README.md`に従って`product-plans/<slug>/`を作り、[templates/canonical.md](templates/canonical.md)から正本を作る。受け入れ時の入力は、利用者の言葉を言い換えずに書く。開発方針の有効値と指定の原文・出典又は未指定であることも、共通READMEの規則に従い正本へ記録する。
 
 既にある`product-plans/<slug>/`を再開する時は、正本と各層の記録・未決の決定過程、依存する材料の「変えた所」を読む。未処理の根拠の変更を6で回し、確かめ直す必要がある所を受領してから2へ続ける。既存記録を新規の雛形で作り直さない。
 
@@ -92,6 +96,8 @@ description: プロダクトのアイデアを受け取り、what-defines-a-prod
 - 前提にする条件が合意されたら、正本の「前提にする条件」に書く。閉じた層があれば、6で差し戻しとして回す
 
 ### 5. 出口を判定し、記録する
+
+出口判定の前に、共通READMEの「開発方針」に照らし、選んだ版と候補の適格性・出口が有効な指定と一致するか確かめる。一致しなければ選定へ戻し、方針が勝手に変わった出口を確定しない。
 
 出口判定は、次の時に行う。
 
