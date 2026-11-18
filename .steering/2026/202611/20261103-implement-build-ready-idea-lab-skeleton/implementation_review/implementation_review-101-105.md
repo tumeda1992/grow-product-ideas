@@ -847,3 +847,302 @@ whatの段2と揃えば満たした、C1の現行W1〜W5に対する判定と改
 ### 反映結果（論点104）
 
 採用した2fileをafterと全文一致で反映した。C1の旧本文・現行W1〜W5と過去の採否、他二件の入力/本文は保持。正しい反例/条件違反/未確認の具体判定、四方向と打ち手の維持、別directoryでの232参照/13discussionの検査を通した。doc-enricherの追加提案は無し。Cの次の改善へ進み、新しい一式の実行は後に残す。
+
+## 論点105: 参照先を保って記録し、受け渡す区切りでリンクを検査する
+
+**ステータス:** 反映済み
+
+**種別:** レビュー指摘への改善提案
+
+### イテレーション0（論点105）: 内部記録の参照切れを保存と受領で検出する
+
+#### 提案0（論点105）
+
+**linkを別の記録へ写す時は原の参照先を保って保存先から書き直し、材料や層の記録を渡す区切りで、保存済みの参照を検査する。** 記録規約とgrowにその分担を置き、再利用できる小さいread-onlyの検査補助をレール内へ追加する。
+
+##### 今回の誤りを、どこで止めるか
+
+公開側の`README.md`を内部記録へ同じ文字列で写すと、`internal-records/README.md`へ向かう。意図した元のREADMEへは`../README.md`が必要だった。Cの25件はこの基準の違いによるもので、出力は既に修正済み。記録規約にも相対pathの指定はあったので、「相対pathで書け」という同じ注意の追加だけでは対処しない。
+
+書き手は、原のfileから意図した参照先を特定し、新しい保存場所からその同じ対象へ辿れる相対pathを書く。受入れ/材料の返り/層の閉じで、関連blockを保存し終わったら実物を検査し、不成立を直してから渡す。二つの相互参照fileを保存している途中は相方の作成を続けられるが、欠けたまま完了の返りにはしない。最後の持出し時の検査も残す。
+
+##### 検査するものと、書き手に残す判断
+
+小さい補助が、通常のMarkdownのローカルlinkについて、保存先から参照先が存在するか、案件内で閉じているか、指定anchorがあるかを調べる。保存した一つのfile又は小blockを指定でき、層の閉じと出口では案件全体を調べる。
+
+```text
+python3 .agents/skills/grow-product-idea/scripts/check-plan-links.py /absolute/path/to/product-plan --file /absolute/path/to/product-plan/materials/example.md
+```
+
+Python標準libraryだけを使い、JSONで件数と不成立のfile/行/対象/種類を返す。不成立は非zero終了。fileを書き換えず、公開URLも取得しない。未対応の有効な記法は未検査として返し、書き手が保存先/意図した参照先/anchorを実解決した具体の根拠で補う。存在しないfileや案件外の内部参照を未対応扱いで通すことはできない。
+
+同名の別READMEへ偶然届く誤りは存在検査だけでは通ってしまう。このため**元の参照先との同一性は書き手が照合し、checkerは到達できる実物があるかを検査する**。成功を説明の正しさ、層の仕事の成立へ広げない。checkerに合わせて架空のfile/anchorを作ったり、必要な参照を消したりしない。
+
+##### 完成後の配置と反映範囲
+
+```text
+.agents/skills/grow-product-idea/
+├── SKILL.md                     受入れ/返り/閉じから検査へ繋ぐ
+└── scripts/
+    └── check-plan-links.py       新規。ローカル参照のread-only検査
+product-plans/
+└── README.md                    原の参照先を保つ保存と、区切りの検査の規約
+```
+
+変更はこの3file。shared pluginのinstall cache、既存Cの本文/採否は変更しない。新しい進行層や汎用Markdown処理系は作らず、growの既存の受領/閉じの責任で使う。次の完全差分を採用対象とする。
+
+````diff
+--- /dev/null
++++ b/.agents/skills/grow-product-idea/scripts/check-plan-links.py
+@@ -0,0 +1,174 @@
++#!/usr/bin/env python3
++"""Check local references in a product plan without changing files or fetching URLs."""
++import argparse
++import html
++import json
++import re
++import sys
++import unicodedata
++from pathlib import Path
++from urllib.parse import unquote, urlsplit
++
++
++def prose(text):
++    fence = None
++    comment = False
++    for number, line in enumerate(text.splitlines(), 1):
++        match = re.match(r"^ {0,3}(`{3,}|~{3,})(.*)$", line)
++        if match:
++            marker, tail = match.groups()
++            if fence is None:
++                fence = (marker[0], len(marker))
++            elif marker[0] == fence[0] and len(marker) >= fence[1] and not tail.strip():
++                fence = None
++            continue
++        if fence:
++            continue
++        parts = []
++        while line:
++            if comment:
++                before, found, line = line.partition("-->")
++                if not found:
++                    break
++                comment = False
++            else:
++                before, found, line = line.partition("<!--")
++                parts.append(before)
++                if not found:
++                    break
++                comment = True
++        yield number, "".join(parts)
++    if fence or comment:
++        raise ValueError("unclosed fence or comment")
++
++
++def anchors(text):
++    found = set()
++    counts = {}
++    for _, line in prose(text):
++        found.update(re.findall(r'<a\s+[^>]*id=["\']([^"\']+)["\']', line))
++        match = re.match(r"^ {0,3}#{1,6}\s+(.+?)(?:\s+#+\s*)?$", line)
++        if not match:
++            continue
++        title = html.unescape(re.sub(r"<[^>]*>", "", match[1])).strip().lower()
++        slug = "".join(c for c in title if c in "-_ " or unicodedata.category(c)[0] in "LNM")
++        slug = slug.replace(" ", "-")
++        count = counts.get(slug, 0)
++        counts[slug] = count + 1
++        found.add(slug + (f"-{count}" if count else ""))
++    return found
++
++
++def destination(raw):
++    match = re.fullmatch(r'''(?:<([^<>]+)>|([^\s<>]+))(?:\s+["'][^\n]*["'])?''', raw.strip())
++    return html.unescape(match[1] or match[2]) if match else None
++
++
++def inspect(root, selected=()):
++    issues = []
++    links = 0
++    external = 0
++    cache = {}
++    files = [Path(p).resolve() for p in selected] if selected else sorted(root.rglob("*.md"))
++
++    def issue(file, line, target, kind):
++        issues.append({"file": str(file), "line": line, "target": target, "kind": kind})
++
++    def check(file, number, target):
++        nonlocal links, external
++        try:
++            url = urlsplit(target)
++        except ValueError:
++            issue(file, number, target, "invalid-target")
++            return
++        if url.scheme:
++            if url.scheme.lower() in ("http", "https", "mailto"):
++                external += 1
++            else:
++                issue(file, number, target, "unsupported-uri")
++            return
++        links += 1
++        if target.startswith("/") or url.netloc or url.query:
++            issue(file, number, target, "non-relative-or-unsupported-target")
++            return
++        path = (file.parent / unquote(url.path)).resolve() if url.path else file.resolve()
++        if not path.is_relative_to(root):
++            issue(file, number, target, "outside-plan")
++        elif not path.exists():
++            issue(file, number, target, "missing-target")
++        elif url.fragment:
++            if not path.is_file() or path.suffix.lower() != ".md":
++                issue(file, number, target, "unverified-anchor-format")
++                return
++            if path not in cache:
++                try:
++                    cache[path] = anchors(path.read_text(encoding="utf-8"))
++                except (OSError, UnicodeError, ValueError):
++                    issue(file, number, target, "unverified-target-format")
++                    return
++            if unquote(url.fragment) not in cache[path]:
++                issue(file, number, target, "missing-anchor")
++
++    if not files:
++        issue(root, 0, "", "no-markdown-files")
++    for file in files:
++        file = file.resolve()
++        if not file.is_relative_to(root) or not file.is_file():
++            issue(file, 0, "", "invalid-source")
++            continue
++        try:
++            lines = list(prose(file.read_text(encoding="utf-8")))
++        except (OSError, UnicodeError, ValueError):
++            issue(file, 0, "", "unverified-source-format")
++            continue
++        definitions = {}
++        body = []
++        for number, line in lines:
++            match = re.match(r"^ {0,3}\[([^\]]+)\]:\s*(.+)$", line)
++            if match:
++                target = destination(match[2])
++                if target is None:
++                    issue(file, number, match[2], "unverified-link-format")
++                else:
++                    definitions[match[1].strip().casefold()] = target
++                    check(file, number, target)
++            else:
++                body.append((number, re.sub(r"(`+)(?!`).*?\1(?!`)", "", line)))
++        for number, line in body:
++            if re.search(r"<(?:a\b[^>]*href|img\b[^>]*src)\s*=", line, re.I):
++                issue(file, number, "HTML reference", "unverified-link-format")
++            # Deliberately bounded syntax: encode parentheses in paths as %28/%29.
++            pattern = r"!?\[[^\[\]\n]*\]\(([^()\n]*)\)"
++            for match in re.finditer(pattern, line):
++                target = destination(match[1])
++                if target is None:
++                    issue(file, number, match[1], "unverified-link-format")
++                else:
++                    check(file, number, target)
++            rest = re.sub(pattern, "", line)
++            if "](" in rest:
++                issue(file, number, rest, "unverified-link-format")
++            for match in re.finditer(r"\[([^\[\]]+)\]\[([^\[\]]*)\]", rest):
++                key = (match[2] or match[1]).strip().casefold()
++                if key not in definitions:
++                    issue(file, number, key, "missing-reference-definition")
++            # Shortcut references resolve through a definition, already checked above.
++    return {"ok": not issues, "files": len(files), "local_links": links,
++            "external_not_fetched": external, "issues": issues}
++
++
++def main():
++    parser = argparse.ArgumentParser(description=__doc__)
++    parser.add_argument("plan", type=Path, help="Existing product plan directory")
++    parser.add_argument("--file", action="append", default=[], help="Saved file; repeat for a handoff block")
++    args = parser.parse_args()
++    root = args.plan.resolve()
++    if not root.is_dir():
++        parser.error("plan must be an existing directory")
++    result = inspect(root, args.file)
++    print(json.dumps(result, ensure_ascii=False, indent=2))
++    return 0 if result["ok"] else 2
++
++
++if __name__ == "__main__":
++    sys.exit(main())
+
+--- a/product-plans/README.md
++++ b/product-plans/README.md
+@@ -86,4 +86,21 @@
+ `product-plans/<slug>/`は、出口に関わらず残す。後続へ渡す時も写しを持っていき、このリポジトリの`product-plans/<slug>/`は残す。
+ 
++### 保存した参照の検査
++
++別の記録からlinkを含むcontextを写す時は、原のfileの場所から意図した参照先を決め、保存先のfileから同じ対象への相対pathを書き直す。原と保存先のdirectoryが違う時にhrefの文字列だけをそのまま移さない。同じbasenameの別fileへ偶然届く場合もあるため、元が指した対象と一致することをwriterが確かめる。
++
++受け入れの記録、専門材料の返り、層を閉じる提案を渡す区切りで、関係するblockの保存を終えてから参照を検査する。相互参照する二つのfileの一方だけを保存した途中は、必要な相方の記録を続けられるが、参照先が無い状態のまま次の担当へ返さない。
++repo rootから、read-onlyの補助を次のように使う。`--file`は保存したfileの絶対pathで繰り返せる。指定無しは案件内の全Markdownを調べる。層の閉じと出口では全体を調べる。
++
++```text
++python3 .agents/skills/grow-product-idea/scripts/check-plan-links.py /absolute/path/to/product-plan --file /absolute/path/to/product-plan/materials/example.md
++python3 .agents/skills/grow-product-idea/scripts/check-plan-links.py /absolute/path/to/product-plan
++```
++
++補助はPython標準libraryだけを使い、fileを変更せず、ネットワークへ接続しない。通常のinline linkとreference形式、Markdown見出し/明示anchorについて、保存先から参照先の存在・案件内への閉じ・anchorを調べる。JSONの件数と不成立のfile/行/対象/種類を返し、不成立は非zeroで終了する。外部の公開URLは取得せず、その出典の内容や現在の到達性を保証しない。
++
++未対応の有効な記法は未検査として返す。writerは、その参照の保存先・意図した参照先・anchorを実解決した具体の根拠を残して補える。単に「目視済み」として合格にせず、実在しない参照先や案件外の内部参照を未対応扱いで通さない。
++不成立は意図した参照先と保存基準へ戻して直し、再検査してから渡す。checkerへ合わせて架空のfile/anchorを作ったり、必要な参照を消したりしない。成功しても、説明の正しさ・参照先の意味の一致・層が決めるものの成立は別に読み戻す。最後の案件の写しでも検査し、区切りの検査を持出し時の検査の代わりにはしない。
++
+ ## 材料の入口の形
+ 
+
+--- a/.agents/skills/grow-product-idea/SKILL.md
++++ b/.agents/skills/grow-product-idea/SKILL.md
+@@ -68,5 +68,5 @@
+ 1. 利用者から、アイデア、作りたい動機、既にある着想を受け取る。足りないものだけを利用者へ尋ねる。動機と着想は寝かせないと出てこないものであり、このskillが代わりに作らない。
+ 2. slugを決める。`tumeda-dev`の`name-work-directory`が使える時はそれでアイデアと今日の日付から`YYYYMMDD-slug`を決め、使えない時は同じ形（日付と英小文字のkebab-case）で決める。
+-3. `product-plans/README.md`に従って`product-plans/<slug>/`を作り、[templates/canonical.md](templates/canonical.md)から正本を作る。受け入れ時の入力は、利用者の言葉を言い換えずに書く。開発方針の有効値と指定の原文・出典又は未指定であることも、共通READMEの規則に従い正本へ記録する。
++3. `product-plans/README.md`に従って`product-plans/<slug>/`を作り、[templates/canonical.md](templates/canonical.md)から正本を作る。受け入れ時の入力は、利用者の言葉を言い換えずに書く。開発方針の有効値と指定の原文・出典又は未指定であることも、共通READMEの規則に従い正本へ記録する。 受け入れのblockを保存したら、記録規約の「保存した参照の検査」を通して次へ渡す。
+ 
+ 既にある`product-plans/<slug>/`を再開する時は、正本と各層の記録・未決の決定過程、依存する材料の「変えた所」を読む。未処理の根拠の変更を6で回し、確かめ直す必要がある所を受領してから2へ続ける。既存記録を新規の雛形で作り直さない。
+@@ -83,5 +83,5 @@
+ 4. 利用者の採否が要る判断、利用者しか持たない事実、発案者の視野の外の点が生じた時は、`tumeda-dev`の`facilitate-discussion`で、層の決定過程に論点を立てる（`product-plans/README.md`の「決定過程の役割」）。
+ 5. 止める時に達したら、層の記録の確認に、層fileの「揃えば満たした」を写し、それぞれ満たしたかと、どこで満たしたかを書く。満たさないものがあれば、その段へ戻る。
+-6. 層の記録の状態を「閉じ待ち」にし、4へ進む。
++6. 材料の返りと層の閉じを渡す前に、`product-plans/README.md`の「保存した参照の検査」に従い、関係するblockを保存した実物から検査する。参照が不成立なら渡さず直し、層の閉じでは案件全体を確かめる。層の記録の状態を「閉じ待ち」にし、4へ進む。
+ 
+ 後の層を決める中で、崩れの元が前の層の側にあると分かった時は、層の記録に、何を見つけ、どの層の何に返したかを書き、6へ進む。
+````
+
+##### 実際に確かめたことと、残る範囲
+
+候補のcheckerを一時領域で実行し、現行C1〜C3の232ローカル参照は通った。当時の25件の修正だけを戻したコピーでは、25件全てを検出した。
+正しい相対参照、日本語/重複見出し、空白のあるpath、code内の例、reference形式、参照先/anchor/定義の欠け、案件外、未対応の記法、同名の別fileへ届く限界を含む15の構成fixtureでも期待と対応した。原のCは変更していない。
+これは現在のLinux/Pythonで、この補助が対象とする参照を検査した結果。別clientでの実行、外部URLの現在の到達性、参照先の意図や内容の成立を実証したことにはしない。完全diffの適用可能性も確認済みだが、本線には未反映。
+
+**この3fileで、原の参照先を保つ保存と、受け渡し前の検査を組み込むことを採用するか。**
+
+#### 検討記録（論点105・イテレーション0）
+
+起点: [Cの改善候補の二つ目](implementation_review-101-105.md#変更内容0論点102)。公開contextの相対linkを内部記録へ写し、保存場所の一階層の差で25参照が切れた。出力は修正済みだが、次の適用で最後の持出し検査まで検出を遅らせないようにする。
+
+[内部検討記録: 論点105・イテレーション0](../internal-records/implementation_review.md.topic-105.md#iteration-0)
+
+既存の相対pathの指示を適用しなかったのが直接原因。さらに通常の参照を区切りで検査する再利用可能な補助が無く、最後の持出しで25件を見つけた。原の意図と保存基準を確かめる仕事をwriterへ残し、到達性の検査は補助へ分けることが、単に注意を増やす案との差になる。
+未対応の記法を黙って合格にせず、人の検査で補える範囲と、参照欠けを通せない範囲を区別した。検査結果の存在で製品の設計や反例の意味を保証しない。
+
+#### 提案0へのフィードバック（論点105）
+
+**結果:** 提案0を採用
+
+> ok
+
+直前の105・提案0への採用として受領した。記録規約・growの受入れ/返り/閉じ・read-only検査補助の3fileを、保存済み完全差分の通りに反映する。残る改善項目の採用や、新しい一式の実行までをこの応答から補わない。
+
+### 決定（論点105）
+
+原のfileから意図した参照先を特定し、新しい保存場所から同じ対象へ届く相対pathへ書き直す。受入れ/材料の返り/層の閉じで関連blockを保存してから検査し、層の閉じと出口では案件全体を確かめる。不成立は直して再検査してから渡す。元の対象との同一性・内容の正しさはwriterが判断し、helperは対象範囲の参照の存在/案件内の閉じ/anchorを調べる。
+補助はネットワークへ接続せず、fileを書き換えない。未対応の有効な形式だけを具体の実解決で補い、欠けた参照や案件外への内部参照を通す口実にしない。最後の持出しの検査も残す。3fileの完全差分を適用し、既存Cの本文・採否とshared pluginは変更しない。
+
+### 反映結果（論点105）
+
+採用した3fileをafterと全文一致で反映した。本線の検査補助で現行Cの232参照が通り、当時の誤り25件を戻したコピーは25件を検出した。15fixture、編集後の構造/文書reviewと、案件を別directoryへ写した検査も完了。Cの64file・固定入力・採否は保持した。同名の別fileの誤参照はwriterによる同一性の照合が必要という限界を保持し、検査成功を内容の成立や別clientの検査へ広げない。doc-enricherの追加提案無し。

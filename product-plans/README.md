@@ -85,6 +85,23 @@ slugは`YYYYMMDD-`で始まる。
 
 `product-plans/<slug>/`は、出口に関わらず残す。後続へ渡す時も写しを持っていき、このリポジトリの`product-plans/<slug>/`は残す。
 
+### 保存した参照の検査
+
+別の記録からlinkを含むcontextを写す時は、原のfileの場所から意図した参照先を決め、保存先のfileから同じ対象への相対pathを書き直す。原と保存先のdirectoryが違う時にhrefの文字列だけをそのまま移さない。同じbasenameの別fileへ偶然届く場合もあるため、元が指した対象と一致することをwriterが確かめる。
+
+受け入れの記録、専門材料の返り、層を閉じる提案を渡す区切りで、関係するblockの保存を終えてから参照を検査する。相互参照する二つのfileの一方だけを保存した途中は、必要な相方の記録を続けられるが、参照先が無い状態のまま次の担当へ返さない。
+repo rootから、read-onlyの補助を次のように使う。`--file`は保存したfileの絶対pathで繰り返せる。指定無しは案件内の全Markdownを調べる。層の閉じと出口では全体を調べる。
+
+```text
+python3 .agents/skills/grow-product-idea/scripts/check-plan-links.py /absolute/path/to/product-plan --file /absolute/path/to/product-plan/materials/example.md
+python3 .agents/skills/grow-product-idea/scripts/check-plan-links.py /absolute/path/to/product-plan
+```
+
+補助はPython標準libraryだけを使い、fileを変更せず、ネットワークへ接続しない。通常のinline linkとreference形式、Markdown見出し/明示anchorについて、保存先から参照先の存在・案件内への閉じ・anchorを調べる。JSONの件数と不成立のfile/行/対象/種類を返し、不成立は非zeroで終了する。外部の公開URLは取得せず、その出典の内容や現在の到達性を保証しない。
+
+未対応の有効な記法は未検査として返す。writerは、その参照の保存先・意図した参照先・anchorを実解決した具体の根拠を残して補える。単に「目視済み」として合格にせず、実在しない参照先や案件外の内部参照を未対応扱いで通さない。
+不成立は意図した参照先と保存基準へ戻して直し、再検査してから渡す。checkerへ合わせて架空のfile/anchorを作ったり、必要な参照を消したりしない。成功しても、説明の正しさ・参照先の意味の一致・層が決めるものの成立は別に読み戻す。最後の案件の写しでも検査し、区切りの検査を持出し時の検査の代わりにはしない。
+
 ## 材料の入口の形
 
 材料skillは、材料の入口を次の形で作る。
