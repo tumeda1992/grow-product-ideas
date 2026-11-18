@@ -1,0 +1,291 @@
+{
+  "shared_version": {
+    "codex": "8.2.5",
+    "claude": "8.2.5"
+  },
+  "local": [
+    {
+      "path": "/tmp/grow-require-build-108/workspace/AGENTS.md",
+      "sha256": "f1dc30aa5043545341a52d42cdc71611fb0c81d3284849088a47be5f2686c7f6",
+      "bytes": 2648
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/README.md",
+      "sha256": "2964663bbf469c25ac2eef901cebb6a9ba533f58ff63f2f375f7ffceabd2da1e",
+      "bytes": 13459
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/product-plans/README.md",
+      "sha256": "4dd00ad5fa3ff6c56e48447bd445cb972beb2e8fee66ce4e6f18f702aaa60b39",
+      "bytes": 18106
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/what-defines-a-product/README.md",
+      "sha256": "fb8acba426ec94dfb730ea068f3a8a5db2a7e938001633d6477a38d00cdc0278",
+      "bytes": 18430
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/what-defines-a-product/why-to-build.md",
+      "sha256": "58985e652e9ac3b02165c4a21c92d1405c70901efd954f6cfd45b14c2a260f1a",
+      "bytes": 25152
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/what-defines-a-product/what-must-hold.md",
+      "sha256": "3114e144ed18df368353726a3456fe5076592bf045300021bb9578ebbdb6d0af",
+      "bytes": 22671
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/what-defines-a-product/how-to-solve.md",
+      "sha256": "2234028105c5b2427cac178a5f01738b8446e74c1367a8d1d2a36dfa418fa76e",
+      "bytes": 38300
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/what-defines-a-product/how-to-build.md",
+      "sha256": "da6929e27c2078b7f842eafab682255f8235d88d55768a8733da5be9848e0f68",
+      "bytes": 23138
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/grow-product-idea/SKILL.md",
+      "sha256": "3d22c4758e7af92fd6a45a90a7d3c76393945a4c45c8ae3fc4a587279952947a",
+      "bytes": 12819
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/propose-alternatives/SKILL.md",
+      "sha256": "6c2c99907e29c2bec4d04fd2b55e6d0379e768c1bb1e32710a3cf47120f43246",
+      "bytes": 27478
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/sketch-experience/SKILL.md",
+      "sha256": "736295490fc7f80c12d6dd2486f721c5ce36e1bc1b8ae2cd2565fbbad8d2a775",
+      "bytes": 13925
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/design-core-logic/SKILL.md",
+      "sha256": "f42b6a7d3d6ab8650d89bea5165a20438cb834995c3c7dd00e16cc1c98efd939",
+      "bytes": 15277
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/design-data-model/SKILL.md",
+      "sha256": "c43dda1e3279a92ca93271cb8ed070dda43be0d4e65e972bcf16be09c3f4e354",
+      "bytes": 15211
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/functional-structure-design/SKILL.md",
+      "sha256": "5167831d009ec68a21cef11eecf0b8a2feec48847ef8e6c7fc3de0a7f3db31b1",
+      "bytes": 15069
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/implementation-structure-design/SKILL.md",
+      "sha256": "80635ce4d2957d9eceb49a0255e75ec8acab6285fb28ad0bd9bd60109e9fdd8c",
+      "bytes": 14716
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/verify-technical-feasibility/SKILL.md",
+      "sha256": "9a5f8c4e885e3a6f5429d1fcbf7d8172ec59b5f08efb2e0b83f9a35277d86753",
+      "bytes": 13448
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/grow-product-idea/templates/canonical.md",
+      "sha256": "d5a969fab53d5ace8d983254d6ebc143a64b4e6556d39fe8e10af6011b799450",
+      "bytes": 9566
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/grow-product-idea/templates/layer-record.md",
+      "sha256": "e82062257edfe5337f531195fb41ed0f2e919482867cba0b61e0bdad46214e31",
+      "bytes": 3403
+    },
+    {
+      "path": "/tmp/grow-require-build-108/workspace/.agents/skills/grow-product-idea/scripts/check-plan-links.py",
+      "sha256": "a5f9004417a389066e98b844f59eee4509a5394e9e13973ce00ac35a341a4655",
+      "bytes": 6782
+    }
+  ],
+  "shared": [
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/think-through/SKILL.md",
+      "sha256": "ede8c9f3360f8013096afa703b427c68514ef04c6cdb604467f23703682c9d10",
+      "bytes": 3873
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/maintenance-plugin-context/SKILL.md",
+      "sha256": "3159d5fbf200e20b227b65f0a5ab4ae222daa4a98efdd904f8c3fd13d010183a",
+      "bytes": 10643
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/name-work-directory/SKILL.md",
+      "sha256": "5123389e6c3399647203da3ebf915ce1f0899364028cd9e6656f6e8ef92ee9a1",
+      "bytes": 3486
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/SKILL.md",
+      "sha256": "86c9a7e2cec8b5eecca3439d9a9d010d5a0a4cb9655faf24ae8ec71a2ff91fcb",
+      "bytes": 39803
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/document-review/SKILL.md",
+      "sha256": "68b0b0c836764d84e0d776a2b08b6a7d6c1707dd1467c262f173e308ec4b51ee",
+      "bytes": 9772
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/doc-enricher/SKILL.md",
+      "sha256": "8e0f07f53816c32cf2eccd8a3dd055dd0f99f5b50d346cd38adeda4ab9beeed9",
+      "bytes": 16386
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/.codex-plugin/plugin.json",
+      "sha256": "44ccc59bc0ae2cfda2376ecb6a90f8f8a1806aba40b0f507d88b562905945ba2",
+      "bytes": 346
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/.claude-plugin/plugin.json",
+      "sha256": "67b120253e6e7d215deae6eff82083e85fc9436512713218523d63e0e00be014",
+      "bytes": 244
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/maintenance-plugin-context/temporary-overrides.md",
+      "sha256": "8a873e4e06cbdf14095c25bffcfb2e6614f9058de9372b77f5e64c81dad00f15",
+      "bytes": 9219
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/iteration.md",
+      "sha256": "f9276b450119b4e82240f2708c843fca55ab130367037b21724b55fbb63fc818",
+      "bytes": 21343
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/read-discussion.md",
+      "sha256": "0d76dfe33f56614df3997b6c8f49f5f7a1ce90a5d61fd43fe7a85404523a521f",
+      "bytes": 6957
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/resolve-discussion.md",
+      "sha256": "2eb985cb87079e96701bef18d31e3fd4350f94f357bcf7231de68d3b8112548e",
+      "bytes": 2441
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/derived-change.md",
+      "sha256": "180e53f1ab448d333893362efbf0d842e53d39f9b046a1527765b374f9e4146b",
+      "bytes": 4681
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/templates/discussion_entry.md",
+      "sha256": "850b41f94f34392a6bf6e00176768e0ac895bfcb7376d07c7b33410700e308b3",
+      "bytes": 3422
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/templates/internal_record.md",
+      "sha256": "d1057b73c34d3bff7c285f75171aed3558d6a517487c2cfe3cc7fbeb74eed0d2",
+      "bytes": 684
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/templates/consideration-records/README.md",
+      "sha256": "ad01ed1fe5a4291b943c680935dc60e4882d962db6724fda940b0c7523df7fb1",
+      "bytes": 4180
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/templates/consideration-records/judgment.md",
+      "sha256": "b17c44f9efe3ce4cdd767142473e65cc1c579e7ef57a285f3022862ce5857658",
+      "bytes": 2767
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/templates/consideration-records/alignment.md",
+      "sha256": "908c5335de0f3d2768ea85f4b2f774ecca076af5abc5971aedcaabb2b512c10b",
+      "bytes": 1986
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/templates/proposal-sections/README.md",
+      "sha256": "4ea0350f2625d9c9d149b595ef1ce11e3fc1fa27e9f87a7dd9dc547f8a171d19",
+      "bytes": 5520
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/templates/proposal-sections/compact-options.md",
+      "sha256": "002aa8ce3687b36583c36e086e58b2aa338b55fcdfaae213a2e3f33663ebb033",
+      "bytes": 1521
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/skills/facilitate-discussion/scripts/inspect-discussion.mjs",
+      "sha256": "e5a26ba8c88629be854d54b4106c18a3740f9a4c31c13787b765d68eb35870ea",
+      "bytes": 23328
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/think_standards/README.md",
+      "sha256": "6e3d0dbe79ef7e4307d2500c407c7621a5a38df1bdc9b4b59a1630995c636800",
+      "bytes": 2885
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/think_standards/core.md",
+      "sha256": "74f8551660b71945c7c2779a8f17f4ee9d71d50922fb5652891086a0d9acbebf",
+      "bytes": 4006
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/think_standards/starting_to_think.md",
+      "sha256": "0e4eb299fbc262ab9a30bc2e7eacdefdb0632e3b243e9d8e68d51b064a0c2ff9",
+      "bytes": 2512
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/think_standards/advancing_discussion.md",
+      "sha256": "cb9b3aec2609105942af6ee970c63b40c2accab744903edc580e6c4a129b14c9",
+      "bytes": 5476
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/think_standards/making_and_choosing_options.md",
+      "sha256": "35bbc30205d8f91118c12046cb47a6b4c4cf77d348cfb7c8b0477555183a0f6e",
+      "bytes": 14158
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/think_standards/ordering_parallel_items.md",
+      "sha256": "234ce28f417f6380d18521e9574ad35a0321da72f73c111024c56ba084ae5092",
+      "bytes": 4159
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/documentation_standards/content_density.md",
+      "sha256": "442f5fdb14aa6793fba38cda29816d61db0789660f08e61fd4787eb89acd9c8e",
+      "bytes": 19755
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/documentation_standards/expression_notation.md",
+      "sha256": "bb1d3c1dfb01662ac6ff131076040e2fcca0539ab94c1973be82a023ebddfd61",
+      "bytes": 25719
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/documentation_standards/file_naming.md",
+      "sha256": "5dab6a329622e7158603c5fe438e10a3bb4ebbd0a58dd4d8f1ec88567538f9cd",
+      "bytes": 68
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/documentation_standards/referent_explicitness.md",
+      "sha256": "83f191abc531bce95e2c086107238c0960f1a0cc9a4f1f8b5683d0af558a2eaf",
+      "bytes": 6056
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/documentation_standards/confidentiality.md",
+      "sha256": "3c57ad8c9252ab78b91e7ab50b871f1b688b0bf8dc20e0c1dcd988ce251c268c",
+      "bytes": 10184
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/documentation_standards/provisionality_explicitness.md",
+      "sha256": "979f0db6d9e823e51bafb3ab00fa2905481de37738f33254f831c11d4f16a392",
+      "bytes": 6303
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/documentation_standards/modify_description_policy.md",
+      "sha256": "ca4f084a31bf217e15c3a500d47766f4a75bc541d77ae8d0e54c6344aef8d603",
+      "bytes": 7002
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/development_standards/naming/README.md",
+      "sha256": "38f2949b1dabee776190bb3d43c147dc9cc1af0d3cd4c8a9253ea5720ebc2383",
+      "bytes": 3028
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/development_standards/naming/core.md",
+      "sha256": "49610bef9d8b4f3e74b83fbf6ea437a359564b2d23bd0baa03e0423be5d07dad",
+      "bytes": 14239
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/docs/development_standards/naming/file.md",
+      "sha256": "110119214091e54b59ddca08ba0cf504707a0aae2d207cd2ef0a8ea5684c33ab",
+      "bytes": 1511
+    }
+  ],
+  "limit": "明示pathの実物読取/実行による適用。pluginの自動load/hooks/新規contextでの自動発見の証明ではない。終了時のhashは版同定であり、開始時hashとの不変比較ではない。"
+}

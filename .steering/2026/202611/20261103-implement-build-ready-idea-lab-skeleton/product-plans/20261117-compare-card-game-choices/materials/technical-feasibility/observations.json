@@ -1,0 +1,34 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "system": "Linux"
+  },
+  "observations": [
+    {
+      "id": "T1",
+      "unicode_equal": true
+    },
+    {
+      "id": "T2",
+      "stop": "before",
+      "exit_code": 17,
+      "read_version": 0,
+      "stdout": ""
+    },
+    {
+      "id": "T3",
+      "stop": "after",
+      "exit_code": 18,
+      "read_version": 1,
+      "stdout": ""
+    },
+    {
+      "id": "T4-live",
+      "result": "blocked"
+    },
+    {
+      "id": "T4-released",
+      "result": "acquired"
+    }
+  ]
+}

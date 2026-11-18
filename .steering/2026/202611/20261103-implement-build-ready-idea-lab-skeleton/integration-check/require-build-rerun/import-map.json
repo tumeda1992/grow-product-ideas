@@ -1,0 +1,102 @@
+[
+  {
+    "source": "/tmp/grow-require-build-108/workspace/.validation/result.md",
+    "saved": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/executor-report.md",
+    "source_sha256": "690a8cbe594361e29710bdfd743a2b6f742a6f85e6a184c74d108a3c41c0a5e4",
+    "saved_sha256": "754e3e36a61fced15391abf50776a27106debe67b0580bf85979534d24d4beca",
+    "href_changes": [
+      {
+        "old": "../product-plans/20261117-compare-card-game-choices/README.md",
+        "new": "../../product-plans/20261117-compare-card-game-choices/README.md"
+      },
+      {
+        "old": "../product-plans/20261117-coordinate-dinner-changes/README.md",
+        "new": "../../product-plans/20261117-coordinate-dinner-changes/README.md"
+      },
+      {
+        "old": "../product-plans/20261117-check-refill-availability/README.md",
+        "new": "../../product-plans/20261117-check-refill-availability/README.md"
+      },
+      {
+        "old": "skill-read-evidence.json",
+        "new": "skill-read-evidence.json"
+      },
+      {
+        "old": "blocks.jsonl",
+        "new": "blocks.jsonl"
+      },
+      {
+        "old": "final-validation.json",
+        "new": "executor-validation.json"
+      },
+      {
+        "old": "../product-plans/20261117-compare-card-game-choices/materials/technical-feasibility/README.md",
+        "new": "../../product-plans/20261117-compare-card-game-choices/materials/technical-feasibility/README.md"
+      },
+      {
+        "old": "findings.md",
+        "new": "executor-findings.md"
+      },
+      {
+        "old": "frozen-artifacts.json",
+        "new": "frozen-artifacts.json"
+      }
+    ]
+  },
+  {
+    "source": "/tmp/grow-require-build-108/workspace/.validation/findings.md",
+    "saved": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/executor-findings.md",
+    "source_sha256": "d8fb265e79bae204c1301403985b9a4c2fb373cd4063c162d6609e8a45786937",
+    "saved_sha256": "a4fbb753adbca1fb43c6d2e10a1ab7b3a1c531511083db2727e38ae3f0b2260c",
+    "href_changes": [
+      {
+        "old": "../product-plans/20261117-compare-card-game-choices/what-must-hold/README.md",
+        "new": "../../product-plans/20261117-compare-card-game-choices/what-must-hold/README.md"
+      },
+      {
+        "old": "../product-plans/20261117-compare-card-game-choices/materials/alternatives.md",
+        "new": "../../product-plans/20261117-compare-card-game-choices/materials/alternatives.md"
+      },
+      {
+        "old": "../product-plans/20261117-coordinate-dinner-changes/materials/alternatives/README.md",
+        "new": "../../product-plans/20261117-coordinate-dinner-changes/materials/alternatives/README.md"
+      },
+      {
+        "old": "../product-plans/20261117-compare-card-game-choices/materials/core-logic.md",
+        "new": "../../product-plans/20261117-compare-card-game-choices/materials/core-logic.md"
+      },
+      {
+        "old": "../product-plans/20261117-check-refill-availability/materials/technical-feasibility.md",
+        "new": "../../product-plans/20261117-check-refill-availability/materials/technical-feasibility.md"
+      }
+    ]
+  },
+  {
+    "source": "/tmp/grow-require-build-108/workspace/.validation/skill-read-evidence.json",
+    "saved": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/skill-read-evidence.json",
+    "source_sha256": "82c233e71072d1cbaab34d5ee1b434b475c2359c8bb9fc7a920c98ab462cce07",
+    "saved_sha256": "82c233e71072d1cbaab34d5ee1b434b475c2359c8bb9fc7a920c98ab462cce07",
+    "href_changes": []
+  },
+  {
+    "source": "/tmp/grow-require-build-108/workspace/.validation/final-validation.json",
+    "saved": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/executor-validation.json",
+    "source_sha256": "283f3f977f77d4ce90cf6f98147d046180bfd34cd12b7bc8997d3b65833e084f",
+    "saved_sha256": "283f3f977f77d4ce90cf6f98147d046180bfd34cd12b7bc8997d3b65833e084f",
+    "href_changes": []
+  },
+  {
+    "source": "/tmp/grow-require-build-108/workspace/.validation/blocks.jsonl",
+    "saved": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/blocks.jsonl",
+    "source_sha256": "09528567abb187cc486bd11b59957c5c640c00ac5733575c0880e006d7fa2fb3",
+    "saved_sha256": "09528567abb187cc486bd11b59957c5c640c00ac5733575c0880e006d7fa2fb3",
+    "href_changes": []
+  },
+  {
+    "source": "/tmp/grow-require-build-108/workspace/.validation/frozen-artifacts.json",
+    "saved": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/frozen-artifacts.json",
+    "source_sha256": "9b48b66c97893e4365a42eebcefb0e568d24e80a6367e8a4633b6116eb290e9a",
+    "saved_sha256": "9b48b66c97893e4365a42eebcefb0e568d24e80a6367e8a4633b6116eb290e9a",
+    "href_changes": []
+  }
+]

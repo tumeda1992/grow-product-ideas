@@ -1,0 +1,535 @@
+{
+  "at": "2026-11-17T12:35:10.163023+00:00",
+  "cases": [
+    {
+      "case": 1,
+      "path": "product-plans/20261117-compare-card-game-choices",
+      "input_exact": true,
+      "input_sha256": "36eabde93dfe5a5366f360092fcd07620af67687b495aa1e09a202e79dbd0c6a",
+      "conditions_exact": true,
+      "prompt_exact": true,
+      "links": {
+        "ok": true,
+        "files": 25,
+        "local_links": 97,
+        "external_not_fetched": 0,
+        "issues": []
+      },
+      "discussions": [
+        {
+          "path": "product-plans/20261117-compare-card-game-choices/how-to-build/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-build/discussion.md",
+            "problems": [],
+            "topic_count": 3,
+            "next_topic": 4,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-build/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-build/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-build/discussion.md",
+                  "sha256": "4e9af3f363755a8a15b291193b25a31a39603064a148ed8d9f1147c346d67469"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-1.md",
+                  "sha256": "9329247ca48e2ed0a205075ab67a006140450e54aeceee236977eaa181d998a8"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-2.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-2.md",
+                  "sha256": "db4a1b06e681e3a70c7d43979da96c56ac9aec3d96196ac2818b097ad6bdd08a"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-3.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-3.md",
+                  "sha256": "5bf2b5aa3c02be3719b09d0e55063af761e7c957fedc1f1efc4304ff45511c2e"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-compare-card-game-choices/how-to-solve/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-solve/discussion.md",
+            "problems": [],
+            "topic_count": 2,
+            "next_topic": 3,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-solve/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-solve/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-solve/discussion.md",
+                  "sha256": "d612eb9e6b804bfad7a6c86d98517b2d1a5627766016028e12b2758ca9f5048e"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-solve/internal-records/discussion.md.topic-1.md",
+                  "sha256": "cb27d9cef292867290b051f008005368fc9121fc0f92bcc943628e3d98a7697d"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-2.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/how-to-solve/internal-records/discussion.md.topic-2.md",
+                  "sha256": "90e40f1ef13a62f059b69dc450909cb1a8add07c652906e7990f676fee76c8d3"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-compare-card-game-choices/what-must-hold/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/what-must-hold/discussion.md",
+            "problems": [],
+            "topic_count": 1,
+            "next_topic": 2,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/what-must-hold/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/what-must-hold/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/what-must-hold/discussion.md",
+                  "sha256": "60f202296d26f632206092d0891c78e2c64dbd481bf1b5fad5d9631bd0646829"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/what-must-hold/internal-records/discussion.md.topic-1.md",
+                  "sha256": "76d33130e7f80ef9365c9a257e497d8685a629de2cbf88752bb514e9f4aa48b5"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-compare-card-game-choices/why-to-build/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/why-to-build/discussion.md",
+            "problems": [],
+            "topic_count": 2,
+            "next_topic": 3,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/why-to-build/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/why-to-build/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/why-to-build/discussion.md",
+                  "sha256": "15ed7e280e6df9ea5bc2c4bed9f98807e4058e91f3dae480fcac2b3d8af7e76a"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/why-to-build/internal-records/discussion.md.topic-1.md",
+                  "sha256": "a431a22b4f557614a1720d4206e2aa5c6ab17f982809247ab7d0dd20c24088aa"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-2.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-compare-card-game-choices/why-to-build/internal-records/discussion.md.topic-2.md",
+                  "sha256": "f9affd090e98137a276621ae39e21936ebde1a6024333944f28c70d34f8bf77e"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "portable": {
+        "path": ".validation/portable/20261117-compare-card-game-choices",
+        "same_bytes": true,
+        "links": {
+          "ok": true,
+          "files": 25,
+          "local_links": 97,
+          "external_not_fetched": 0,
+          "issues": []
+        }
+      }
+    },
+    {
+      "case": 2,
+      "path": "product-plans/20261117-coordinate-dinner-changes",
+      "input_exact": true,
+      "input_sha256": "bfcf13f032208931fbc8a327e28b3b0efcacf355db255c769e5ffc6f8b4431c0",
+      "conditions_exact": true,
+      "prompt_exact": true,
+      "links": {
+        "ok": true,
+        "files": 16,
+        "local_links": 49,
+        "external_not_fetched": 0,
+        "issues": []
+      },
+      "discussions": [
+        {
+          "path": "product-plans/20261117-coordinate-dinner-changes/how-to-solve/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/how-to-solve/discussion.md",
+            "problems": [],
+            "topic_count": 1,
+            "next_topic": 2,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/how-to-solve/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/how-to-solve/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/how-to-solve/discussion.md",
+                  "sha256": "f0a202e1fca7a0cd8acc1bcea4e8a37420c15d3a2ea985e42f14a6a69d2c9197"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/how-to-solve/internal-records/discussion.md.topic-1.md",
+                  "sha256": "069efd02c62d266affa86270190f7a1fb9ef86c6e53bdc5d1c5f98acf5d91f28"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-coordinate-dinner-changes/materials/alternatives/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/materials/alternatives/discussion.md",
+            "problems": [],
+            "topic_count": 1,
+            "next_topic": 2,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/materials/alternatives/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/materials/alternatives/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/materials/alternatives/discussion.md",
+                  "sha256": "82b41e4ada8439489fa9bfd2400196abc0322d09f5112d9b61efeca4e686b653"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/materials/alternatives/internal-records/discussion.md.topic-1.md",
+                  "sha256": "216b7130db21fcdf6fc3cd29d0532aa2852d4dc1384eeeaa9c999da799dfb2aa"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-coordinate-dinner-changes/what-must-hold/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/what-must-hold/discussion.md",
+            "problems": [],
+            "topic_count": 1,
+            "next_topic": 2,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/what-must-hold/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/what-must-hold/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/what-must-hold/discussion.md",
+                  "sha256": "e6f280d0edfbd359fe1fcd0030b98bd30671ce8b0053c194d8537c6eb5fe6dae"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/what-must-hold/internal-records/discussion.md.topic-1.md",
+                  "sha256": "4e98516263ff79f05440cb498eee19732e3fb0195e966145ee9b3713a9802065"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-coordinate-dinner-changes/why-to-build/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/why-to-build/discussion.md",
+            "problems": [],
+            "topic_count": 2,
+            "next_topic": 3,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/why-to-build/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/why-to-build/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/why-to-build/discussion.md",
+                  "sha256": "f0854bb444f2151a9ca3a3725b306dfb88e43e29b355cc75088e3bcd7bd99ca6"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/why-to-build/internal-records/discussion.md.topic-1.md",
+                  "sha256": "8af1b72124b839509efb09e7525c58c2b55e39666d8b32dc1d99649e5fe4ff14"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-2.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-coordinate-dinner-changes/why-to-build/internal-records/discussion.md.topic-2.md",
+                  "sha256": "ce0ba0db04f174c08103741daaf2ad8e117bc6e67500ee64fe542708cbddb831"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "portable": {
+        "path": ".validation/portable/20261117-coordinate-dinner-changes",
+        "same_bytes": true,
+        "links": {
+          "ok": true,
+          "files": 16,
+          "local_links": 49,
+          "external_not_fetched": 0,
+          "issues": []
+        }
+      }
+    },
+    {
+      "case": 3,
+      "path": "product-plans/20261117-check-refill-availability",
+      "input_exact": true,
+      "input_sha256": "2093164c8efb763fb582d54c052ece09edf09b4ee4596170ad096be0486cc3ef",
+      "conditions_exact": true,
+      "prompt_exact": true,
+      "links": {
+        "ok": true,
+        "files": 17,
+        "local_links": 50,
+        "external_not_fetched": 0,
+        "issues": []
+      },
+      "discussions": [
+        {
+          "path": "product-plans/20261117-check-refill-availability/how-to-solve/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/how-to-solve/discussion.md",
+            "problems": [],
+            "topic_count": 1,
+            "next_topic": 2,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/how-to-solve/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/how-to-solve/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/how-to-solve/discussion.md",
+                  "sha256": "6aa28e8b290967236bb15855fe6f6cc71bedaf77b8e73b91b0383194518aab01"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/how-to-solve/internal-records/discussion.md.topic-1.md",
+                  "sha256": "b67147b87697ad73ee992b6e38b8e129eab545840e8474d8f8ef59abf9948b27"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-check-refill-availability/materials/alternatives/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/materials/alternatives/discussion.md",
+            "problems": [],
+            "topic_count": 1,
+            "next_topic": 2,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/materials/alternatives/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/materials/alternatives/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/materials/alternatives/discussion.md",
+                  "sha256": "52db2fc38273b1f6c63bd82b26bedbf45ea14a21bd832482ae0f94d257a3054b"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/materials/alternatives/internal-records/discussion.md.topic-1.md",
+                  "sha256": "24e6132260b4b66aaec0c717cd4e93289df803375ad99890d885b7669fe76338"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-check-refill-availability/what-must-hold/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/what-must-hold/discussion.md",
+            "problems": [],
+            "topic_count": 1,
+            "next_topic": 2,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/what-must-hold/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/what-must-hold/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/what-must-hold/discussion.md",
+                  "sha256": "95120ab2136d2671232f3c710b11f1b1cd4127141bb888d6b1cec9569e5fc256"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/what-must-hold/internal-records/discussion.md.topic-1.md",
+                  "sha256": "2438ea7a2a4432cd3b002fbee88512b878a3d2139190d278a3e9df4f54952d91"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": "product-plans/20261117-check-refill-availability/why-to-build/discussion.md",
+          "check": {
+            "action": "check",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/why-to-build/discussion.md",
+            "problems": [],
+            "topic_count": 2,
+            "next_topic": 3,
+            "split_required": false
+          },
+          "snapshot": {
+            "action": "snapshot",
+            "format": "single",
+            "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/why-to-build/discussion.md",
+            "problems": [],
+            "snapshot": {
+              "format": "single",
+              "entry": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/why-to-build/discussion.md",
+              "files": [
+                {
+                  "path": "discussion.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/why-to-build/discussion.md",
+                  "sha256": "367f2ff1bbc8d8a28c119e9b6b8a1842b5d1ec6c6298d5904ad9701e41686d7e"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-1.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/why-to-build/internal-records/discussion.md.topic-1.md",
+                  "sha256": "d00bb71477d452535c421cf30b6295b8310ad7338ae9d79a2536b2c706d6820e"
+                },
+                {
+                  "path": "internal-records/discussion.md.topic-2.md",
+                  "realpath": "/tmp/grow-require-build-108/workspace/product-plans/20261117-check-refill-availability/why-to-build/internal-records/discussion.md.topic-2.md",
+                  "sha256": "0d989a9ea62798f4dc3e90776b926294b38f028d3dc931b0a2d9b1a002828a1e"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "portable": {
+        "path": ".validation/portable/20261117-check-refill-availability",
+        "same_bytes": true,
+        "links": {
+          "ok": true,
+          "files": 17,
+          "local_links": 50,
+          "external_not_fetched": 0,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "finite_table_checks": {
+    "V0_rows": 7,
+    "corrected_V1_rows": 7,
+    "conservation": true,
+    "score_sum": true,
+    "reserve_arithmetic": true,
+    "not_product_implementation": true
+  }
+}
