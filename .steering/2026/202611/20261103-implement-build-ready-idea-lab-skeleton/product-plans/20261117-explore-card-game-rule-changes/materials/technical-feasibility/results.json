@@ -1,0 +1,64 @@
+{
+  "runtime": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "observations": [
+    {
+      "case": "normal",
+      "returncode": 0,
+      "observed": {
+        "rev": 1,
+        "node": "a3"
+      },
+      "expected": {
+        "rev": 1,
+        "node": "a3"
+      },
+      "pass": true
+    },
+    {
+      "case": "before",
+      "returncode": 7,
+      "observed": {
+        "rev": 0,
+        "node": "root"
+      },
+      "expected": {
+        "rev": 0,
+        "node": "root"
+      },
+      "pass": true
+    },
+    {
+      "case": "after",
+      "returncode": 7,
+      "observed": {
+        "rev": 1,
+        "node": "a3"
+      },
+      "expected": {
+        "rev": 1,
+        "node": "a3"
+      },
+      "pass": true
+    },
+    {
+      "case": "direct",
+      "returncode": 7,
+      "observed": "invalid-json",
+      "expected": "invalid-json",
+      "pass": true
+    },
+    {
+      "case": "concurrent-rejected",
+      "observed": 23,
+      "expected": 23,
+      "pass": true
+    },
+    {
+      "case": "released-accepted",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    }
+  ]
+}
