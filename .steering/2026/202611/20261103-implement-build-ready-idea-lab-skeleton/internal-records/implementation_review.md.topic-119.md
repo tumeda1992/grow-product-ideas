@@ -52,3 +52,18 @@ Gitの実差分は20file、うち本線8fileと記録12file。8fileは六つの�
 #### 第7とpushの境界
 
 現時点で第7の作成/pushは未実施。この実結果の追記で変わる第7の保存内容を更新して照合し、第7までの通常pushへ進む。新しい通しドライランや元ケースの変更を実施したとはしない。
+
+
+<a id="iteration-0-record-3"></a>
+
+### 第7までのpush完了: 実remoteと、作成したcommitの最終内容を照合する
+
+#### 観測した結果
+
+第7は`4cb2449afcd50f877ab201acdc3bb53882d7dcc1`。第1〜7を通常のpushでorigin/feature-16へ保存し、実remote/upstream/HEADがこの値へ一致した。保存対象21fileの最終blob/実物と、七つのcommitのparent/tree/message/対象を確認した。第7のpush後に作業treeはcleanだった。詳細は/tmp/grow119-commit-plan/pushed-seven.jsonに保持した。
+この観測から119の反映済みと親110の現在の保存状態を同期し、計画済みの第8として結果記録自身をcommit/pushする。第8の成功は未来の結果として書かず、実行後のtool結果で確認する。自身のhashを自身へ書き足す循環は作らない。
+
+#### 文書reviewとorigin119のdoc-enricher一回
+
+文書reviewで、計画と実施済み/未実施を区別し、委託原文から保存単位、実際のcommit/remote/cleanの証拠へ辿れることを確認した。以前の118のpushを今回の保存へ流用せず、原ケースとsharedの未変更、通しドライランの未実施も保持した。
+origin119のdoc-enricherを提案modeで一回実施した。steeringのcommit順序/共有議論の扱いと既存のbranchの規範を今回の計画へ照合した。共有記録を先の関連commitへ揃える知識は既存規範にあり、今回のhash/段数/ファイル一覧はこの作業の検証記録に属するため、README/docsへ追加する候補は無い。共有cacheは変更しない。
