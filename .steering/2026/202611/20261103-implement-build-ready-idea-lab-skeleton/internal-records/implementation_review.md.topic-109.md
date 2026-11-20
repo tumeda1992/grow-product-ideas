@@ -108,3 +108,7 @@ origin109の採用についてdoc-enricherを提案modeで一回reviewした。�
 | 8 | `e746b952012a88186822a06c231525add88b2532` | `cd1f4a1180a2d3ba581638eef7e46eebc9a636b9` |
 
 この事実と109の採用/許可を第9へ含め、その候補を再検査して作成する。第9自身のhashとpush成功は、当該commitへ保存する時点ではまだ得られないため、先取りしない。作成後に実HEAD・9本の累積・実リモート/追跡branchの一致を確かめ、実際の結果を会話で報告する。既存commitをamendしたり、成功の事後記録だけで計画外の10本目を足したりしない。
+
+#### 第9の作成とpushの事後記録
+
+第9は94e13a40bec9e72583f6d6620af2d658812061ad。69c778aから9コミットであること、全165fileのblob/現物一致、indexとworktreeがcleanであることを確認し、通常のgit push origin feature-16が成功した。続くgit ls-remote、upstream、HEADはすべてこのhashで一致した。取得した結果は/tmp/grow109-execution/pushed.jsonに保持し、会話で実際の成功を報告済み。今回の継続時にその事後事実を正本へ同期する。履歴の書換えや計画外の10本目は作成していない。

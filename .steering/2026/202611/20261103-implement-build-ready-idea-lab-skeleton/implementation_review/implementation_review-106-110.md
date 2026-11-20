@@ -531,7 +531,7 @@ CloudのCodex CLIはhelp/versionまで取得出来、新規execの候補にな�
 
 ## 論点109: 初回C・改善・再ドライランの差分を、仕事ごとのコミットへ分ける
 
-**ステータス:** 決定
+**ステータス:** 反映済み
 
 **種別:** コミット計画
 
@@ -714,3 +714,7 @@ source-integrity.json
 
 第1〜8を作成した。第1は`b3f794a0462a4a0f49ee24d639015e8c7ca495ec`、第8は`e746b952012a88186822a06c231525add88b2532`。各commitの対象・親・blob/tree・メッセージは検査済みの計画と一致した。第9の保存対象は、109の提案/採用/実行許可と現在までの検査結果の3fileである。
 この記録を第9へ含め、その後origin/feature-16へ通常のpushを行う。この保存時点では第9の作成とpush成功は未実施であり、実際の成功は作成後のHEAD/remoteの照合から報告する。C3のwhyの範囲、手順の適用漏れ、clientの未検査は今回の保存で解消したことにしない。
+
+### 実行結果（論点109・push完了後）
+
+9コミットを作成し、origin/feature-16へ通常のpushを完了した。先端は`94e13a40bec9e72583f6d6620af2d658812061ad`。各段のparent・対象/blob/tree・messageと最終165fileを照合し、push直後の実remote・upstream・HEADの一致と作業treeがcleanであることを確認した。これは実行後に得た事実の追記であり、push済み第9そのものには含まれない。既存commitをamendしない。
