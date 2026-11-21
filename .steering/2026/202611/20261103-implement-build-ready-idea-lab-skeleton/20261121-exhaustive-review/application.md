@@ -197,6 +197,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-004-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-004-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `64fd4b9`へ保存した。pushは全件適用後に行う。
 
 変更対象: `what-defines-a-product/what-must-hold.md`, `what-defines-a-product/why-to-build.md`。
+
+<a id="cr-005"></a>
+
+## CR-005: 条件の不足と余計な制約を両方向で検査する
+
+[全件委任](bulk-application.md)に基づく適用。全条件真でも言い分偽になる十分性の検査を維持し、その条件が偽でも正当な別証拠で同じ言い分へ届く必要性の検査を加えた。必須の証拠性質と偶然の媒体を分け、明示された資料要求は元の約束として保つ。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-005-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-005-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `what-defines-a-product/what-must-hold.md`。
