@@ -5,8 +5,8 @@
 - 対象　[README.md](../../../../../../README.md) 42–51行、[product-plans/README.md](../../../../../../product-plans/README.md) 101–120、127–138行、[.agents/skills/grow-product-idea/templates/canonical.md](../../../../../../.agents/skills/grow-product-idea/templates/canonical.md) 148–158行、[.agents/skills/grow-product-idea/scripts/check-plan-links.py](../../../../../../.agents/skills/grow-product-idea/scripts/check-plan-links.py) 96–117行
 - 観点　実装受渡し、参照検査、現在の決定場所
 - 由来　全体レビュー。CR-011が定めた後続ownerと、CR-009・CR-013が支える自己完結検査の接合部。採用時までの参照検査とは別に再現。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用（13件の全件適用指示）
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし（単独で採否可能）
 
@@ -29,3 +29,12 @@
 ## 合意・適用記録
 
 レビュー結果の保存までが今回の委任。採否は未判断、製品の修正・修正後の検証・適用コミットはいずれも未実施。
+
+## 13件の全件委任による適用
+
+利用者の「13件も見たけど全部適用していい」に基づき適用した。上の未適用の記述はレビュー時点の履歴である。
+基準版を固定し、隣の後続所有handoff案内を現在の採否への入口とする。基準版の案件内制約と案内の後続repo内検査を分け、checkerの一括緩和を避けた。
+
+検証: 現行checkerを一時directoryの実fileへ適用。自己完結する基準版と実在する後続への案内は成功。通常材料から案件外の参照はoutside-plan、存在しない後続参照はmissing-targetで失敗。受付前に架空の後続linkを作らない。
+
+文書と雛形・入口・出口の接続を読み戻した。構成例への手順の適用であり、実利用や修正後ドライランの成功とはしない。適用commitは全件の適用記録から辿れる。
