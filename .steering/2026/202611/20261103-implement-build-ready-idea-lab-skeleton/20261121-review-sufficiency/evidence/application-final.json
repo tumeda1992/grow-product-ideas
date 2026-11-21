@@ -1,0 +1,29 @@
+{
+  "finding_commits": [
+    "8415d3ab484eaab860a9efff290293ca1e15b979 fix: LR-011 明示撤回を未閉じのまま取り止めとして記録する",
+    "9de9cab10df7920a8f3413e83d63dfb911c5d8a9 fix: IR-002 選んだ新規構築先又は既存改修先へ設計を渡す",
+    "11459a81400bc0bb90a61be9ed2ad8c0284b68f7 fix: LR-010 自己完結する基準版と後続の現在地案内を分ける",
+    "75e6eba99c1eb9822e1fdce060c4b08f2674e9ee fix: SR-001 変更する共有物の既存の使い手を選定と受入れへ通す",
+    "17cff99451d5cfa2160dbea81a32f8ee455a6b52 fix: IR-001 局所選定後も版全体の価値を有力な対案と比べる",
+    "541c7898e9fa2c169e771c964d550d0ec6184761 fix: LR-005 現在の選択が閉じる将来の道と代償を比較する",
+    "d54cd6436a0fe563b6d11a7b41846745eff72081 fix: LR-008 出口の返答前に既知の訂正と有効期限を照合する",
+    "5d9cc942b215ac54f8fe0cec7e711da4c91a9bda fix: LR-007 非開発運用の導入初日と終了時の残件を繋ぐ",
+    "96352a69d2a122bb385864b7a286afdac05fcdc7 fix: LR-006 純支出と支払時点の必要資金を分ける",
+    "95a32e66561bd32a2937f25bba87917f70c9a183 fix: LR-004 選んだ通常版にも価値の観測を引き継ぐ",
+    "1acf9b141521a6e17b956c0b859c092b6fd1ca99 fix: LR-003 本番条件の閉じ前に限定校正の材料を取得する",
+    "9a3f75252a0a93ac302c3cbd65b91bbf5443e5c0 fix: LR-009 資料の保存と二次提供を許された範囲に揃える",
+    "47006583774b1a3e108ee7daf512048c7908ec9d fix: LR-001 採否と他者の引受け・許諾の根拠を分ける"
+  ],
+  "references": {
+    "ok": true,
+    "files": 40,
+    "local_links": 144,
+    "external_not_fetched": 1,
+    "issues": []
+  },
+  "existing_checker_tests": "12 passed",
+  "handoff_boundary": "baseline and real successor companion pass; ordinary external material and missing successor fail",
+  "remaining_finding_applications": [],
+  "followup": "IR-002 reader wording found in final reread; supplementary record without history rewrite",
+  "dry_run": "not yet started"
+}
