@@ -1,0 +1,40 @@
+{
+  "method": "固定HEADからsymlinkのbaselineを取得し現在targetへ照合。開始時git statusはclean、通常fileとして読めたパスの開始hashとは別に記録。",
+  "head": "4b8dc31c0e8242bcda6fd2a2746b25e997b23243",
+  "entries": [
+    {
+      "path": ".claude/skills",
+      "mode": "120000",
+      "baseline_target": "../.agents/skills",
+      "current_target": "../.agents/skills",
+      "matches": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "120000",
+      "baseline_target": "AGENTS.md",
+      "current_target": "AGENTS.md",
+      "matches": true
+    }
+  ],
+  "total_tracked_paths": 455,
+  "git_regular_files": 453,
+  "git_symlinks": 2,
+  "initial_is_file_readable_path_hashes": 454,
+  "correction": "初回補助記録のregular_file_hashes=454という呼び名を訂正。453 Git通常fileとCLAUDE.mdリンク先本文のhashで454パス。ディレクトリlink .claude/skillsだけ初期一覧に入らない。",
+  "initial_symlink_check": {
+    "method": "固定HEADからsymlinkのbaselineを取得し現在の実体へ照合。通常fileの開始hashとは別に記録する。",
+    "head": "4b8dc31c0e8242bcda6fd2a2746b25e997b23243",
+    "entries": [
+      {
+        "path": ".claude/skills",
+        "mode": "120000",
+        "baseline_target": "../.agents/skills",
+        "current_target": "../.agents/skills",
+        "matches": true
+      }
+    ],
+    "total_tracked_paths": 455,
+    "regular_file_hashes": 454
+  }
+}
