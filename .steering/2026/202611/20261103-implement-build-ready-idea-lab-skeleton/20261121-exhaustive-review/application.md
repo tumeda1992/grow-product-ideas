@@ -249,6 +249,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-015-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-015-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `eaa16c9`へ保存した。pushは全件適用後に行う。
 
 変更対象: `what-defines-a-product/how-to-solve.md`, `.agents/skills/propose-alternatives/SKILL.md`, `.agents/skills/grow-product-idea/SKILL.md`。
+
+<a id="cr-016"></a>
+
+## CR-016: 新規案件の同名衝突で上書きしない
+
+[全件委任](bulk-application.md)に基づく適用。進行skillと配置規約で、排他的作成・衝突時の同定・別案件の命名・明示した再開を定めた。新規の正本生成はdirectoryの確保後に限る。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-016-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-016-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `.agents/skills/grow-product-idea/SKILL.md`, `product-plans/README.md`。

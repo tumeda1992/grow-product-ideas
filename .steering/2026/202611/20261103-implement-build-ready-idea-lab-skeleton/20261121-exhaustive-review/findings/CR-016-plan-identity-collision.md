@@ -5,8 +5,8 @@
 - 対象　[.agents/skills/grow-product-idea/SKILL.md L66–74](../../../../../../.agents/skills/grow-product-idea/SKILL.md)、[product-plans/README.md L3–6・26–36](../../../../../../product-plans/README.md)
 - 観点　入力保存、案件の識別
 - 由来　全体レビュー。実行版8.2.5のname-work-directoryは命名のみを返し、衝突確認を呼出側へ委ねる（同SKILL.md 57行）。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用（2026年11月21日の全件適用指示）
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -28,4 +28,5 @@
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+[全件適用の委任](../bulk-application.md)により採用し、本線へ適用した。
+設計・具体例での照合・機械検査と限界は[適用記録](../application.md#cr-016)と[検証記録](../evidence/CR-016-application.md)を参照する。
