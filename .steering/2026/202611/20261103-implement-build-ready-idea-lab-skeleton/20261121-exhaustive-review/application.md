@@ -275,6 +275,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-013-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-013-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `988223d`へ保存した。pushは全件適用後に行う。
 
 変更対象: `.agents/skills/grow-product-idea/scripts/check-plan-links.py`, `.agents/skills/grow-product-idea/scripts/tests/test_check_plan_links.py`。
+
+<a id="cr-010"></a>
+
+## CR-010: 試運転の妥当な出口と検査範囲を分ける
+
+[全件委任](bulk-application.md)に基づく適用。ドライランだけに適用する振返りをrootの保守入口へ置き、進行skillから繋いだ。原依頼→実際に通った判断→未検査→次の入力を既存の保守記録へ返す。通常案件の新台帳は作らない。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-010-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-010-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `README.md`, `.agents/skills/grow-product-idea/SKILL.md`。
