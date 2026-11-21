@@ -171,6 +171,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-006-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-006-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `77e6a39`へ保存した。pushは全件適用後に行う。
 
 変更対象: `what-defines-a-product/how-to-solve.md`, `.agents/skills/grow-product-idea/templates/canonical.md`。
+
+<a id="cr-007"></a>
+
+## CR-007: 採用する版全体の費用と同時成立を確定する
+
+[全件委任](bulk-application.md)に基づく適用。補う点ごとの仮選択を実際の版へ組み、費用・共有資源・時間帯・継ぎ目を再評価し、利用者が全体を受け入れてから閉じる手順と正本を揃えた。既存の厳密な組合せの根拠は再利用する。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-007-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-007-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `.agents/skills/grow-product-idea/templates/canonical.md`, `what-defines-a-product/how-to-solve.md`。
