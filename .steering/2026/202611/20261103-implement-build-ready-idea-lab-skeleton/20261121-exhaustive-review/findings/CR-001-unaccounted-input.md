@@ -5,8 +5,8 @@
 - 対象　[.agents/skills/grow-product-idea/SKILL.md L70–74](../../../../../../.agents/skills/grow-product-idea/SKILL.md)、[product-plans/README.md L48–61](../../../../../../product-plans/README.md)、[what-defines-a-product/why-to-build.md L148–156・173–185・209–222・274–281](../../../../../../what-defines-a-product/why-to-build.md)、[.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/why-to-build/README.md L19–41](../../../../../../.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/why-to-build/README.md)
 - 観点　入力の保全、目標の採否
 - 由来　全体レビュー。論点106は原文と話者、111は操作制限と目標の区別を補った。ここで扱うのは選択の対象に載らなかった要求。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -30,4 +30,7 @@ whyで判断を左右する原文の目的・約束・制約・手段・単な�
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+2026年11月21日、[論点3・提案0](../discussion.md#提案0論点3)への利用者の「ok」を受け、whyの方法と記録規約へ適用した。
+元の入口にあった症状の読み分けも保持した。
+[四ケースの照合](../evidence/CR-001-input-check.md)で、未検討の脱落・語だけの保留と、採否を伴う見送りを文書上で区別した。
+長文を自律agentへ通す実試運転は未実施。[適用記録](../application.md)からコミットと限界を辿る。
