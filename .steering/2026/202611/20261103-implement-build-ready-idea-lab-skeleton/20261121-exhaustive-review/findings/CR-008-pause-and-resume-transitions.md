@@ -5,8 +5,8 @@
 - 対象　[.agents/skills/grow-product-idea/SKILL.md L48–64・74–89・102–118](../../../../../../.agents/skills/grow-product-idea/SKILL.md)、[what-defines-a-product/README.md L56–79](../../../../../../what-defines-a-product/README.md)、[what-defines-a-product/why-to-build.md L267–272](../../../../../../what-defines-a-product/why-to-build.md)、[.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/how-to-solve/README.md L44–62](../../../../../../.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/how-to-solve/README.md)
 - 観点　進行、出口、再開
 - 由来　全体レビュー。C3の正式保留を現行手順から再構成した。フォルダーの存在を、その遷移の定義とみなしていない。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -28,4 +28,8 @@ growの図と手順は層の閉じで指定される場合、または全層が�
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+2026年11月21日、[論点2・提案0](../discussion.md#提案0論点2)への利用者の「ok」を受け、3ファイルへ適用した。
+whyの未選定から保留へ進む経路で既存のstep5冒頭と衝突したため、版がある時だけ適格性を照合する条件へ同じdecision内で補正した。
+[8場面の進行確認](../evidence/CR-008-transition-check.md)は机上追跡、[参照の回帰結果](../evidence/CR-008-verification.json)は機械実行である。
+自律agentの対話全体やCR-015・CR-014の解決は実証していない。
+[適用記録](../application.md)からコミットと限界を辿る。
