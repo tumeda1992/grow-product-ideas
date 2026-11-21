@@ -5,8 +5,8 @@
 - 対象　[what-defines-a-product/what-must-hold.md L51–72・83–103・110–118・168–180](../../../../../../what-defines-a-product/what-must-hold.md)、[what-defines-a-product/why-to-build.md L125・164・229](../../../../../../what-defines-a-product/why-to-build.md)、[.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/what-must-hold/README.md L17–28・54–65](../../../../../../.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/what-must-hold/README.md)
 - 観点　領域一般化、反例の十分性
 - 由来　全体レビュー。論点104は全条件真の証拠と版の区別を強化した。現在の指摘は探索単位と全枡の義務。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用（2026年11月21日の全件適用指示）
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -28,4 +28,5 @@
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+[全件適用の委任](../bulk-application.md)により採用し、本線へ適用した。
+設計・具体例での照合・機械検査と限界は[適用記録](../application.md#cr-004)と[検証記録](../evidence/CR-004-application.md)を参照する。

@@ -184,6 +184,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-007-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-007-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `4d055fe`へ保存した。pushは全件適用後に行う。
 
 変更対象: `.agents/skills/grow-product-idea/templates/canonical.md`, `what-defines-a-product/how-to-solve.md`。
+
+<a id="cr-004"></a>
+
+## CR-004: 反例の単位と探索を言い分に合わせる
+
+[全件委任](bulk-application.md)に基づく適用。whatの反例を一日と四方向の全枡から解き、言い分の成否を観察できる単位・境界・関連から探す。全条件真の具体の根拠、版の対応、反例不在を証明にしない規律は残す。whyの一般的な探索語も合わせた。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-004-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-004-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `what-defines-a-product/what-must-hold.md`, `what-defines-a-product/why-to-build.md`。
