@@ -5,8 +5,8 @@
 - 対象　[what-defines-a-product/why-to-build.md L3–10・68–85・102–115・144–151・265–272](../../../../../../what-defines-a-product/why-to-build.md)、[.agents/skills/gather-target-user-voices/SKILL.md L19–34・90–98](../../../../../../.agents/skills/gather-target-user-voices/SKILL.md)、[what-defines-a-product/how-to-solve.md L59–63・226–227](../../../../../../what-defines-a-product/how-to-solve.md)
 - 観点　探索の入口、仮説と観測
 - 由来　全体レビュー。現行のwhyとhowで、過去の一回がない場合の扱いを比較した。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -30,4 +30,7 @@ whyは未経験の望みを受けるが、78–81行は実際の直近の一回�
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+2026年11月21日、[論点4・提案0](../discussion.md#提案0論点4)への利用者の「ok」を受け、whyと正本の雛形へ適用した。
+[三条件の机上追跡](../evidence/CR-002-hypothesis-check.md)と[参照の検査結果](../evidence/CR-002-verification.json)を区別して保存した。
+CR-009の8場面は期待に一致し、追跡済みMarkdown452件の比較で新しい参照不備はなかった。適用前後とも残る既存4件は今回の解消に数えていない。
+自律agentに長文の夢を通す全体試運転は未実施。[適用記録](../application.md)からコミットと限界を辿る。
