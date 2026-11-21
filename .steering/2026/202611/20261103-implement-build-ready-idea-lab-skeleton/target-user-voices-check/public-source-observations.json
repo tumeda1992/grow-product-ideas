@@ -1,0 +1,32 @@
+{
+  "scope": "Public page acquisition and reading of one original report; not observation of household behavior",
+  "source": {
+    "url": "https://github.com/nextcloud/tasks/issues/90",
+    "posted_at": "2017-06-30T17:46:34Z",
+    "post_id": "MDU6SXNzdWUyMzk4NDYwNzQ=",
+    "http_status": 200,
+    "read_scope": "original issue body"
+  },
+  "other_page": {
+    "url": "https://github.com/nextcloud/tasks/issues/72",
+    "http_status": 200,
+    "read_scope": "rendered issue data; not every comment"
+  },
+  "unavailable": [
+    {
+      "url": "https://atsoho.com/blog/married-couple-schedule-sharing",
+      "result": "Tunnel connection failed: 403 Forbidden"
+    },
+    {
+      "url": "https://www.excite.co.jp/news/article/E1536909806327/",
+      "result": "Tunnel connection failed: 403 Forbidden"
+    }
+  ],
+  "unverified": [
+    "household use and sustained coordination",
+    "independent observation of reported events",
+    "current product behavior",
+    "all comments and hidden parts of the threads",
+    "the original contents of two older article links"
+  ]
+}

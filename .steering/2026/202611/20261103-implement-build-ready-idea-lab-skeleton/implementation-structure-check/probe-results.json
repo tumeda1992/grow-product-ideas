@@ -1,0 +1,90 @@
+{
+  "scope": "controlled SQLite model interleaving, not a production runtime or external API",
+  "sqlite_version": "3.53.1",
+  "transaction_condition": "both readers read outside an explicit transaction; first update commits before second update",
+  "checks": [
+    {
+      "claim": "two readers see the same pending request",
+      "observed": [
+        "pending",
+        "pending"
+      ],
+      "expected": [
+        "pending",
+        "pending"
+      ]
+    },
+    {
+      "claim": "conditional claim with first writer committed",
+      "observed": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ]
+    },
+    {
+      "claim": "unconditional claim accepts both writers",
+      "observed": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        1
+      ]
+    },
+    {
+      "claim": "missing external id does not change unknown into pending",
+      "observed": [
+        "unknown",
+        null
+      ],
+      "expected": [
+        "unknown",
+        null
+      ]
+    },
+    {
+      "claim": "confirmed old result is retained as revision-1 history",
+      "observed": [
+        [
+          1,
+          "E1"
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          "E1"
+        ]
+      ]
+    },
+    {
+      "claim": "revision-2 current view excludes revision-1 success",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "claim": "reader without revision condition leaks old success",
+      "observed": [
+        [
+          "E1"
+        ]
+      ],
+      "expected": [
+        [
+          "E1"
+        ]
+      ]
+    }
+  ],
+  "unverified": [
+    "external idempotency and reconciliation",
+    "old worker effects after claim expiry",
+    "other transaction schedules",
+    "actual host and running cost"
+  ]
+}

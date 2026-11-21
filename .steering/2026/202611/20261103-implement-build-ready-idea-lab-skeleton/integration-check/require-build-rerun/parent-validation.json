@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "plan": "20261117-compare-card-game-choices",
+      "files": 27,
+      "markdown_files": 25,
+      "local_links": 97,
+      "link_issues": [],
+      "discussions": [
+        {
+          "path": "how-to-build/discussion.md",
+          "topics": 3
+        },
+        {
+          "path": "how-to-solve/discussion.md",
+          "topics": 2
+        },
+        {
+          "path": "what-must-hold/discussion.md",
+          "topics": 1
+        },
+        {
+          "path": "why-to-build/discussion.md",
+          "topics": 2
+        }
+      ]
+    },
+    {
+      "plan": "20261117-coordinate-dinner-changes",
+      "files": 16,
+      "markdown_files": 16,
+      "local_links": 49,
+      "link_issues": [],
+      "discussions": [
+        {
+          "path": "how-to-solve/discussion.md",
+          "topics": 1
+        },
+        {
+          "path": "materials/alternatives/discussion.md",
+          "topics": 1
+        },
+        {
+          "path": "what-must-hold/discussion.md",
+          "topics": 1
+        },
+        {
+          "path": "why-to-build/discussion.md",
+          "topics": 2
+        }
+      ]
+    },
+    {
+      "plan": "20261117-check-refill-availability",
+      "files": 17,
+      "markdown_files": 17,
+      "local_links": 50,
+      "link_issues": [],
+      "discussions": [
+        {
+          "path": "how-to-solve/discussion.md",
+          "topics": 1
+        },
+        {
+          "path": "materials/alternatives/discussion.md",
+          "topics": 1
+        },
+        {
+          "path": "what-must-hold/discussion.md",
+          "topics": 1
+        },
+        {
+          "path": "why-to-build/discussion.md",
+          "topics": 2
+        }
+      ]
+    }
+  ],
+  "synchronized_after_first_copy": [
+    ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-build/README.md",
+    ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-solve/README.md",
+    ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/data-model.md",
+    ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/how-to-solve/README.md"
+  ],
+  "registry": 124
+}

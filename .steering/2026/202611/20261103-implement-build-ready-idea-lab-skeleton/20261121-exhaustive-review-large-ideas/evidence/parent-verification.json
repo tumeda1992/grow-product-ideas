@@ -1,0 +1,16 @@
+{
+  "review_head": "fea97767d741b2a174261a240996d4f11d8c2361",
+  "regular_file_hashes_unchanged": 522,
+  "symlink_targets_unchanged": 2,
+  "active_findings": 10,
+  "withdrawn_candidates": 1,
+  "probe_reexecution_matches": true,
+  "review_links_before_discussion": {
+    "ok": true,
+    "files": 16,
+    "local_links": 82,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "reviewer_completion": "Astra reported artifacts complete and final checks passed; final response was interrupted by model usage limit. Parent independently checked saved artifacts; no new Astra pass claimed."
+}

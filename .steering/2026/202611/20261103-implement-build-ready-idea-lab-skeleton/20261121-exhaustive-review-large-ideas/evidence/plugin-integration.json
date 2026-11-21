@@ -1,0 +1,13 @@
+{
+  "plugin_main_commit": "0b23f21ce83ddb85e0e1aa9d786a1478a9bc2cbb",
+  "version": "9.1.0",
+  "steering_basename": "20261121-review-themes-to-completion",
+  "scope": "pending escalation 009 only",
+  "checks": [
+    "plugin validator passed",
+    "skill-creator quick_validate passed",
+    "normal cloud dependency setup passed"
+  ],
+  "runtime_source": "/workspace/.cache/grow-product-ideas/plugin-sources-9.1.0/tumeda-dev",
+  "runtime_update": "Existing cloud uses pinned dependency source checkouts, no configured marketplace. Updated the normal setup recipe and acquired new pinned sources into a separate directory; old cache unchanged. Read the new skill source explicitly in this session; no automatic host reload claimed."
+}
