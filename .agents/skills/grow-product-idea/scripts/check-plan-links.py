@@ -14,11 +14,30 @@ def prose(text):
     fence = None
     comment = False
     for number, line in enumerate(text.splitlines(), 1):
+        # Block quotes are containers: definitions and fences inside them are
+        # Markdown too. Preserve source line numbers after removing containers.
+        original_line = line
+        quote_depth = 0
+        quote_ends = []
+        while True:
+            quote = re.match(r"^ {0,3}>[ \t]?", line)
+            if quote is None:
+                break
+            quote_depth += 1
+            line = line[quote.end():]
+            quote_ends.append(len(original_line) - len(line))
+        # A quoted fence ends when its containing quote ends, even without an
+        # explicit closing marker. A nested quote may end while its parent stays.
+        if fence and quote_depth < fence[2]:
+            fence = None
+        if fence:
+            # Extra quote markers inside code are literal, not containers.
+            line = original_line[quote_ends[fence[2] - 1]:] if fence[2] else original_line
         match = re.match(r"^ {0,3}(`{3,}|~{3,})(.*)$", line)
         if match:
             marker, tail = match.groups()
             if fence is None:
-                fence = (marker[0], len(marker))
+                fence = (marker[0], len(marker), quote_depth)
             elif marker[0] == fence[0] and len(marker) >= fence[1] and not tail.strip():
                 fence = None
             continue

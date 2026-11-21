@@ -262,6 +262,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-016-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-016-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `54fe7b4`へ保存した。pushは全件適用後に行う。
 
 変更対象: `.agents/skills/grow-product-idea/SKILL.md`, `product-plans/README.md`。
+
+<a id="cr-013"></a>
+
+## CR-013: 引用の参照定義とコード境界を検査する
+
+[全件委任](bulk-application.md)に基づく適用。checkerが引用・入れ子の引用の参照定義を解析し、元の行番号で欠損を返す。引用のコードfenceの終端とコンテナの終了を扱い、コード内の例を参照として誤検出しない。実CLIの12回帰テストを追加した。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-013-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-013-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `.agents/skills/grow-product-idea/scripts/check-plan-links.py`, `.agents/skills/grow-product-idea/scripts/tests/test_check_plan_links.py`。

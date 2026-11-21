@@ -5,8 +5,8 @@
 - 対象　[.agents/skills/grow-product-idea/scripts/check-plan-links.py L124–156](../../../../../../.agents/skills/grow-product-idea/scripts/check-plan-links.py)、[product-plans/README.md L103–118](../../../../../../product-plans/README.md)
 - 観点　参照検査、持出し
 - 由来　全体レビュー。論点105で導入した現行checkerで再現。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用（2026年11月21日の全件適用指示）
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要（見落としたリンクの検査結果と終了値を、文書化した契約に揃える）
 - 依存する指摘　なし
 
@@ -28,4 +28,5 @@ Markdownのブロックと参照定義を解釈して検査する。または、
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+[全件適用の委任](../bulk-application.md)により採用し、本線へ適用した。
+設計・具体例での照合・機械検査と限界は[適用記録](../application.md#cr-013)と[検証記録](../evidence/CR-013-application.md)を参照する。
