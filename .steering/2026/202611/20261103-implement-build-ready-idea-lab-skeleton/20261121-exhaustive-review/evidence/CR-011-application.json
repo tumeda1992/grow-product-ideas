@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "files": 7,
+  "local_links": 100,
+  "external_not_fetched": 0,
+  "issues": [],
+  "unrendered_templates_excluded": [
+    ".agents/skills/grow-product-idea/templates/canonical.md"
+  ]
+}
