@@ -5,8 +5,8 @@
 - 対象　[.agents/skills/grow-product-idea/SKILL.md L82–87・91–100](../../../../../../.agents/skills/grow-product-idea/SKILL.md)、[.agents/skills/grow-product-idea/templates/canonical.md L5–12・56–72](../../../../../../.agents/skills/grow-product-idea/templates/canonical.md)、[.agents/skills/grow-product-idea/templates/layer-record.md L6–11・15–19](../../../../../../.agents/skills/grow-product-idea/templates/layer-record.md)、[product-plans/README.md L103–118](../../../../../../product-plans/README.md)
 - 観点　テンプレートと保存順序
 - 由来　全体レビュー。論点105の参照検査と、受け入れ後に決定内容を正本へ書く順序の相互作用。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -28,4 +28,8 @@
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+2026年11月21日、[論点1・提案0](../discussion.md#提案0論点1)への利用者の「ok」を受け、3ファイルへ適用した。
+役割表の「言い切り」は同じ採用済みの意味へ語を同期した。
+[ライフサイクル検査](../evidence/check-cr009-lifecycle.py)は8場面で期待に一致した。[実測](../evidence/check-cr009-lifecycle.json)
+これはテンプレートを展開したfixtureと現行checkerの検証であり、agentの対話全体の実行ではない。
+[適用記録](../application.md)からコミットと限界を辿る。

@@ -1,0 +1,67 @@
+{
+  "scope": "template-derived fixtures and existing link checker; not autonomous skill execution",
+  "source_baseline": "29018ab3472c445ebe33190cb8d2f141f5d5096a",
+  "observations": [
+    {
+      "name": "旧雛形は未採用の正本節を参照して失敗する",
+      "expected_exit": 2,
+      "exit": 2,
+      "local_links": 2,
+      "issues": [
+        "missing-anchor"
+      ]
+    },
+    {
+      "name": "新雛形の初回作成は未来の参照を持たない",
+      "expected_exit": 0,
+      "exit": 0,
+      "local_links": 1,
+      "issues": []
+    },
+    {
+      "name": "保存済みの閉じ提案と根拠は採用前に検査できる",
+      "expected_exit": 0,
+      "exit": 0,
+      "local_links": 4,
+      "issues": []
+    },
+    {
+      "name": "提案の根拠を壊すと全体検査が失敗する",
+      "expected_exit": 2,
+      "exit": 2,
+      "local_links": 4,
+      "issues": [
+        "missing-target"
+      ]
+    },
+    {
+      "name": "修正後は旧履歴を保持して新提案へ参照する",
+      "expected_exit": 0,
+      "exit": 0,
+      "local_links": 4,
+      "issues": []
+    },
+    {
+      "name": "採用応答と正本だけ保存された中断点でも既存参照は実在する",
+      "expected_exit": 0,
+      "exit": 0,
+      "local_links": 4,
+      "issues": []
+    },
+    {
+      "name": "中断後の残り反映で正本参照と閉じた層の表示が揃う",
+      "expected_exit": 0,
+      "exit": 0,
+      "local_links": 4,
+      "issues": []
+    },
+    {
+      "name": "開け直しでは未採用案と前回の採用版を区別する",
+      "expected_exit": 0,
+      "exit": 0,
+      "local_links": 4,
+      "issues": []
+    }
+  ],
+  "ok": true
+}
