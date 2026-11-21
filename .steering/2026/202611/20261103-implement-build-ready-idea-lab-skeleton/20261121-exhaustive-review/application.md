@@ -210,6 +210,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-005-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-005-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `e1da4ba`へ保存した。pushは全件適用後に行う。
 
 変更対象: `what-defines-a-product/what-must-hold.md`。
+
+<a id="cr-012"></a>
+
+## CR-012: 対案を結果と判断の実質的な差で区別する
+
+[全件委任](bulk-application.md)に基づく適用。対案の違いを置き場所・担い手・制作有無の限定列挙から、同じ入力での受益・機会・損失・負担又は判断基準へ改めた。既存の軸は探索の例として保持した。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-012-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-012-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `.agents/skills/propose-alternatives/SKILL.md`。
