@@ -28,5 +28,8 @@
 
 ## 追跡
 
-状態: 保留。新レビュー結果の保存・pushは未完。プラグインへの引渡し・実装は未実施。
-他の001〜008の保留項目は今回の引渡し対象に含めない。
+状態: 引渡し・適用・main統合・push済み。
+前回16件の全件適用は`fea9776`まで、新レビューとdiscussionは`4e24252`・`33e670d`までpushし、保留条件が成立した。
+プラグインの受領先basename: `20261121-review-themes-to-completion`。設計の受領commit `a5741d7`、本体の適用commit `63d7450`、main統合commit `0b23f21`。配布versionは9.1.0。
+受領・実装・検証はプラグイン側のdesign・task-design-discussion・validationに記録した。今回の009だけを適用し、他の001〜008は適用していない。
+元作業へ戻り、新レビューの指摘をdiscussionの論点1から一件ずつ扱う。

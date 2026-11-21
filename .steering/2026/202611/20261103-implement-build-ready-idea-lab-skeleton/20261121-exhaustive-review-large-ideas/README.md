@@ -28,3 +28,6 @@
 「whyが決まるまで紙ラフで体験を比べられない」という仮説は、別々の仮の終点で出した二件の専門依頼をwhyへ戻すと現行で扱えたため撤回した。固定IDを残し、有効10件の集計から外している。[LR-002の撤回根拠](findings/LR-002-experience-before-goal.md)
 
 [依頼原文](evidence/user-request.md)・[固定対象](evidence/snapshot.json)・[checkerの再現コード](evidence/probe.py)・[実測結果](evidence/probe-result.json)
+
+[指摘ごとの改善議論](discussion.md)を開始した。論点1・提案0はLR-001の採否で、5ファイルの完全diffと比較・検証を保存済み。本線へは未適用。
+レビュー改善のエスカレはプラグイン9.1.0へ反映・push済み。[統合と実行sourceの確認](evidence/plugin-integration.json)
