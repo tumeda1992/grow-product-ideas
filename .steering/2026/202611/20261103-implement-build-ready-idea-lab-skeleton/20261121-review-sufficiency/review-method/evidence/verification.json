@@ -1,0 +1,13 @@
+{
+  "markdown_files": 6,
+  "local_link_occurrences_resolved": 53,
+  "pinned_github_link_occurrences_verified_against_local_git_objects": 5,
+  "source_files_matching_pinned_plugin_commit": 4,
+  "programme_probe_records_replayed": 3,
+  "parent_observation_matches_original": true,
+  "finding_ids": [
+    "MR-001",
+    "MR-002"
+  ],
+  "scope": "参照、版、比較用実装の再現値、親の原記録の同一性を照合。製品レールや改稿後の自律レビューは対象外。"
+}

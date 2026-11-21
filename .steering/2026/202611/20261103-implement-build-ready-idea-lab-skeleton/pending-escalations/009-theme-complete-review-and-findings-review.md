@@ -33,3 +33,9 @@
 プラグインの受領先basename: `20261121-review-themes-to-completion`。設計の受領commit `a5741d7`、本体の適用commit `63d7450`、main統合commit `0b23f21`。配布versionは9.1.0。
 受領・実装・検証はプラグイン側のdesign・task-design-discussion・validationに記録した。今回の009だけを適用し、他の001〜008は適用していない。
 元作業へ戻り、新レビューの指摘をdiscussionの論点1から一件ずつ扱う。
+
+### 十分性の再検討からの追加品質改善
+
+利用者が実質的に任せられる品質まで詰め切るよう求めたため、今回のレビューで見つけた探索・返却の不足を正本の`20261121-ground-review-conclusions-in-user-outcomes`で具体化した。
+受け手の成功と現行判定を独立に照合し、最終結論を元テーマと根拠へ結ぶ方法を9.1.1として適用・検証し、mainの`78ab809`までpushした。
+[今回の検証と統合](../20261121-review-sufficiency/plugin-integration.json)へ接続する。上の保留時の原文は保持し、他の001〜008や利用先の13件は適用していない。

@@ -1,0 +1,24 @@
+{
+  "plugin_main_commit": "78ab8091947100d4bb3597cff0d36618e340f4ed",
+  "version": "9.1.1",
+  "steering_basename": "20261121-ground-review-conclusions-in-user-outcomes",
+  "source_changes": {
+    "exploration_commit": "05591df3a53645867427926af10f26e67bb7d0ed",
+    "supervision_commit": "8538585663f3c7465b8ac8b3328bad909d85c782"
+  },
+  "scope": "レビュー品質改善の依頼に従う探索と最終返却の接続。利用先の13件や他の保留001–008は未適用。",
+  "checks": [
+    "plugin validator passed",
+    "official skill-creator quick_validate passed",
+    "fresh Astra ordinary invocation found important cause and rejected normal contrast",
+    "independent Astra reviewed and rechecked theme boundary correction",
+    "normal pinned cloud setup passed"
+  ],
+  "runtime_source": "/workspace/.cache/grow-product-ideas/plugin-sources-9.1.1/tumeda-dev",
+  "source_sha256": {
+    "plugins/tumeda-dev/skills/exhaustive-review/SKILL.md": "142b9b60639c304cfc552b04226948da5b6d36930669e2b556babc2b87ca709d",
+    "plugins/tumeda-dev/skills/exhaustive-review/review-findings.md": "0398e61bb9c3d35256ad79facf87eff3cc742da9b42f5f6482fc70e179874de7"
+  },
+  "runtime_update": "正規のcloud依存取得recipeのpinを更新し、別directoryへ78ab809のsourceを取得した。旧配布cacheを直接編集していない。このsessionで新sourceのSKILL.mdとreview-findings.mdを明示的に再読した。hostの自動reload・自動発見が検査されたとは扱わない。",
+  "public_validation": "https://github.com/tumeda1992/ai_agent_dev_skill_plugin/blob/78ab8091947100d4bb3597cff0d36618e340f4ed/.steering/2026/202611/20261121-ground-review-conclusions-in-user-outcomes/validation.md"
+}

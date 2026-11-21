@@ -1,0 +1,2817 @@
+{
+  "repository": "/workspace/grow-product-ideas",
+  "head": "023ca0b0dbb3362291c85b3817baa627f7f55a11",
+  "status_at_start": "",
+  "files": [
+    {
+      "path": ".agents/skills/design-core-logic/SKILL.md",
+      "kind": "file",
+      "sha256": "2b2028b1bbcaad581e33f5cdc9c52bc5fd968a185bc8560560fa642ae76bb0ce"
+    },
+    {
+      "path": ".agents/skills/design-data-model/SKILL.md",
+      "kind": "file",
+      "sha256": "c43dda1e3279a92ca93271cb8ed070dda43be0d4e65e972bcf16be09c3f4e354"
+    },
+    {
+      "path": ".agents/skills/functional-structure-design/SKILL.md",
+      "kind": "file",
+      "sha256": "5167831d009ec68a21cef11eecf0b8a2feec48847ef8e6c7fc3de0a7f3db31b1"
+    },
+    {
+      "path": ".agents/skills/gather-target-user-voices/SKILL.md",
+      "kind": "file",
+      "sha256": "24b88321592bb3c77a0ca774a6dfeb05e29d7d72948d79f6931fa217d3e42b08"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/SKILL.md",
+      "kind": "file",
+      "sha256": "027e2d6354cd5eac2ac020bcbedebba01e7ff6b508b170a806d770abef4c9810"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/scripts/check-plan-links.py",
+      "kind": "file",
+      "sha256": "32f5c890387601727361f50029cb92b01cb7408eed5cd3dc6b935a82d36c66dc"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/scripts/tests/test_check_plan_links.py",
+      "kind": "file",
+      "sha256": "f7fccad571f883008cbd1a2bc99fbda7b08c620e425ebead2e21d9ad5d89a477"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/templates/canonical.md",
+      "kind": "file",
+      "sha256": "5fe577caa6b9e78be99b6f582c2b97bf04f4e93f95ecba4f68346fcf7aa8a282"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/templates/layer-record.md",
+      "kind": "file",
+      "sha256": "8cc54dbcef5e2d6c4fa298b7a907b58b1353a3644f43bc38c546904887088f09"
+    },
+    {
+      "path": ".agents/skills/implementation-structure-design/SKILL.md",
+      "kind": "file",
+      "sha256": "80635ce4d2957d9eceb49a0255e75ec8acab6285fb28ad0bd9bd60109e9fdd8c"
+    },
+    {
+      "path": ".agents/skills/propose-alternatives/SKILL.md",
+      "kind": "file",
+      "sha256": "283e2150e6d9059f2981d6a57ae41ad0918bf97ae0046655654ade5c1720b89d"
+    },
+    {
+      "path": ".agents/skills/sketch-experience/SKILL.md",
+      "kind": "file",
+      "sha256": "736295490fc7f80c12d6dd2486f721c5ce36e1bc1b8ae2cd2565fbbad8d2a775"
+    },
+    {
+      "path": ".agents/skills/verify-technical-feasibility/SKILL.md",
+      "kind": "file",
+      "sha256": "9a5f8c4e885e3a6f5429d1fcbf7d8172ec59b5f08efb2e0b83f9a35277d86753"
+    },
+    {
+      "path": ".claude/skills",
+      "kind": "symlink",
+      "sha256": "3c74c93317f015d16370349a76529b6f8332c808bdd589e7640eeba6a1b1b874"
+    },
+    {
+      "path": ".gitignore",
+      "kind": "file",
+      "sha256": "6c6d4ffdf5a1c360ffd70183057154de118c9772377baf1ebd46c81ab6eae1de"
+    },
+    {
+      "path": ".steering/2026/202609/20260912-design-build-ready-idea-lab-skeleton/design.md",
+      "kind": "file",
+      "sha256": "463a7797d1dd0945835e3e9a5a6ec4d5fe995eaa1894f43e142d753a0e47d7e6"
+    },
+    {
+      "path": ".steering/2026/202609/20260912-design-build-ready-idea-lab-skeleton/discussion.md",
+      "kind": "file",
+      "sha256": "3048e7337e16f123aa6d78ccacb3a60bcd979234a7035bc2845c5a0a00008cd6"
+    },
+    {
+      "path": ".steering/2026/202609/20260912-design-build-ready-idea-lab-skeleton/task-design-discussion.md",
+      "kind": "file",
+      "sha256": "9c29fdcbccc42d8daab8fe61fc6121676ed0f69d438aa9cb54639f3a9dce469b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/README.md",
+      "kind": "file",
+      "sha256": "9df244c73fa56b6e3601db173c19f6e3ee93bccb95f50301508dd6b8b6073375"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/coverage.md",
+      "kind": "file",
+      "sha256": "8b8bc32738fb3e8d445c15eebe93ae08e553e76041c62893082c5ce0e603ab78"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/future-and-exits.md",
+      "kind": "file",
+      "sha256": "25d817f07d6ba9923605c943aafadf5df9a292259ce5066d12537a2e4dfcac4f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/parent-verification.json",
+      "kind": "file",
+      "sha256": "01eb753f28e2e82aafa2195a35c34c5e91edaf67de35f6de680f1f83f77afca2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/probe-plan.md",
+      "kind": "file",
+      "sha256": "d7840cd5aa30dc23b13d351d0e9416217552bd58daa259a2d68b724ce35fd0e1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/probe-result.json",
+      "kind": "file",
+      "sha256": "2d5ea98a9e57f8dbb3651eb4f0e9b462828447756b1afe9c8482140cc7fa893c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/probe.py",
+      "kind": "file",
+      "sha256": "39e597c4399a3ed6f0ec40b47b88191f77a92ffa5d552577bed9b9db7c5860a5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/request.md",
+      "kind": "file",
+      "sha256": "904498dc6775c983841b4fd7b8c7c3dd2eaa665d0d51a9a43927d0cbd2a8e7ce"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/snapshot.json",
+      "kind": "file",
+      "sha256": "ac71ae57839799ed813081df55544eb6cd50017353194dece298211d86efc371"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/studio-request.md",
+      "kind": "file",
+      "sha256": "3d61f35d32632ad6d8a56f372be61604ca8d7850545f42309584479a1a47aa4d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/studio-walkthrough.md",
+      "kind": "file",
+      "sha256": "601ef15b0d68026b4328f8962b4e84f9cfc58ca2233aa9157591d8ff82b9e9e7"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/evidence/verification.json",
+      "kind": "file",
+      "sha256": "3df77172364b1e0344284ba26623a46938da553d2f855f8b99fe93560380c262"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/findings/IR-001-combined-value.md",
+      "kind": "file",
+      "sha256": "4bca33c1f4488045228aa64579815a1a2933ca6a8d29bb28473d83c136198a0a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/findings/IR-002-existing-product-handoff.md",
+      "kind": "file",
+      "sha256": "c4399beb530e588f77fde2af1945f352b76b01bc195d3970e8f49aabfc9b7732"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/findings/IR-003-trial-before-goal-choice.md",
+      "kind": "file",
+      "sha256": "37b4faa4cdc5001e9a279b60f8b71ff81ff934bcc442fe2370cb20a8910e4626"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/README.md",
+      "kind": "file",
+      "sha256": "08b83b1277930ec35ec09789fe334d511a48c11620ddd3e96e753ef1fdcb5f3a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/coverage.md",
+      "kind": "file",
+      "sha256": "9c32a07818b915c91c83508344c4f5c89a0ee143bf9eb8ab881932de3a10b45c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/discussion.md",
+      "kind": "file",
+      "sha256": "43c386a3bbe5a81372fd937b16cc9145aa1b2c64a620377fcc3f0ba3ba04ff70"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/LR-001-proposal.patch",
+      "kind": "file",
+      "sha256": "bbba1a29a6e7351c38230c34fb90bd4fd7fff12ba05b448553880c656db082ce"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/long-inputs.md",
+      "kind": "file",
+      "sha256": "646e892122f5b3a1ff7368ee6dd2433bcfeca3c434fbfe11c4c802f0d02fc38c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/parent-verification.json",
+      "kind": "file",
+      "sha256": "14bd2c11ec8dfcc0d673f499d92e7e6661c74be25d7e13fdd9643a6a0c1b565b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/plugin-integration.json",
+      "kind": "file",
+      "sha256": "7d5f614ec98d1570a4b617ccce0abf08f119e6f61cd7469283c152364f01a18b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/probe-result.json",
+      "kind": "file",
+      "sha256": "4d509a56ac2719cf23c7f64dfcca4e8363ee20daae135233c8068621d84cad6b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/probe.py",
+      "kind": "file",
+      "sha256": "7e224429d27a67490a470e020c3831aec949dd66a644724efc462b2f72903ff1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/snapshot.json",
+      "kind": "file",
+      "sha256": "ff42e2a88bfcc3e1f15147a981442da785bec7932925ea1acc63be5aa4bffa77"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/user-request.md",
+      "kind": "file",
+      "sha256": "5e096f3a563ce708ad117f840b6c14f07e5e43baa6c67ae8c8e92aaa1463df23"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/evidence/walkthrough.md",
+      "kind": "file",
+      "sha256": "81b4c85c1e95abccdae4bcdd593e2dfaa2dfebc50170d9aa5e1d4ba48a7204a7"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-001-decision-authority.md",
+      "kind": "file",
+      "sha256": "d448daca0bdb9006b799f0b0bc697bb717958cc00bc69ea96847515931a8d5b8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-002-experience-before-goal.md",
+      "kind": "file",
+      "sha256": "1b48d2ee19f3c0d3b3b2b715b3010303886aaf8307e28fef9f04c9ca65894382"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-003-experiment-before-threshold.md",
+      "kind": "file",
+      "sha256": "96e5add7d5c94a08810bfc8dd48e5ee0592194838aa17285f07c7f882669d54c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-004-observable-value.md",
+      "kind": "file",
+      "sha256": "c1c4cb2a77d1c701750e20ff4acaef33b37e070bf435fe05e423e1ffac77d8b9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-005-future-options.md",
+      "kind": "file",
+      "sha256": "61d65dae0c5ab7a1b199c65010a227d1404ffdbb13adf2bc47f8a92b671dec9f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-006-cash-timing.md",
+      "kind": "file",
+      "sha256": "d89f1e68a5b1d3d896e8e253769470c5a884ce47712ae848c1f88c1f4a5431a0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-007-nonbuild-transition.md",
+      "kind": "file",
+      "sha256": "ebd2e016b1baf8376a95d956ca9ccce537ae7dc663632c9d24948d312c7b8f55"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-008-new-evidence-at-exit.md",
+      "kind": "file",
+      "sha256": "fe57a56b59c1013c2ad8862371de40b8189e8e93b661409b31504d3f2ee254e1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-009-transferable-evidence.md",
+      "kind": "file",
+      "sha256": "7c46438bac61c74c0e8d6bfcf8862cc51f3450712727b5f70d79f624aa6ff6ef"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-010-downstream-reference-boundary.md",
+      "kind": "file",
+      "sha256": "591c75c8f7f0bdf89d33b69dc3d501ea2e374a107de1ae2f46b605cd82dcb5f4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/findings/LR-011-withdrawn-project.md",
+      "kind": "file",
+      "sha256": "c0631cf772f5e95e985eac01094e330723c60a4b1bfa6af64797b0895c077e9d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/README.md",
+      "kind": "file",
+      "sha256": "57608b1b93bbd6517167fa40f4ecf0597a42ec4540f6380da7b23d1d3124e4d3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/application.md",
+      "kind": "file",
+      "sha256": "c08815d0be68933180b42ad35011fbefcbba220bb156667ab613149f8c83a84b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/bulk-application.md",
+      "kind": "file",
+      "sha256": "4554fc297022daa191760b90f2f46d76e73c4400e725b3e0de5ac1307b2200de"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/coverage.md",
+      "kind": "file",
+      "sha256": "22caf9ac2d8e1502a4bab25b6b5d7e9c53e6d8047f74aa1eb9caeb6e2d88c9fe"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/discussion.md",
+      "kind": "file",
+      "sha256": "7df9c909ae15c3eae326b28e83b08f4afcf8da8412d330a7788c5fca821a8be7"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-001-input-check.md",
+      "kind": "file",
+      "sha256": "dcd71baa54398e1e6ffd1b00251bdef7e53f141e1ccf7ea7d984b78c102129b8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-002-hypothesis-check.md",
+      "kind": "file",
+      "sha256": "bd6c3012232c6f57eaf81837e78b0af1371d2008621cb6f1cb3fda42fc454507"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-002-verification.json",
+      "kind": "file",
+      "sha256": "210603ed67eea71b5cab2c0f35532e5db34864b866554cb30b09ada3190d37be"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-003-precomparison-check.md",
+      "kind": "file",
+      "sha256": "0752bc4150c5ad5812320e8a912640e1584de2e3c7a9df062d721eaa72e58c97"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-003-verification.json",
+      "kind": "file",
+      "sha256": "2e9ed479cba8ed0ecf364142370e2da07bcdc9176b4c29d93e6fe4e530427dac"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-004-application.json",
+      "kind": "file",
+      "sha256": "9663561a12b0e2b0f49796c0f2925d1a7d4cb486776e52000de34f26cad60374"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-004-application.md",
+      "kind": "file",
+      "sha256": "8553b12e933ba8d0d4673548cceb37e2297c045bbeb4d5a70021be35dbccecd1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-005-application.json",
+      "kind": "file",
+      "sha256": "876c5275c8e44480ef0cda5dfdb7b7cee704ec514fd097e3e634f459bce86772"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-005-application.md",
+      "kind": "file",
+      "sha256": "7edc48eb34008bda99ec90a8bd461a1f6c56847d4c90079c0b82e3db50a9518a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-006-application.json",
+      "kind": "file",
+      "sha256": "5222baffa91ae8c29713ea71cfb8827f3b6e56d3c86cf5c12a38be56b733fdb8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-006-application.md",
+      "kind": "file",
+      "sha256": "a7bbe1bcb487604f6bdafd246836cde8194dfa010f5beb5b4987f224d29fc471"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-007-application.json",
+      "kind": "file",
+      "sha256": "fb8a63ac2f74500263e8e86bc4bf3823d6944fb77aca09424eb09dd529a03cd2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-007-application.md",
+      "kind": "file",
+      "sha256": "e392c8392a590da12749bf17669e458f1c479d2b89ad4a7d1a89e54df0663f48"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-008-transition-check.md",
+      "kind": "file",
+      "sha256": "435064c8d7bf7538468a2c98a5c41fb71f6be99a1b7c3f975c51216b0c6734f0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-008-verification.json",
+      "kind": "file",
+      "sha256": "119e313ee664c9c69096dd7b73a82248630e5b3273da3828ebb2f765159662a1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-010-application.json",
+      "kind": "file",
+      "sha256": "e91b1cd295e6a6ba3bc485fdc59647a33736db88c5d4d7e3feca4256742d9f7f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-010-application.md",
+      "kind": "file",
+      "sha256": "bfa1b35b826d0d11c209d04a39ccbfd8ee5f4c0effd94d3ce7b07691095a248a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-011-application.json",
+      "kind": "file",
+      "sha256": "62d893164377347c4b67ea6ca2a5ddb671f0104080c8e38d395f4387ce572039"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-011-application.md",
+      "kind": "file",
+      "sha256": "df8321792f8515299595fa0e2e950e9d4d4f6327349adb9f1a96e7683727ac8a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-012-application.json",
+      "kind": "file",
+      "sha256": "876c5275c8e44480ef0cda5dfdb7b7cee704ec514fd097e3e634f459bce86772"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-012-application.md",
+      "kind": "file",
+      "sha256": "0297da1eb0bf77776c9a074abfa4c183b61df56801dd13fcfcbb4cdbbe70e33c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-013-application.json",
+      "kind": "file",
+      "sha256": "831da53164e0d8b798cfef9748ca27d577a8a469cab3c6a7e7d30586758c64ce"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-013-application.md",
+      "kind": "file",
+      "sha256": "364b1ce835bafb88059ddff9acacebc615e64e33968b499aee97915acc9483c6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-013-regression.json",
+      "kind": "file",
+      "sha256": "cf699a7c6507077c3dae5d47fd195a14a17ef7d1d472e549386105ded8306f1c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-014-application.json",
+      "kind": "file",
+      "sha256": "2bd030f5a40875f136db8c17fea2d6428e909a58813376db1b6f05e11239474a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-014-application.md",
+      "kind": "file",
+      "sha256": "672874ef8aa21dd6e0c667e53ccee1c4b565647dc4359d3dd861b019e352452e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-015-application.json",
+      "kind": "file",
+      "sha256": "3dd42abffeb4d676d6f06be672b793b0eab06fde410ae4b0e76b78c76af96a81"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-015-application.md",
+      "kind": "file",
+      "sha256": "dad2250f860f074951827964806a3b4c221c485e426e342bc55a114b463a53db"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-016-application.json",
+      "kind": "file",
+      "sha256": "48dbdabb8a60fd4ca5af5a45c3ac83834cba6670d92d75bf6bd6a9528308b71b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/CR-016-application.md",
+      "kind": "file",
+      "sha256": "eb83e7e924e58df5160c7b12b739c7ce021292200eb9a811decf27c3684bbd84"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/bulk-final-verification.json",
+      "kind": "file",
+      "sha256": "6656828e2b5540f3d382dba2bebdd902111200b231c6caf69b717534bb14abbf"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/check-cr009-lifecycle.json",
+      "kind": "file",
+      "sha256": "14438cf96715d938614cf33d23406b14b6daebe056c9070283e81c7cfefc0937"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/check-cr009-lifecycle.py",
+      "kind": "file",
+      "sha256": "7a0640ed4d0c944b32a4699a33af7bf83fc99fb5f7b5f792ab9e3c4a933f5a02"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/check-handoffs.json",
+      "kind": "file",
+      "sha256": "bde02eb907ae3e04e22777868218373ad2bea890657bd267f4c3fea61ba34306"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/check-handoffs.py",
+      "kind": "file",
+      "sha256": "120db3805dcf2edc1ced16c5c6c0d70a260a51d92819ec0c6dd7155d2970474e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/parent-final-verification.json",
+      "kind": "file",
+      "sha256": "f7ae3d18c9235e3092272dba773495cc949cee7befc8b0d16dbdc3972d94bc62"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/parent-reference-check.json",
+      "kind": "file",
+      "sha256": "768dd4ec27c08ab29de5a5f5f55e729614a312b2ab08cf70da7637c2ce89547e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/request.json",
+      "kind": "file",
+      "sha256": "9101a59e299c66ff600c2041c2c84597d5bc8c6d550459bb3b745fd3ce9b1f61"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/snapshot-symlinks.json",
+      "kind": "file",
+      "sha256": "d559b5f0cc59a62f555251cc2970eb1a04f1e419ae2b7eade6f09be73b8c4c9c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/evidence/snapshot.json",
+      "kind": "file",
+      "sha256": "83c7fcd46ae96539a2ed7c12bbe0984b0014c983ca7bb13f3f08ee15fc1e3c95"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-001-unaccounted-input.md",
+      "kind": "file",
+      "sha256": "560105b910815cbb14f29558aa88359e05debdb8c768f5f848ab9017e2c39fee"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-002-unexperienced-aspiration.md",
+      "kind": "file",
+      "sha256": "c116809aec4bf0318a1c18c17fa540939f5b930c186602244cd961818c521018"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-003-conditional-goal-order.md",
+      "kind": "file",
+      "sha256": "c2a82fd5aea6fcaaa5393e887db1c9c439de8c9993d14ed87bbe67a7c608f56e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-004-counterexample-unit.md",
+      "kind": "file",
+      "sha256": "539477f9a518af9617a9f952ee826afa9e9b544b587cc6db199b83f02ea8c018"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-005-necessity-of-conditions.md",
+      "kind": "file",
+      "sha256": "2b5c5307224e89c08b96423d42464cc75aa3cf71177362399333643aca418ad8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-006-positive-value-in-selection.md",
+      "kind": "file",
+      "sha256": "1be56ea2652514bd6c0a20fc0aea0704245c0ebe054c7be7c8a04d8108a75c69"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-007-assembled-version-budget.md",
+      "kind": "file",
+      "sha256": "d1a5955ab920794a9d09574b866caac95dbaf4ef70d8a6090dd129bc6ec63b40"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-008-pause-and-resume-transitions.md",
+      "kind": "file",
+      "sha256": "6c1dca34f713f61d4d35563960dab1380b4a435a397a892a0cd9e03f41c07424"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-009-unaccepted-section-reference.md",
+      "kind": "file",
+      "sha256": "bc5204a83e75e9b9cb9160033ef5de09744a50cd8dbf721272e3e9cf3863ab84"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-010-feedback-after-stalls.md",
+      "kind": "file",
+      "sha256": "ac2a82764eb6b2371aa1ebca9c8c06e5a9d367c1690a5d7e1a85ade3fcee0613"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-011-authority-after-copy.md",
+      "kind": "file",
+      "sha256": "90bde9bfe247dff65cafd7461bd1930e48a7e8b0b6328a22a966002162967398"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-012-distinct-rules-same-placement.md",
+      "kind": "file",
+      "sha256": "9e51c68b8130be748d14fadd9e2a585239edcf878dfd43053c877ff40ef52155"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-013-quoted-reference-definition.md",
+      "kind": "file",
+      "sha256": "4142291e09a2a40391d96d3280573bb77413c7e93382ed84b53ff3c8c68982a3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-014-revalidated-state.md",
+      "kind": "file",
+      "sha256": "70b443a339319d20a0838c74330e4854b3ac8136b3544fd109ab69d50e237694"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-015-candidate-specific-unblocking.md",
+      "kind": "file",
+      "sha256": "dd9c6d5858c1c7aaf1147a114bdbbcbb23ae1089660da7518e6cd8b480ded80a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/findings/CR-016-plan-identity-collision.md",
+      "kind": "file",
+      "sha256": "64660b52f34e113a3a2fb2fd6c21d72b18d7c428abef989bd81a891b81a85b99"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "418332329f608320d27594bf4ee2dfc242e9fa74a05abde9ee05114effcdaca2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "391260a5f8b1aaa57f163af5f47525f65b4bafac03fbba7eedaa7f803f762a40"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/internal-records/discussion.md.topic-3.md",
+      "kind": "file",
+      "sha256": "19dcd26f30d7c5cc6b8885540229fa686b29ae77b26df8b1ee52e2c33507ee21"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/internal-records/discussion.md.topic-4.md",
+      "kind": "file",
+      "sha256": "78f80889c29636aa5686a8ee326c2a1bcfff68311d74f6295521a4d0a1d5017d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/internal-records/discussion.md.topic-5.md",
+      "kind": "file",
+      "sha256": "4ea7cedea5b2700d89e8a21d8624b63c4f265caecd0254e928e458423291b932"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review/internal-records/discussion.md.topic-6.md",
+      "kind": "file",
+      "sha256": "ab06b60629434bf3953ca1d8a783073f43f34447f6dfa99b7c3879b6cfcfd505"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/README.md",
+      "kind": "file",
+      "sha256": "d15040e8b5298af6de8f9e459effe5a0315384982cd6254bd3c172d5c3d7e17e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/design-core-logic/SKILL.md",
+      "kind": "file",
+      "sha256": "b3b840f72b0b994ae593a3493ab2adc74d6e1bfb899ec41a1d92e69580770b13"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/design-modules/SKILL.md",
+      "kind": "file",
+      "sha256": "9b73368b93bc5d00a5405fb0b0915359e73754a17334cfc5c5c5dbc4512c164d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/design-tables/SKILL.md",
+      "kind": "file",
+      "sha256": "fea895f3e46cc80321ca6aaa4cffec3458b4fc052d0fddd0ed7e34f5e7a20be5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/gather-target-user-voices/SKILL.md",
+      "kind": "file",
+      "sha256": "c3471b2260fb0bf65513525401a9f9d7f2cd93a410e93bad57f12a91ed54d22b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/SKILL.md",
+      "kind": "file",
+      "sha256": "d336296dab059b78c49045738e692993236e2194e1b9525412b4857d471554c6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/templates/canonical.md",
+      "kind": "file",
+      "sha256": "921e21f1f9da6bb82d88072a6f9a72968fd4fd2867cb931816faf287fd541ec1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/templates/layer.md",
+      "kind": "file",
+      "sha256": "d74a329909d510c303e18d909bb9e7eca07d047604acda6a5639d86595730721"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/refine-what-defines-a-product/SKILL.md",
+      "kind": "file",
+      "sha256": "710caeab22d4a49664930e42e22e0564d162940eae98a6fa6988f3bfbc266cba"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/settle-question/SKILL.md",
+      "kind": "file",
+      "sha256": "4ca59d1261e4e1ff4b5713648c923a2969129a88033bf6eb602174f4b253ac88"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/settle-question/templates/question.md",
+      "kind": "file",
+      "sha256": "90c195c28e08c3153180b11c160aa0e65b7672022587ce45ff16dee8032d7e53"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/sketch-experience/SKILL.md",
+      "kind": "file",
+      "sha256": "371529bd04695e8559a240e4c375bbfbdba8703d2df2e50489fe9797fdab37b8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/verify-technical-feasibility/SKILL.md",
+      "kind": "file",
+      "sha256": "2fe4df952eba7725bf155b9cde099f8b1f55638b29f264bf90cb680744344882"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/what-defines-a-product/README.md",
+      "kind": "file",
+      "sha256": "ce06020e78ae953bcd878d39cc4aad25ff434d06bcec673811edccf4d033e7e2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/what-defines-a-product/how-far-to-build.md",
+      "kind": "file",
+      "sha256": "b0ff9471f238696c1877b6edca9de219444661f92178e49f294511e4969725ff"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/what-defines-a-product/how-to-build.md",
+      "kind": "file",
+      "sha256": "41817c45aff99b519638c303a2c09eb9d0871f284d418eab4fad8b44ed9efb94"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/what-defines-a-product/what-to-build.md",
+      "kind": "file",
+      "sha256": "bdc9758fc212011e4b3faa36f07fdd45326f528599d1308d81639e7a4842a972"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/what-defines-a-product/why-to-build.md",
+      "kind": "file",
+      "sha256": "4c7c74d1f415dcebdc7c8427a4b6f848d628ef1abf3ce0c262e147ed2c375bf2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/design.md",
+      "kind": "file",
+      "sha256": "a69df966f667a186cfb4f66020e6c2e07c4840c3fa544f546ac19699c82b65c9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/README.md",
+      "kind": "file",
+      "sha256": "1bd72ecbde796c3f38be94fe29b55d2b6219fc39bceb1b861970b39c94864509"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-external/README.md",
+      "kind": "file",
+      "sha256": "1fa2b87ec220f29eaa6b5cd224ccec5d759cbb8b6748da0cc15232e95bd420a3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-external/how-to-build/README.md",
+      "kind": "file",
+      "sha256": "25dfdbc55e8660865c4849aa1da20d03e48136c80c440301afca78750ea275f8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-external/how-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "2d5e9a842c824e2b07421741badab745c3bcce4f5713ea75a6608f6f4f6a885c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-external/how-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "1abfe8b5c4683a0e5d072462ca155b10b4d08608f2287f87477056bdded4cf8e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-external/materials/functional-structure.md",
+      "kind": "file",
+      "sha256": "41b9315502f74a7c9e24dcc90910480cc69c25e4aad84ade4eaa11911c6b59c4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-external/materials/technical-feasibility.md",
+      "kind": "file",
+      "sha256": "1b1da7e0d53ccda100601fe16afa9a6778a166cfa32c2f10e7280e75851d4351"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/README.md",
+      "kind": "file",
+      "sha256": "1f9c0fc4e63eddc8188e3a519afd790673367726d99942fd705b0c9dfe8b9d36"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/how-to-build/README.md",
+      "kind": "file",
+      "sha256": "5df4f324157cec77fe6a7df7cd8b5224132d2790b63dc1c66b9e36a6ea2b94c5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/how-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "3c1f7c414dee2225d6e871e1603d0f1113c16f12eb5253b4c12a6dc3ff8b570f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/how-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "38e88134e83f7e13531c33ee81d3938e4a36caff7efcd6426eeb53df4ab6e60d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/how-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "0336dfd25aa05bbc11a9b64d60144a9c23a05b1613961858773d26e12322e813"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/how-to-build/internal-records/discussion.md.topic-3.md",
+      "kind": "file",
+      "sha256": "206527eec38111f7e11d9689f496e28bee9ea2d46363172d07cfb4c3cdc034bb"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/core-logic.md",
+      "kind": "file",
+      "sha256": "af50bcbd489c270557c0f6238d4484678f7a71bd948ef99007d5e5110ea5b621"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/data-model/README.md",
+      "kind": "file",
+      "sha256": "6898f389cb10c995786fb3780e07199e03d6b594b1c10edc99185d06f3970d48"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/data-model/schema.sql",
+      "kind": "file",
+      "sha256": "474e84a562bb9573af4e6cfabab12deb9f71f605cbd2f31b5d3808868c318418"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/experience-sketch.md",
+      "kind": "file",
+      "sha256": "becf532e4f0aa66dfb70eba22da15ddc6a9a32789e899a52d9ae661a6686079e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/functional-structure.md",
+      "kind": "file",
+      "sha256": "cdcab40d4a00a74d9d5edd404348a31b725614c59653cb8d652c4d8ef6c487a1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/technical-feasibility/README.md",
+      "kind": "file",
+      "sha256": "458850e449a643239aa5237195eec779a1d85ac51ea1f054a327356a546ff537"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/technical-feasibility/observations-before-selection.json",
+      "kind": "file",
+      "sha256": "ebfc5ff536dd886ac4ce2960b7e284b57d10cc3541d86b84072025dc637c908f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/technical-feasibility/observations.json",
+      "kind": "file",
+      "sha256": "786fac5478c76d23c7c53af509c904444059cc4e522a30f136290755eb0b7505"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/technical-feasibility/probe.py",
+      "kind": "file",
+      "sha256": "28abda3ecd03ae6a81e2721f2fc3cfc9765170f497e616d41dbb7ce553ab231f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/technical-feasibility/schema-before-selection.sql",
+      "kind": "file",
+      "sha256": "aff2475b9b97662a86feaf755e7e117eee0e553a036b4df56e4c316cc73138c2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/technical-feasibility/selection-observations.json",
+      "kind": "file",
+      "sha256": "6342076cc3e07bf34f67f9c8c32db5f433d799879c2e4fdf2233b562f92884fc"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/how-to-build-trial/product-plans/20261114-school-local/materials/technical-feasibility/selection-probe.py",
+      "kind": "file",
+      "sha256": "ed099fc30b01ee19a594f9545e740b3e1e3bb2b8047089d16f030a002bdb02da"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation-structure-check/README.md",
+      "kind": "file",
+      "sha256": "3e2af1b6f363b0c029292e3d329814bb0a99ef233d445fa78d5b1d33ffce8aa6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation-structure-check/consumer-results.md",
+      "kind": "file",
+      "sha256": "451f15b7f326480079a0d18f61033ad8dfbeee93dc2930daff6e18c19c89b3d9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation-structure-check/implementation-structure.md",
+      "kind": "file",
+      "sha256": "9cfbe9d2af5b2fec570829a95d61a2b37844fd59b8f380ca73b0ea938b40847f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation-structure-check/local-regeneration.md",
+      "kind": "file",
+      "sha256": "671c385e5e50a66193f119a7a45f66ce797994f3ba95fffd0a2a615c314aa413"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation-structure-check/probe-results.json",
+      "kind": "file",
+      "sha256": "4404ffdbad8bd50cc8f846a6d7ed7538c9375af5c948bd8c382f32922a4257b9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation-structure-check/probe.py",
+      "kind": "file",
+      "sha256": "1b284eb3d031be4576e7ec25cd0c5ed80d723ec1e347c5a913f33e2ef38822d4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-1-5.md",
+      "kind": "file",
+      "sha256": "178d0e3bfae5fbbf780aa6b526a0266bedcfaa3fb3da22b88cc599756ff8812e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-101-105.md",
+      "kind": "file",
+      "sha256": "a7c0a6d243323897565a021c1c11dce1c8ccde6803e2b7fd4cd5751584aae276"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-106-110.md",
+      "kind": "file",
+      "sha256": "6b06b3ff32d1fe05b0ea9e472b792137f060794f9921a763ece6eeb94e4fd51b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-11-15.md",
+      "kind": "file",
+      "sha256": "3d28d52341179c7268fa4b31f3122097dbe5857c7a28fb16099652f603e91cc4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-111-115.md",
+      "kind": "file",
+      "sha256": "8d61a05b6d06bf58512e638f672a48885e6fc76ce6fd12dc0d6a70083321a75f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-116-120.md",
+      "kind": "file",
+      "sha256": "022dfc5a128fd070dc9739fb68dcd735d4f49df5e5858e48a92ba10248e1e475"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-16-20.md",
+      "kind": "file",
+      "sha256": "afa8caff2bcf36d40c5ce723f70fbf6eb58de276e4e286fdb50a8358f9a4df53"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-21-25.md",
+      "kind": "file",
+      "sha256": "439339d9660ef42404aaf58d7474e88fda9f09abcfa30140fac591e31e99cf84"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-26-30.md",
+      "kind": "file",
+      "sha256": "f277b4547ddf3d0379939f2de5a63683220eb7cbfc2ae505fe5f22150a5dd705"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-31-35.md",
+      "kind": "file",
+      "sha256": "050a8138140dd657f7b551284549974a81d19db5a47c2ea5361d38e3d6e6525c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-36-40.md",
+      "kind": "file",
+      "sha256": "1a0c397e31535d0999dc1a39b6bb0a2ac11fa07de64d49e07600bb88006b9859"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-41-45.md",
+      "kind": "file",
+      "sha256": "cb900a93942fe1075ac985e077c56259a1c8d958ed3740ef55faa887ef210c3b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-46-50.md",
+      "kind": "file",
+      "sha256": "d7a25a1c9e4e1c451d07644397cbbac014d0b644c563aad7ef2ba96de926e679"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-51-55.md",
+      "kind": "file",
+      "sha256": "11c851e3287922296c2368b7bd9cc352a5597a6dbf0da692674ac0bcfa30c45c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-56-60.md",
+      "kind": "file",
+      "sha256": "64a9d4105e951bde217fc435635eb4691e8fd9f5037f1e6ec169ad664201855c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-6-10.md",
+      "kind": "file",
+      "sha256": "d1d37a720f503d6a91e37ba0a03421dc62180bfe244f16654f4174f10cf97bae"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-61-65.md",
+      "kind": "file",
+      "sha256": "85b2075956927d835073fe4a9bfcf1fdd7fab2150458b8e82a487a3642792483"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-66-70.md",
+      "kind": "file",
+      "sha256": "aecbdbd9980d09ccf7766e192249350f938f657b259eb63b6ebdf08b18c99cee"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-71-75.md",
+      "kind": "file",
+      "sha256": "563d8b65bb5fad7c0419f3b7546b19aa369b0eef2e8a0e17b0e09bd41a3a7133"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-76-80.md",
+      "kind": "file",
+      "sha256": "ee0174619536ded78dc8719389bc9a6d8a828d4555648d082e1a6d5b24ca64d4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-81-85.md",
+      "kind": "file",
+      "sha256": "6d45773c4d9b77b4fe1b16ced404165d6b40a8d82652f8427ee453a7c453dab9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-86-90.md",
+      "kind": "file",
+      "sha256": "2d725cd39c5e536aad7817b538bac2a03a4caed744c9070493a82297730ded94"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-91-95.md",
+      "kind": "file",
+      "sha256": "d20f62f5d2ed837bafe38ef75eff2ad0d019425a2c4917d3f951026c618b9a21"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review-96-100.md",
+      "kind": "file",
+      "sha256": "55d7c22bd96353dfcefce723f3de976ca6ff0c1956a55fe7c1818218eff9e1f2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/implementation_review/implementation_review.md",
+      "kind": "file",
+      "sha256": "8ab69aa5a28d9a0f55899bcb76529c74e068cf88db91855a97ee88d148bb47b3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/README.md",
+      "kind": "file",
+      "sha256": "4a39294172cab1b3c6329f9b3aa11feda3b4b545a5f3682ec3b82cfd447ca7b2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/inputs.md",
+      "kind": "file",
+      "sha256": "0e25896f9ad895862d2d82f37bb04b7d590fcd4bee4eaee7386c2e545c2f4fd4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/README.md",
+      "kind": "file",
+      "sha256": "112313fe6ecf0dd3000e1342f10ac346f4fbc0279cec042658131fbd5bd15111"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/blocks.jsonl",
+      "kind": "file",
+      "sha256": "09528567abb187cc486bd11b59957c5c640c00ac5733575c0880e006d7fa2fb3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/cli-attempt.md",
+      "kind": "file",
+      "sha256": "36bf4e4f5442439c91871c3cb08836981905fe3d2b246115dfc36d0477744c29"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/executor-findings.md",
+      "kind": "file",
+      "sha256": "a4fbb753adbca1fb43c6d2e10a1ab7b3a1c531511083db2727e38ae3f0b2260c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/executor-report.md",
+      "kind": "file",
+      "sha256": "754e3e36a61fced15391abf50776a27106debe67b0580bf85979534d24d4beca"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/executor-validation.json",
+      "kind": "file",
+      "sha256": "283f3f977f77d4ce90cf6f98147d046180bfd34cd12b7bc8997d3b65833e084f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/frozen-artifacts.json",
+      "kind": "file",
+      "sha256": "9b48b66c97893e4365a42eebcefb0e568d24e80a6367e8a4633b6116eb290e9a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/import-map.json",
+      "kind": "file",
+      "sha256": "f28ce554cb3295f22fd08b5a7e18c314e4dde24295afa29ad3e19b6c285e867f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/inputs.md",
+      "kind": "file",
+      "sha256": "0e25896f9ad895862d2d82f37bb04b7d590fcd4bee4eaee7386c2e545c2f4fd4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/parent-validation.json",
+      "kind": "file",
+      "sha256": "1e15f4378f7673e4f95154b10124a1ce398e161bf61f23962f110efd80d1334b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/review.md",
+      "kind": "file",
+      "sha256": "9cae551eba9c266b59fa5689de08331dd37944b2e39841694858ac2698fc93b8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/run-conditions.md",
+      "kind": "file",
+      "sha256": "5cb0723e39e1a09cf82f495f101535c28e198348cff399acce5c4f384c661521"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/skill-read-evidence.json",
+      "kind": "file",
+      "sha256": "82c233e71072d1cbaab34d5ee1b434b475c2359c8bb9fc7a920c98ab462cce07"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/source-integrity.json",
+      "kind": "file",
+      "sha256": "578aeb5374cfe51aeefee8e5f633f526013d531c6160a7a62208be9e240abf1c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/source-manifest.json",
+      "kind": "file",
+      "sha256": "902f1b5caab653923c4d47635d6fc4c1b30f2709560e2cf44a69001cfd18bbfe"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-10.md",
+      "kind": "file",
+      "sha256": "0359c0690db3597a486ec70bbe5b3ffd54efbcb9fd432c1c3eefa02c4bf21877"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-100.md",
+      "kind": "file",
+      "sha256": "57ab75ea7fdd773a22f7597cf555be654359ff3b2f6287ec1edb9cc43a58ea86"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-101.md",
+      "kind": "file",
+      "sha256": "62cfa55c15d8d5b60369daf591519d47f6831fcfa5c6e2b1bd49a69b3ff9050f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-102.md",
+      "kind": "file",
+      "sha256": "f7b0ebad6f44a2da54e41342b091ab76b718fca0d21d661c426cce6f0a083452"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-103.md",
+      "kind": "file",
+      "sha256": "b2c4b04d6664735f0dbfbf3f2586158246b5be2e6328248553ca5a74d9c2c97f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-104.md",
+      "kind": "file",
+      "sha256": "1f1f889f052b1af72f30f93980bc750f2056c9e5e9b8038674b1031b1c52c29b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-105.md",
+      "kind": "file",
+      "sha256": "3d6e038d5b4aa6da846b43944652cdcf17b6822343e2bba0f9a9a4739616910e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-106.md",
+      "kind": "file",
+      "sha256": "f94ea89bc73ae32de4f1f561d7f2c47d9e39b04f0d2950258729a7bee351963b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-107.md",
+      "kind": "file",
+      "sha256": "b29f633e7956f8b3d32de2872b203aa51146ed74e542fe69a32714ba3ce2cb2e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-108.md",
+      "kind": "file",
+      "sha256": "e66b4de0dddc158bd78838d5828cfdeb2cba6afb7b1f508c189323eb1a155a4a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-109.md",
+      "kind": "file",
+      "sha256": "14394773de579d6b5ef6adbebdbe86d1f75abfa418340db627c00f9cc780f571"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-11.md",
+      "kind": "file",
+      "sha256": "0a5ba55d3d52119608c6d3c189b897e0c958a78875f97a87580c85391ab4a223"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-110.md",
+      "kind": "file",
+      "sha256": "9f0b7644aadd97f7c2aeb95d73e4bfa0bc82355533ff45e5db9149bd7474a46b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-111.md",
+      "kind": "file",
+      "sha256": "b95dcd9f0625626813a8116de4b8f5b78d9184b5c47b0d397e2ef280fadf242f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-112.md",
+      "kind": "file",
+      "sha256": "1b370e52b6bc4ff1812b94689e3e70b65025874cc6364fd4b546c93e1258b24a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-113.md",
+      "kind": "file",
+      "sha256": "bb4a749191edcdb358401992dec9e36074f74fcbeb30149befb223a675a01c91"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-114.md",
+      "kind": "file",
+      "sha256": "038cb3d552f76627c8d43764ac24f95fba477805eac36f7e861569f5c5414b41"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-115.md",
+      "kind": "file",
+      "sha256": "7bc1bc9b0298b020256328fc634841266062f903066a7360fc2fa2e8ff67101c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-116.md",
+      "kind": "file",
+      "sha256": "1bca1caba834c377b4cd559cc9bdbe168efb7eac40e65b5e3065ca858185aa63"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-117.md",
+      "kind": "file",
+      "sha256": "0b7c863b0d83650ca55405338338c73a7cb8557b22e9f02452faf3cc89c96585"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-118.md",
+      "kind": "file",
+      "sha256": "eec40eb4e2654db4a99ad653141460c18aaa95ba4ab5cd15c164b1570e3de4b9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-119.md",
+      "kind": "file",
+      "sha256": "f642565aef71a31e7c542937146e1a78f0193e61219fde7143ab73eeb53a53b0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-12.md",
+      "kind": "file",
+      "sha256": "b4a10199d9d45e628e51e707b2f74fff00fa26ea9dca243093228d5acfd88cfa"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-13.md",
+      "kind": "file",
+      "sha256": "8aae39525cf24223cdf9bae60fd7169fb61f5f3f7118b4a0d4e6430119f058d1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-14.md",
+      "kind": "file",
+      "sha256": "2fed707c4b3a01bbf52887aec2a7bc5768ff5cc34a9d9cc0be258c9f7c09d20d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-19.md",
+      "kind": "file",
+      "sha256": "b22ba36c2f87d05f41e1dab62fafcc2537a030590f60fd7e01d44e3563e036a5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-2.md",
+      "kind": "file",
+      "sha256": "0559316d7f4ee4b717901bf37219126d3d8753fe8144f2bc83cdaaf3f33b2dcc"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-3.md",
+      "kind": "file",
+      "sha256": "a3c2288462d5cc0c469d2765dfe9637f7e996d1bb38a7178da1ca9cfa35f0dfe"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-41.md",
+      "kind": "file",
+      "sha256": "0d7068b610b3b35eb89b0301ee02152241250a47f51258600816214513e88300"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-42.md",
+      "kind": "file",
+      "sha256": "09a280ae61b253ed01bfb31ee135948be101d80abdd439052206ae222ae8a51f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-43.md",
+      "kind": "file",
+      "sha256": "48f6731979b9bd39d041e9120bfce6539c7f47a22c8425bd1b980a3e189046dc"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-44.md",
+      "kind": "file",
+      "sha256": "07e20ccf623a99a400d501bcb35f09f041fd18454aaf7d9115a3fab1702ad636"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-45.md",
+      "kind": "file",
+      "sha256": "d9e352bbbd0fed28142abfe8018efbe80250f85fa64fab574d3a21c12464e144"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-46.md",
+      "kind": "file",
+      "sha256": "ad6400a75818fe7b9a4d6eb43f53e2d210d8fbe2f676a01fc6fe12e87bc23048"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-47.md",
+      "kind": "file",
+      "sha256": "b903f67af297cea2612de49517f2190da0690a3592022384cee8113322df43b6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-48.md",
+      "kind": "file",
+      "sha256": "b3343246f9d4e40b8ae395d89b5598e34bea4c0bc472821bbacaafb96bdaa0d9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-49.md",
+      "kind": "file",
+      "sha256": "fac98b1f63d2ae2e751499484ee21ba0c2f1831664f035ae66d63964ba3fbf17"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-5.md",
+      "kind": "file",
+      "sha256": "f12baa7c6419d516f39cfba5b1d66afd61101f6e816deace71b18ca1ad6b92c9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-50.md",
+      "kind": "file",
+      "sha256": "76927ab54d76f4949082db2f4f7661592ebaeef8306be1ce6265cbe3e03e66a4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-51.md",
+      "kind": "file",
+      "sha256": "7935d5b5a145c72bd3d88ac91ebc9fd378ed785bb489345a95254cbf94af2d4e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-52.md",
+      "kind": "file",
+      "sha256": "d45286f730c5533ae195dadd42184f8eaa9b9c6811b1f48b499fc2b16b2636e0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-53.md",
+      "kind": "file",
+      "sha256": "b654be85544a57a6aa0e490fb7199cc8df64650e38b0b457ca1bdadf72d1d536"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-54.md",
+      "kind": "file",
+      "sha256": "f56dac9f81f56e8b567e8f133476a077a26fa5c62d2be0741bad6ce08c1e36f3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-55.md",
+      "kind": "file",
+      "sha256": "83f5e629dfa9ca2aad2c36a0a5e08882a9ab6c7069a1130f83edc56990b89ef3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-56.md",
+      "kind": "file",
+      "sha256": "abab71df8ab7f6dc8c9b31bf2f6b522ef4ea5203a98847ab352ccf2123c34cf9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-57.md",
+      "kind": "file",
+      "sha256": "13ae40ecda26a61d289a2ba67a690c6f4e721466d91f1fee93ca8450940e59c8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-58.md",
+      "kind": "file",
+      "sha256": "4c4a5781a37dec8c6e883d3e0573a19f8c2f3ea3d353297e4cc455d4d37304da"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-59.md",
+      "kind": "file",
+      "sha256": "131981419aace61727dc79ec0ad877c3d64fb9ae2e99cd18a56beb0376976f96"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-6.md",
+      "kind": "file",
+      "sha256": "4c6332b0ca58d832cd9391af5bc2b71a139cd2cb924d5e89c73991194cfb1bd4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-60.md",
+      "kind": "file",
+      "sha256": "eef37fefd4a68a3e0a05a0599682eab3c12ec0a38272b5462d6176538699dbd9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-61.md",
+      "kind": "file",
+      "sha256": "8d73a2139b52115519d0952f00a267819b9b8499bc5662e63f1bd8b97d2efd6f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-62.md",
+      "kind": "file",
+      "sha256": "512ecabebb25ef258ae276d3828878d6026612a3e63cc9668fb85d369a0274ac"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-63.md",
+      "kind": "file",
+      "sha256": "5a41c6bbe0256ff20db162f514d21c486b59c637e27bd86e76a8c04eebb33ee8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-64.md",
+      "kind": "file",
+      "sha256": "f461f7f8f9f7f8bcb6a4c0734a7db13b4d2b644898414ab1329089962a4191d8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-65.md",
+      "kind": "file",
+      "sha256": "751906b9dd848734b5a8f0ba5954213dc1f2f65986fde1794608ff9d2ca5d374"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-66.md",
+      "kind": "file",
+      "sha256": "efd8a0bb9ec753a96afdb8520365c0b385f34ded8d50af90de95c94a4b52f085"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-67.md",
+      "kind": "file",
+      "sha256": "8c10cb803a206e1704a31a009d0716ed63ba344bb877a740a624ba5fba4821bf"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-68.md",
+      "kind": "file",
+      "sha256": "163d907ff2832738cc63b9db7b96a9ccbd338c2e104ab7b21bf9296dd9c0d52b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-69.md",
+      "kind": "file",
+      "sha256": "1dbc848815a879a201722a4f65fa1b06ecb8592022bae8af1f363d6cdf31a3e2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-7.md",
+      "kind": "file",
+      "sha256": "2aebace891e0f7e4248519571060608dd83663598c24b9b62d603c82cb81929d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-70.md",
+      "kind": "file",
+      "sha256": "0daa9bce0c312a7c4d915030fec7d06b2f6c1d6f677bc6ad421a6ddd7eb39227"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-71.md",
+      "kind": "file",
+      "sha256": "cf88781bc758da2228bdfee57163c2f7c83b45ff9bf73e09850125ca94cd3beb"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-72.md",
+      "kind": "file",
+      "sha256": "f3fe2df4f635bfa7b412008b754bf524c53886169d9850cb7451d02344fc1b86"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-73.md",
+      "kind": "file",
+      "sha256": "f8e13202c10df8ca924d90abd0bbaa8fe2e082992279efa1b7dc9a979bdacfc4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-74.md",
+      "kind": "file",
+      "sha256": "23fa1cd67e830f29a67883a71c2a6547c0bf2f9a5406adaad01acdf55e3b1201"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-75.md",
+      "kind": "file",
+      "sha256": "bf51159b57d9fb0ca379b59386418ae8331e59700b6a7d0a995910565cb0074d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-76.md",
+      "kind": "file",
+      "sha256": "25d9a0b1a8ab1fc803d4e14ddbdf75d2a66ceb466092307dab54cae36cfcf16e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-77.md",
+      "kind": "file",
+      "sha256": "9f70b9cd025b4550ecc4861ec4cab30e5540c024b02288c7b06d57953065765c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-78.md",
+      "kind": "file",
+      "sha256": "d37ed5ac0be7849ee982a032de9e290a61794e5ece0e47899cc2132b24c9681d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-79.md",
+      "kind": "file",
+      "sha256": "7e324d4223f74ac85c82c2bcc4df4581b6486aebde3a32dc4ebd0113a336b228"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-8.md",
+      "kind": "file",
+      "sha256": "dd9391a5f620d15deef2a1309b819ef0cb8d0437ffaf27eded81668af19b048b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-80.md",
+      "kind": "file",
+      "sha256": "2e5d68e50d0b62cf8590daf022367cb24b2bbfb5982bd3cf971796404a9eb409"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-81.md",
+      "kind": "file",
+      "sha256": "8f9940ae86c2709ad7391b26f9ee0a6127ebfffc1ad1cbe91ff28d8f99399e42"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-82.md",
+      "kind": "file",
+      "sha256": "64717a6e3fd73c1531a71716d2bdd3e29901235b25c3e21dc52355260a049c97"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-83.md",
+      "kind": "file",
+      "sha256": "1ec8bbc23c6f5dc804a07047b29d0ef7bf17d315689caa0517f14b1e8c0ad7b2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-84.md",
+      "kind": "file",
+      "sha256": "e99bccaab7a7bb9afe7c06b0f0c7ac7c0e91bcc900b6ba4222420dc7358b5931"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-85.md",
+      "kind": "file",
+      "sha256": "dc622bbdae7e03903f5403c74ed6d528dee82bc29bb752cc80eedb13a59a02bf"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-86.md",
+      "kind": "file",
+      "sha256": "aa4ffa54e56b1394f708768fe26e94afa8717d2081baa5ebd8de146c78aa5326"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-87.md",
+      "kind": "file",
+      "sha256": "bf70bc27b361c79df10f7ea05cc4b637302d6e1a28609194128db7d3bf4b5152"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-88.md",
+      "kind": "file",
+      "sha256": "076603fe1d2bbb4b33e0a2c55b3f7d8fba804da99a42e2acf3ece4700d172311"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-89.md",
+      "kind": "file",
+      "sha256": "d678ab8dec91c63c787cd8b3398c5565c3cc8d5866cfc54c75b72deded7fa171"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-9.md",
+      "kind": "file",
+      "sha256": "ca19583e7f5c20fd02c3e2cf6ec9ddf36aa4a198863aaec38daa6db72966352b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-90.md",
+      "kind": "file",
+      "sha256": "c32aee5388f4964adfda5fddd0f5d783b85ae0313ca6ad3d04bc39f9338a8b3c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-91.md",
+      "kind": "file",
+      "sha256": "281cecd481dbb3434f6e7e8f99afb1eece57e3a81db5ee3f6384ac105729b3d5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-92.md",
+      "kind": "file",
+      "sha256": "749ac549f41f14e70f76a654d788efacc21d34a8f1af2df404d04e938d0e601f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-93.md",
+      "kind": "file",
+      "sha256": "8beba13d9389e9417379ca56a31d0893ee5f12e611ea212e23fff296de572b76"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-94.md",
+      "kind": "file",
+      "sha256": "23a962cc4f5af9618e0132fdf30385703cbfbc609b0c1717b0950be49ff92639"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-95.md",
+      "kind": "file",
+      "sha256": "2ec22cc412ac6e758327703f5c6cbc2e62b9170e4851c870b61f1eb18179684c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-96.md",
+      "kind": "file",
+      "sha256": "32f5a8812c6fa15092486576580f3fcaad010608a1816615a2650cc246c6d212"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-97.md",
+      "kind": "file",
+      "sha256": "db49fdbece637e8421dd42e504b90122a022307980a23d909a3bfc36f451d361"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-98.md",
+      "kind": "file",
+      "sha256": "ae892266152d08ac59b94ef7ad4a269b516bf19d6f836d2efe2b5a966db90ea3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/implementation_review.md.topic-99.md",
+      "kind": "file",
+      "sha256": "7ad9bf2288529dee8fcfb135f607566b7bc88de3b0af5050a6dfcf2491b01540"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "8e5d388f670719b75f3b8b8003be49620e98bea533ad502ce5c50a4253790fd2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-10.md",
+      "kind": "file",
+      "sha256": "05dcec6bd9054933cd5c4cb82c9db587c53c949755d38dce4e2afa6e724d1a07"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-11.md",
+      "kind": "file",
+      "sha256": "4030e4056324e70006208edc5bb7fa093d74c8d371495953391351e10caf6b28"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-12.md",
+      "kind": "file",
+      "sha256": "52f807433a49e21ad5a6a64aa2a108146ba64626ef9b5aef2c2c7c5acb619ee4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-13.md",
+      "kind": "file",
+      "sha256": "6d934e81f9f6952da16034dfc1d0c3a050109ad4844dd81539466bd73df31878"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-14.md",
+      "kind": "file",
+      "sha256": "9d4b237acce26fd341ad6015b9527eea1c69ce92b7da792e69d8b7bbdd446c58"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-15.md",
+      "kind": "file",
+      "sha256": "59f3a27492fa0364a37323f2c6ab2a6b6bcfaaa17492ac5572b2db559e7a5f03"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-16.md",
+      "kind": "file",
+      "sha256": "cb6ba19bc828c7299c817c24bd99c7aec9908d0aa1e8e04cc2189e8d510158d2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-18.md",
+      "kind": "file",
+      "sha256": "9ecf08e450402c1c476958ed5ea85d5c0a30ada856ae441296c2a61067919021"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-19.md",
+      "kind": "file",
+      "sha256": "1dea7dde0b2d2aaf87df4907c26a3648d0297eaf1340ef0338db7956b3c455cc"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "016e72e0553b281ffb4fb8317696c6c1f59a29caacc3001cf909d2cb300e78a6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-20.md",
+      "kind": "file",
+      "sha256": "23c8ba9c37c69c328f0d3d124d0723a95fdce06b6e347bc7a14bb07158239c68"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-21.md",
+      "kind": "file",
+      "sha256": "9c23c57c63f9a4407a1d7228a1a3b58ac4d8c668082cbfe21434762875bca501"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-22.md",
+      "kind": "file",
+      "sha256": "d1fce6665eb1408cb3724a073b74d3ced03c9b00539abd74292cf7f8e55cd465"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-3.md",
+      "kind": "file",
+      "sha256": "c7bd373983a4a53c7a916a8364fb55d4b2bbb6c7cf24f572bfef2177c5563e0a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-4.md",
+      "kind": "file",
+      "sha256": "f1139fdebd94ee72fc82b20da319755b3723d7f1bd552b7bfa74f40f13a47a47"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-5.md",
+      "kind": "file",
+      "sha256": "a4fa42f27db6cee12782071e1b069ff81eee54af6e9e40ba5965c12dea8f9583"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-6.md",
+      "kind": "file",
+      "sha256": "d1ba992eaee332a8401eb87928d67d4714ccf92375d2a9c2bdf2b9385545d584"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-7.md",
+      "kind": "file",
+      "sha256": "d845978b737c4ec375bd487b09a7f7018498d44933ea6eb818c3696f1bae222a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-8.md",
+      "kind": "file",
+      "sha256": "fe7fd1ecd23c14accd913f71a314b724193b341880c23fc8f0c0d3d06d180712"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/internal-records/task-design-discussion.md.topic-9.md",
+      "kind": "file",
+      "sha256": "9188d295472a2637e2ace2db70142e948bc4ec7926a1829ac0cf62ee8ab21316"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/001-review-as-leak-catch.md",
+      "kind": "file",
+      "sha256": "fc879c5d0a8f9deef4608cdffcaaab8d56e090e4e1605668ed79308892043c54"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/002-dominant-before-rollout.md",
+      "kind": "file",
+      "sha256": "03d29fb0fa79571b868759533b6a03e9a0ab12f4c5db3ec6b1134c5216acf475"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/003-refine-parts-when-given-whole.md",
+      "kind": "file",
+      "sha256": "e057a11e06479deabf9bee28f1996004434db4bbf719556779680bddf910a334"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/004-flat-base-and-innocent-base.md",
+      "kind": "file",
+      "sha256": "efc94ccd5b34420f6df3ea1bd7faca402e6750723d9c7710afcdeac9455cb5ef"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/005-collaborating-specialists-with-thin-coordination.md",
+      "kind": "file",
+      "sha256": "c86582a602bada0ddc5a60cc8c3d6c760ce73885820f806191806294a4c2e0f6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/006-cloud-environment-recovery-and-resume.md",
+      "kind": "file",
+      "sha256": "3cfb624c9b2753921494e65299fd5af220d112598cc19c600bf97e08e9c4bb92"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/007-codex-design-process-and-local-validation.md",
+      "kind": "file",
+      "sha256": "1b571403fc99eac44abaeb5e6020fcaea43f63bd878274029f988ed0dc108744"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/008-stable-blocks-and-localized-change.md",
+      "kind": "file",
+      "sha256": "9364fab54f262d54b2fdfb929888ba45d01a027e2a58f09c3e5bfa64e6c4c427"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/009-theme-complete-review-and-findings-review.md",
+      "kind": "file",
+      "sha256": "373d18667f59e1a3367f2d88e31463af732b3ce65a00c2af171650bf8ffa9bcb"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-resurface-kindle-highlights-weekly/README.md",
+      "kind": "file",
+      "sha256": "4ae1c74ef1964af0cfe64d8e35e33d8198a1c3e8b37ffab3d42e830e3c121642"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-resurface-kindle-highlights-weekly/discussion.md",
+      "kind": "file",
+      "sha256": "4f873b4c84ab40646101f91fb0efe912bc5446563cf7921b509f621b09822a09"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-resurface-kindle-highlights-weekly/materials/cost-comparison/README.md",
+      "kind": "file",
+      "sha256": "eee1051ad3bc12553ffd2b5b5a10e5fa4049c6964989371b131f8775365ecdda"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-resurface-kindle-highlights-weekly/materials/existing-alternatives/README.md",
+      "kind": "file",
+      "sha256": "75083c8b1a95cc2d097d0d21eaca8cadd27a42e6f53e74a48c6eca561b98e97d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-resurface-kindle-highlights-weekly/materials/experience-sketch/README.md",
+      "kind": "file",
+      "sha256": "3b04e75f3473b18b282402e4401a0940a43488c3b1217026921843de5c1ac14e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-resurface-kindle-highlights-weekly/materials/target-user-voices/README.md",
+      "kind": "file",
+      "sha256": "d1da0176376774ac83c8b290499d84e024ab001cdfa3d991a7fbab0eb9e9953d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-resurface-kindle-highlights-weekly/materials/technical-feasibility/README.md",
+      "kind": "file",
+      "sha256": "b4f1bc18beff64dee629220f58d7ab0ce7338d41e06f2562458e14b9c9519e43"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-stop-paying-for-unused-subscriptions/README.md",
+      "kind": "file",
+      "sha256": "3a25c6db5c47c858cbfbbf5212f8d4d788556942ec05897c7f16ed11a5323a2e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-stop-paying-for-unused-subscriptions/discussion.md",
+      "kind": "file",
+      "sha256": "d7007259c39e6870e2328e714203b7920d6fe1c83aeda02881d9ade40a70bc70"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-stop-paying-for-unused-subscriptions/materials/cost-comparison/README.md",
+      "kind": "file",
+      "sha256": "e388e64012324378542dce6c6d89a0d305a55825db65c3ef185dcacf89735c01"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-stop-paying-for-unused-subscriptions/materials/existing-alternatives/README.md",
+      "kind": "file",
+      "sha256": "f4d8c0a1e9eb2fb5d0f60a2c94591fd8079a2b8bbca3fe983c9690faa30398ad"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-stop-paying-for-unused-subscriptions/materials/experience-sketch/README.md",
+      "kind": "file",
+      "sha256": "7c35f88a7ef5856fbee04a2896379e9c2bcd6d1d40ed84e1e4a7a280190cbc5e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-stop-paying-for-unused-subscriptions/materials/target-user-voices/README.md",
+      "kind": "file",
+      "sha256": "81a9b2c90de013f41ee7283fd101a0e0857b901e110cbbe144057883e3d9ba63"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-stop-paying-for-unused-subscriptions/materials/technical-feasibility/README.md",
+      "kind": "file",
+      "sha256": "5968fb37e71884768ebc867b280a8c6a9acc4a42febed6816ee154918d3d0bbc"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/README.md",
+      "kind": "file",
+      "sha256": "b6c7cfe9b0da1478bc9d238fbd48a1e355f300b8a780b5583220de317018feeb"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/README.md",
+      "kind": "file",
+      "sha256": "391f273229f4a503bff92139e3bd305bbe8b8e26ee304f59852b332714718ade"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/how-far-to-build/README.md",
+      "kind": "file",
+      "sha256": "cb0bc8fe2a4b0477621adf36163dc32ac5581a18489468d8a7051b4297b94fa7"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/how-to-build/README.md",
+      "kind": "file",
+      "sha256": "710ca35f92e9c79002ac0e01e1c941aeac2588f0c96124111307dabdb2fe64ef"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/materials/core-logic/README.md",
+      "kind": "file",
+      "sha256": "0778f5d5e950727f2ab2ea4a7f56961158ebf24bf5757535eb4dc252031e04b0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/materials/cost-comparison/README.md",
+      "kind": "file",
+      "sha256": "02cb2c9d110f28d141e320ea522ce08891dff0c976839b51aac469916647ef2a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/materials/existing-alternatives/README.md",
+      "kind": "file",
+      "sha256": "dfe2c65c1851203a23739e2aafd76b86c44132dca2e622a16ffe247c4441800c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/materials/experience-sketch/README.md",
+      "kind": "file",
+      "sha256": "90ea5f70cb80e64038d4f5c37bc4e963f28996690ea2b9e20f1ab7b1b8a54bc9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/materials/modules/README.md",
+      "kind": "file",
+      "sha256": "8ad78d75d0bd6858bf22d12f03ab63d6bb414c0f7cf39eba00051adc9cd75ca1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/materials/tables/README.md",
+      "kind": "file",
+      "sha256": "55dc8679c50f104e45c8cf5792fe2a93066241e893aae3656e2b35a6f8aff797"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/materials/target-user-voices/README.md",
+      "kind": "file",
+      "sha256": "d0172382240da3ca82d8205badad1ac266983b8394724c99b74519a06d1adade"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/materials/technical-feasibility/README.md",
+      "kind": "file",
+      "sha256": "a2ac00733886d02b27658a15dde240019339108578f19a6d15192a038a4239d7"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/what-to-build/README.md",
+      "kind": "file",
+      "sha256": "ce6d5efe025c057b01a305ab49d7a7dd03e1023175f42a3fbec6765414cd61f2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "a5de62d5f0b56b5d4bbe3c2c0361288ccfd251a130eeb78ed8e11bd3441c5c2a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/1st/why-to-build/questions/pain-to-solve.md",
+      "kind": "file",
+      "sha256": "d3f6ef487b860147792dca4d64dbf755486c91d267f79ee18f2d14073b31bcc0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/README.md",
+      "kind": "file",
+      "sha256": "d30367d9a5252f13651886c954bf3e1b2c6c5e1869f37595bc0c914b3ffa965d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-far-to-build/README.md",
+      "kind": "file",
+      "sha256": "aa38273a97eaaf56b8975edf5989c341c948ff8fa002cf4cc5f4490051dec21a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-far-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "f50b70111ff0a8e37deda953b95f14c67b1d02eacef8b78c6d81af9be269faff"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-far-to-build/questions/ai-autonomy-range.md",
+      "kind": "file",
+      "sha256": "8c5b5167c48b4a60679d9508716ca8397f0c608a829084b762ce42184c4ea62f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-far-to-build/questions/build-cost-pays-off.md",
+      "kind": "file",
+      "sha256": "853cd53a705f4515954f4988818da36fe5cb7c3209cd2ca781b5fb7d77f28070"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-far-to-build/questions/first-build-cut.md",
+      "kind": "file",
+      "sha256": "f890af1aef5cbca66b02ee35496f7058b03117986781a128718c52f4ca845b23"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-far-to-build/questions/handled-by-operation.md",
+      "kind": "file",
+      "sha256": "c47480012b9a479a0f2d83b908a2781d45264a9dbdcc2f83d89d720b676ec446"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-to-build/README.md",
+      "kind": "file",
+      "sha256": "7cffb810c9fe986df9cbe87d92c7c2e0516dda0ca2ac09da998e636dc287867a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "afb867af4dfee4bf37d4599796d406b0574eb681a61cc73318d4e2ba45d8fb23"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-to-build/questions/debt-to-repay-later.md",
+      "kind": "file",
+      "sha256": "6400b8627685b7962cb802bafe8cc92363399d63709b1cf87f7d2735b99201be"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-to-build/questions/experience.md",
+      "kind": "file",
+      "sha256": "f7f622fc0d22492a0906ee26d6f7e7571aa96ad9a953ef10e9caa8ed5062a320"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-to-build/questions/modules.md",
+      "kind": "file",
+      "sha256": "e31e819f9d63b6dc36504f0e8be50ff801e95c76b838ebc55a19af27272fdeab"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-to-build/questions/screens.md",
+      "kind": "file",
+      "sha256": "67e6fe156d3ea99bbbfe23dbeef8e062074b29423792716afb4ecf255bc51e78"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/how-to-build/questions/tables.md",
+      "kind": "file",
+      "sha256": "6206c7e8a4943e43db8f7b32beb022b2ff41ca4cb40e830c220140a88006d295"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/alternatives.md",
+      "kind": "file",
+      "sha256": "e35c6e7e1c3b38f6f77ec651027d44929630ecb86dbf427664084e1aa4f5e867"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/core-logic/README.md",
+      "kind": "file",
+      "sha256": "0778f5d5e950727f2ab2ea4a7f56961158ebf24bf5757535eb4dc252031e04b0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/cost-comparison/README.md",
+      "kind": "file",
+      "sha256": "279bc9359f1a693b73901605cc966f680689299d7a7ac0f7baa5c7cc20bf5d7f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/existing-alternatives/README.md",
+      "kind": "file",
+      "sha256": "e59eee5b25954c70eaeec4558829df952f60c6b8833ce6778f3e5504070488b6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/experience-sketch/README.md",
+      "kind": "file",
+      "sha256": "6fc4e9e9360887677c6c1c35ad5bca9dcaacda035f4df163b0047e31ab103c8a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/modules/README.md",
+      "kind": "file",
+      "sha256": "8ad78d75d0bd6858bf22d12f03ab63d6bb414c0f7cf39eba00051adc9cd75ca1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/tables/README.md",
+      "kind": "file",
+      "sha256": "55dc8679c50f104e45c8cf5792fe2a93066241e893aae3656e2b35a6f8aff797"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/target-user-voices/README.md",
+      "kind": "file",
+      "sha256": "c4888b3625120af873feb33a9491c3bf54984040bf1c6e5c9f10cb16d35380b2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/materials/technical-feasibility/README.md",
+      "kind": "file",
+      "sha256": "e303dcfa3cfe06d667d6837e22316a8f72f0b764d3430ab6c2b304460ac51660"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/what-to-build/README.md",
+      "kind": "file",
+      "sha256": "53dc85b6d873f9378670e4b5e1d4f564ffd78c7e589377028762e7b6b8c221b7"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/what-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "e2f6f9867b3246130456cc38e7eb962f939ecf12ae41ec4ea5d6ebdc7f979c5c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/what-to-build/questions/existing-alternatives-fall-short.md",
+      "kind": "file",
+      "sha256": "dacea80538c30f4a31ed48c3af0af41ed18201d15fd18e180ab82cfd08cccadf"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/what-to-build/questions/requirements.md",
+      "kind": "file",
+      "sha256": "4c1aaf7136a5504f3e359844f857e425c39816d79e3fe4a173c4c662b885b018"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/what-to-build/questions/risks-of-building.md",
+      "kind": "file",
+      "sha256": "09c8507d1e1d9c3c8fd679bbc9bf258faa45d60755eb0577b0de225894932a08"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/what-to-build/questions/scope-in-and-out.md",
+      "kind": "file",
+      "sha256": "ec43d81782943bcf3e2f3ddb49ae6985e3cdb41af8971d984a8f9fc5c63e89fa"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/what-to-build/questions/solution-shape.md",
+      "kind": "file",
+      "sha256": "146e830c2c3c947e416302177614cdb555f1701469d36efe76c334de1ee4049a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "424f191fa84cad16bc3281c9d28015f5b25d8c64f2109752a10368b49033ca8f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/why-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "c3486f9082870eb99f354370aa712e54626f4d1a534d2a97756e1992251bf6af"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/why-to-build/questions/gains-from-building.md",
+      "kind": "file",
+      "sha256": "ca82001b2d220a1a706a0b987756ff1a29175985749101b19c10097670c3f85b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/2nd/why-to-build/questions/pain-to-solve.md",
+      "kind": "file",
+      "sha256": "3a6fbed0dc17d7931f5b8890c7a301ae395e70e2974c0fdcd6510024f80fb466"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/3rd/README.md",
+      "kind": "file",
+      "sha256": "5281022c36c27393880cae8bd98c689591b01782f66ef57d53f4037559aa30d8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/archive/3rd/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "850702eb7c9cae39a9c1cf61d9c5b40025e8d2ca2fad8de39ffab4556b63e427"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/how-to-solve/README.md",
+      "kind": "file",
+      "sha256": "0eb9ec07a1bb759143eb2d1d9ab1b4a2278fb1e861dfc0ab42c9b5fb0ac4890e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/how-to-solve/discussion.md",
+      "kind": "file",
+      "sha256": "f8662d6d028794a9fdcdf2fc66f6605932ecdf7fc43dcbaf90730413e57ae7d4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/materials/alternatives/README.md",
+      "kind": "file",
+      "sha256": "1f753f08f95ceb2e8ff516a30feadff66f0db07e355867beb2acf109d7266b4e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/materials/alternatives/discussion.md",
+      "kind": "file",
+      "sha256": "3394e89ea77a5a185be51d174814db327eebfcd7e0f165f44184eaf9f712240b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/materials/experience-sketch/README.md",
+      "kind": "file",
+      "sha256": "2e8a38bb2410481c6fa86f91e3e418a75844121eb1d73b3a8e135a6f9302f5b6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/what-must-hold/README.md",
+      "kind": "file",
+      "sha256": "85379ad29a0a5a553d847dc7b96839276282f4eb755b7176dcff51630ddab223"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/what-must-hold/discussion.md",
+      "kind": "file",
+      "sha256": "5a9806bd423e3d01e35fc118ff97e1ed5c4a14394fba7fc6373fa03b86309fb2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "0058a5aeb18dba142bcf58da0de2bd669dffd37c81518ca56cb015f01e9a2bd2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261103-track-kids-makeup-lessons/why-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "7275756d1832e5deb59ad32fea04865674b76b3e3a8e71dd3427c3fe11b5548c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/README.md",
+      "kind": "file",
+      "sha256": "97cae4c7479bbff1dc4d641279a8b81d2d32205396692c3a8eb0f03faa73ce96"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/how-to-solve/README.md",
+      "kind": "file",
+      "sha256": "2e8ffb3ee1000285d6ce03ab4ab3185332e8bf831432e7dcb8ad4527af21d53a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/how-to-solve/discussion.md",
+      "kind": "file",
+      "sha256": "6aa28e8b290967236bb15855fe6f6cc71bedaf77b8e73b91b0383194518aab01"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "b67147b87697ad73ee992b6e38b8e129eab545840e8474d8f8ef59abf9948b27"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/materials/alternatives/README.md",
+      "kind": "file",
+      "sha256": "2d6c4e51a8f90c8e2f04375fa9fd8df40515b55b0fc4bee88842faa035e2b78e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/materials/alternatives/discussion.md",
+      "kind": "file",
+      "sha256": "52db2fc38273b1f6c63bd82b26bedbf45ea14a21bd832482ae0f94d257a3054b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/materials/alternatives/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "24e6132260b4b66aaec0c717cd4e93289df803375ad99890d885b7669fe76338"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/materials/core-logic.md",
+      "kind": "file",
+      "sha256": "b7738305f255a9f28429d610c6821369f47eb11fbc6cdae7d2b303bf8520de6c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/materials/input-v1.md",
+      "kind": "file",
+      "sha256": "1a2ea543fb192a931480d446938f59f8254a78b84ffe4ecccb017c0637727a89"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/materials/technical-feasibility.md",
+      "kind": "file",
+      "sha256": "32f77d9248e5ed342ab7ff6bf0afa27bb8b85284f439274dd87928c1ed243efa"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/what-must-hold/README.md",
+      "kind": "file",
+      "sha256": "5cce134eef4402061f75f1d2294d89cad0460420cb4d090f3b23f32c75462a02"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/what-must-hold/discussion.md",
+      "kind": "file",
+      "sha256": "95120ab2136d2671232f3c710b11f1b1cd4127141bb888d6b1cec9569e5fc256"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "2438ea7a2a4432cd3b002fbee88512b878a3d2139190d278a3e9df4f54952d91"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "1a332569f208a0e759b6a96947490a0de89f686d521cff59efd4ab43ef3e8efe"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/why-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "367f2ff1bbc8d8a28c119e9b6b8a1842b5d1ec6c6298d5904ad9701e41686d7e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/why-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "d00bb71477d452535c421cf30b6295b8310ad7338ae9d79a2536b2c706d6820e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-check-refill-availability/why-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "0d989a9ea62798f4dc3e90776b926294b38f028d3dc931b0a2d9b1a002828a1e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/README.md",
+      "kind": "file",
+      "sha256": "7d3957be4e426c5cf076c7efb2cf5bf7f1ab9e8a4d44eedeaee9b385cc5832ee"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/discussion.md",
+      "kind": "file",
+      "sha256": "6eeb0d120984b45830fe9b56e4586de5b02df4469515094950d17c91b863a94b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/how-to-solve/README.md",
+      "kind": "file",
+      "sha256": "a18aaa8b39bd6a969929f631bb1a2284dfd5be4acc5535ea51b02aa9706d4a7f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/how-to-solve/discussion.md",
+      "kind": "file",
+      "sha256": "6875abd8eec0b9816cdad715a779c759dbfa9dca2dc09036c4b4a29d7fc3e19b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "e109295de7a2c8842650549912290226e735c0846ba3116dc70ff15f26dff722"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/how-to-solve/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "d349125504375a96541c7dfa1db78f8d3002212c6171e3277672ab5a1df46ec0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/input.md",
+      "kind": "file",
+      "sha256": "e287558d39fe39bdd361c3b4251f59b7c252d05d5b26c3526b42e1953ed9ad27"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "db1707a5ab2d8b1a14636d2e1346677132e1c95e1ff9953b47a866b0a9309aa0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/materials/alternatives.md",
+      "kind": "file",
+      "sha256": "6919041146b4d4b8fe088b3210ce1cbf5235011b3840ac5ffa9b5386ba1f23b0"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/materials/experience-sketch.md",
+      "kind": "file",
+      "sha256": "bab89e92dfff631268a39222c2d4f6cad25f33c1ada45d09d369236083f44803"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/what-must-hold/README.md",
+      "kind": "file",
+      "sha256": "f4ae6dca4ae1bfb039e56ec8ec38024d6af39e10010e68269a972232951063ee"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/what-must-hold/discussion.md",
+      "kind": "file",
+      "sha256": "71f2fcc901fb6827399872c48c1b06fb56d843c6881b62f72a6aeeb9d323b810"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "93a513d04fd7532ebc4ffa67fdac4d8e7f935f9d1fa4d9e3c29abaa91eca79fd"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "c269ddc9aba5728b93e5c1aa9422e7ffeb939222d70a1590cdfdc2c627f02214"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/why-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "13d5521c0d47ad0984ce4a8509006d1366b9a5b8c896ae52f5f6b7300011d61d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/why-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "c510643d0f3740b76b80612df2642ad9aa1d859028e88d9943802f0fac1654c5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-choose-weekday-dinners-together/why-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "62fa1e1225e755dea67abfba2ec9cb7e06edfd69b38ab9bfc5f0339286b1cdf2"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/README.md",
+      "kind": "file",
+      "sha256": "b9778f60ca8625eaad5e3501aafdaae3ddf38ecc629b523c1b6ab63a68b9f96e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-build/README.md",
+      "kind": "file",
+      "sha256": "6a29e556d58e8c0c5bbd4e236cc5033dc872190fc43d19cb0717ce2794197b10"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "4e9af3f363755a8a15b291193b25a31a39603064a148ed8d9f1147c346d67469"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "9329247ca48e2ed0a205075ab67a006140450e54aeceee236977eaa181d998a8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "db4a1b06e681e3a70c7d43979da96c56ac9aec3d96196ac2818b097ad6bdd08a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-3.md",
+      "kind": "file",
+      "sha256": "5bf2b5aa3c02be3719b09d0e55063af761e7c957fedc1f1efc4304ff45511c2e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-solve/README.md",
+      "kind": "file",
+      "sha256": "87673d843a88882d52c3ca450a51bcbaaf9cc5227e566a9d21805f7e4e6d9853"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-solve/discussion.md",
+      "kind": "file",
+      "sha256": "d612eb9e6b804bfad7a6c86d98517b2d1a5627766016028e12b2758ca9f5048e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "cb27d9cef292867290b051f008005368fc9121fc0f92bcc943628e3d98a7697d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/how-to-solve/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "90e40f1ef13a62f059b69dc450909cb1a8add07c652906e7990f676fee76c8d3"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/alternatives.md",
+      "kind": "file",
+      "sha256": "f8b4224bb2a064ffcd89864c1e0f217c03e935818003d22d68309acbfddf4cd8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/core-logic.md",
+      "kind": "file",
+      "sha256": "4a0fcbfa5c9867f457468b34675a48bd6d3c7ca12de83f1f0ceca9c4915dc17a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/data-model.md",
+      "kind": "file",
+      "sha256": "7eb6dc372634bb0b5341879718d69edad93010896e8e92d7406a5c83a2920cde"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/experience-sketch.md",
+      "kind": "file",
+      "sha256": "0d3f79ebe89efc29db10b730e5b662f73b95f46c689b140367f6e28024b26b18"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/functional-structure.md",
+      "kind": "file",
+      "sha256": "5fd6c1e4cd12cfbd47dc3180a1f87de7064862af123eef06e851376b1b7d65ee"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/implementation-structure.md",
+      "kind": "file",
+      "sha256": "8e10a180204a51381b2a8f510f036c43cd9c3439ebd3b965ae73832c95d7a1be"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/input-v1.md",
+      "kind": "file",
+      "sha256": "1c046960d2838a0b4544566548e6477f0e3f1d384906044752abd6b3a578c97a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/technical-feasibility/README.md",
+      "kind": "file",
+      "sha256": "22f87a4bd8475851d8cc89f9cfc0a19de731fc53c966dcbcefdc872877228ff9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/technical-feasibility/observations.json",
+      "kind": "file",
+      "sha256": "36e2651b0808dd35c6f8975da9029c8e2ac38a2d2f5bdd13d87a360eeca48900"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/materials/technical-feasibility/probe.py",
+      "kind": "file",
+      "sha256": "44d6c7b7b39a0b92bc6e3b5a835ef2154063a696383a6a6c7df653cb56e9d0c7"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/what-must-hold/README.md",
+      "kind": "file",
+      "sha256": "98844605c127e59b6c225aba26bb1c0f832ae6dc87c55fa3bd6570c478d1e083"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/what-must-hold/discussion.md",
+      "kind": "file",
+      "sha256": "60f202296d26f632206092d0891c78e2c64dbd481bf1b5fad5d9631bd0646829"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "76d33130e7f80ef9365c9a257e497d8685a629de2cbf88752bb514e9f4aa48b5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "3b4c57a1f54dcb7974f534e8c430f429dc07c7807de0884cd0c4b19ed99d509c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/why-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "15ed7e280e6df9ea5bc2c4bed9f98807e4058e91f3dae480fcac2b3d8af7e76a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/why-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "a431a22b4f557614a1720d4206e2aa5c6ab17f982809247ab7d0dd20c24088aa"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-compare-card-game-choices/why-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "f9affd090e98137a276621ae39e21936ebde1a6024333944f28c70d34f8bf77e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/README.md",
+      "kind": "file",
+      "sha256": "b2b9442e1a8ef5c0e7b2cda8ba8b540e688e43f82f67d92b91294f3827f9a635"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/how-to-solve/README.md",
+      "kind": "file",
+      "sha256": "a65a8f79abcd4ad12ba1476d53737ae16248294ba82b5b7e1c82fddf5b03c87d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/how-to-solve/discussion.md",
+      "kind": "file",
+      "sha256": "f0a202e1fca7a0cd8acc1bcea4e8a37420c15d3a2ea985e42f14a6a69d2c9197"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "069efd02c62d266affa86270190f7a1fb9ef86c6e53bdc5d1c5f98acf5d91f28"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/materials/alternatives/README.md",
+      "kind": "file",
+      "sha256": "c6bed7fdbb6ed1cd2d9fca7fe0b04d17f0c1349e60779a915a6dc0df17fe827f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/materials/alternatives/discussion.md",
+      "kind": "file",
+      "sha256": "82b41e4ada8439489fa9bfd2400196abc0322d09f5112d9b61efeca4e686b653"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/materials/alternatives/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "216b7130db21fcdf6fc3cd29d0532aa2852d4dc1384eeeaa9c999da799dfb2aa"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/materials/experience-sketch.md",
+      "kind": "file",
+      "sha256": "ecf9a52047c4bafb4ac075d1552b56ad8b7368128d2c502fc4a180fe17b0b09a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/materials/input-v1.md",
+      "kind": "file",
+      "sha256": "c5f3da178ffeb90f98bf840f55b6a83edb9f31a982e0b708f346c4a0603999ce"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/what-must-hold/README.md",
+      "kind": "file",
+      "sha256": "6d7e550187cbd47fb275b3532dceaa04be62991c280e6858167abcb637fb6d73"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/what-must-hold/discussion.md",
+      "kind": "file",
+      "sha256": "e6f280d0edfbd359fe1fcd0030b98bd30671ce8b0053c194d8537c6eb5fe6dae"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "4e98516263ff79f05440cb498eee19732e3fb0195e966145ee9b3713a9802065"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "0ed5c372811ff3efad15f5306e5369f047dc849cf46d11b0c783242be4b5426c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/why-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "f0854bb444f2151a9ca3a3725b306dfb88e43e29b355cc75088e3bcd7bd99ca6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/why-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "8af1b72124b839509efb09e7525c58c2b55e39666d8b32dc1d99649e5fe4ff14"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-coordinate-dinner-changes/why-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "ce0ba0db04f174c08103741daaf2ad8e117bc6e67500ee64fe542708cbddb831"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/README.md",
+      "kind": "file",
+      "sha256": "bea793041e07548e60a8931f579a71dd1d0c9419d977e83a69636fd9d979f7dc"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/discussion.md",
+      "kind": "file",
+      "sha256": "57c2aba53222d74b4b705f5da30ba65b898d7e55b57e33c4f2de2b9666f0a0b4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-build/README.md",
+      "kind": "file",
+      "sha256": "d9ef2863529d2c7a0a3808ebebf5068b38107c018f3489f168dfea228a32efae"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "4edf51f92ff48689a8e65db669dcbb2fa4b7302d8dbc21ffc5fd11c7bc24cd82"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "b4b12d430e3992ea996405c112950feb0bf8a9ce09299f3c91b19d30d08dc60a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "824847f918cd62af8afe1b4df5d08cdc9d0bd1fb62bb32dce63fd665abd52627"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-solve/README.md",
+      "kind": "file",
+      "sha256": "282254f5fadf108512a4c4c959cefad223b8cf7a2155ee3cb4dee528fef3b8c4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-solve/discussion.md",
+      "kind": "file",
+      "sha256": "45500a44b0b810e4e53da6c14d0c5e5473f9d17afc1a20d66190c045bf284385"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "c2ab4b17e0e1de69121c9af78cab1a68eda5955a7d10963326609b1ddef79d2c"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-solve/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "36bdb602a41ac2bfc2be7cb8f84d8500fb5ed1479c2fdbee9cd78873ae93c222"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-solve/internal-records/discussion.md.topic-3.md",
+      "kind": "file",
+      "sha256": "2b934cfbfc7ce930f723465b8206f1fb6ef502f64c8475300b3b914aaa0191d5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/how-to-solve/internal-records/discussion.md.topic-4.md",
+      "kind": "file",
+      "sha256": "db56ead74114034c5b069bd01f905285b8c9dda28b1942ec160f03a5dcf40b64"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/input.md",
+      "kind": "file",
+      "sha256": "14b12a29ef79e03cddf41fa7f8c6360301885e8240021f5ea9a85ad9457f8b84"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "e0b9169f4d46fe9829c09ab9024f426c8bd3179216a8c4ef269af17da1038b66"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/alternatives.md",
+      "kind": "file",
+      "sha256": "388c41801c790ef110102cd3af315140b607bf70511cc94b8a1a0c94be386547"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/core-logic.md",
+      "kind": "file",
+      "sha256": "56d04b19e437515744ad9959dc0f4c8689c78974e7bb7d82ed7a87db77e6423f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/data-model.md",
+      "kind": "file",
+      "sha256": "a5eceaea869bd1cdd9e4406394e2a0f6ae4885f21734f1a449138548c353f611"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/experience-sketch.md",
+      "kind": "file",
+      "sha256": "e39e68ca369e17bcf5401db70929d3d33c6c59ccf11870f6430d5825e6d8f19b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/functional-structure.md",
+      "kind": "file",
+      "sha256": "5a0b67ddf79b4b6f2e184e3f129d6093d2965d68c475e204dca40d983f014753"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/implementation-structure.md",
+      "kind": "file",
+      "sha256": "e042328f5918b3c475715979947463c8000eee4c33703adac9a2109fc000b49d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/technical-feasibility/README.md",
+      "kind": "file",
+      "sha256": "d28bbe0bcbd3c92c9053531018d93b8c14ce7ae2e1550ff03ecd6762e429ec60"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/technical-feasibility/probe.py",
+      "kind": "file",
+      "sha256": "f20478a8ddf9f4d0081ff34d7cdb6a986320cf681edeb013f5e3534b1687aa6e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/materials/technical-feasibility/results.json",
+      "kind": "file",
+      "sha256": "2a3d80dbf30be7372973644a1ee08c5e05817eb9bd009ffb60ad5d57e091bfdc"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/what-must-hold/README.md",
+      "kind": "file",
+      "sha256": "3f9633d12a7a0eba4dc58c0600ee0bbbec275d2ca66a2a66908efdb43d13eeed"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/what-must-hold/discussion.md",
+      "kind": "file",
+      "sha256": "58897e26c90de54175dd9553221f1943d8ae82598dd9b65f40746930e9e75cbb"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "3e90ba2e1ff40db4ae6409d62f37557fdd2161c01917e29f85c55c906a5c2ee9"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "f9f5522deca31dd2231bff9d91ae077195e30c934e6a6b0d76626ce820493c23"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/why-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "e7f3ccfa8639c5e081be37630bee968badde331f1fe6731c857d848004b0bac8"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/why-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "76b653425d86a6754e9570fc7515980b258295b32b2bef9333d12cf4c284d041"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/why-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "6c093272e3602be29671e9949c80414d21c7c498dcbd2afea519dd238df98819"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-explore-card-game-rule-changes/why-to-build/internal-records/discussion.md.topic-3.md",
+      "kind": "file",
+      "sha256": "20951c2d914f236186e174cb976fc697fdc3361263f8e8b3c3ba8453dc83f537"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/README.md",
+      "kind": "file",
+      "sha256": "7c891129824a298e19757149665cd7f9fcdec9376cfe066eec6884f5129efc7a"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/discussion.md",
+      "kind": "file",
+      "sha256": "ac73293baaab89e4305994611aa2bbbdc3851d4d03a17482d25827a17d1432ed"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/how-to-solve/README.md",
+      "kind": "file",
+      "sha256": "ae56ab63ce3ed3dece466223a3e1556d1a0cd7c0d1b2400395791b4299530ca5"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/how-to-solve/discussion.md",
+      "kind": "file",
+      "sha256": "80ed880f0644d9ee8405ab432c505705531d7089c6b810cdb312f606b62e59c6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "06047a67b443551ad2ecce8bc3792060ba7f9411d6a43657a4d6ef3f7c2e5803"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/input.md",
+      "kind": "file",
+      "sha256": "78d70a1f4953c3333b777adad9c83629452cce74e307422b19da5ed07d2956ae"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "b6d074080f87e9f1cf6b7e46de065a943eb8cbb278d91413b565eaf190977260"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/materials/alternatives.md",
+      "kind": "file",
+      "sha256": "96c8dee53370be82f6fa9dc4928aacf318995b8e953aa830ae2dd5d83ac88a1b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/materials/technical-feasibility.md",
+      "kind": "file",
+      "sha256": "5ac257ffaf0e84a784b619553215dad9811bac7d237dc7fe34875505e9293e21"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/what-must-hold/README.md",
+      "kind": "file",
+      "sha256": "33f5253d668db6a5d99000115347d2c4dc42d008ac49b5e788866059c7dc408d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/what-must-hold/discussion.md",
+      "kind": "file",
+      "sha256": "11ebe333315578929070a014e1e7c0dc9aad49a4455aa0a5291f4f277e83f60d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "8df63c59d24e77430bb0003bc0f2c0f62ed9e8275d63511ccedf4da45e9fcd1b"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/why-to-build/README.md",
+      "kind": "file",
+      "sha256": "abe8d2b23e8af34d78292f56522ea6487c87fbb32dc25e43cf14e2194d9851e6"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/why-to-build/discussion.md",
+      "kind": "file",
+      "sha256": "7429a94a70f9a64005c40defa1943e86d611eaa0d51c78983db068b32b395807"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/why-to-build/internal-records/discussion.md.topic-1.md",
+      "kind": "file",
+      "sha256": "b9eb26d88dae9d46d28457b8389fee638d249d1537410b237a934c5161d0e8f7"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills/why-to-build/internal-records/discussion.md.topic-2.md",
+      "kind": "file",
+      "sha256": "1adbf2708ed70a59ee0e974e7040e458f21e9236b8569b4eccea4bda14e985e4"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/self-play-frictions.md",
+      "kind": "file",
+      "sha256": "9a3c0e267fa6ed83779d8d38010e48e4f28d3b34971bfa0a645c7407a6a53616"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/target-user-voices-check/README.md",
+      "kind": "file",
+      "sha256": "8ef0aae23c8cc904dbd7387b450b1bdb29fda6e1ef6f9a00b4e6c7b5eadf9a43"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/target-user-voices-check/consumer-results.md",
+      "kind": "file",
+      "sha256": "6c6f6c671fb90ff4f3939c57b18d16043956bd7420da4278fa336516d5ffe6f1"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/target-user-voices-check/existing-source-audit.md",
+      "kind": "file",
+      "sha256": "886c8ea17c09914f9f027ea535f6693912d3c8ee5ddf6321527f17e2dd26b04e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/target-user-voices-check/inputs.md",
+      "kind": "file",
+      "sha256": "41299d71bf4008dc624c8b00342a31b5b47a3ad24737e48f63459e0fda4a5f07"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/target-user-voices-check/provided-experience.md",
+      "kind": "file",
+      "sha256": "3993e986434a715b40ff72cfad27cc274eb6ce41a539ec2b3c2b09ce0037a057"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/target-user-voices-check/public-experience.md",
+      "kind": "file",
+      "sha256": "9d81e39fc509b90fbbf8581e12614bce849a172d671e15db4f17baa0d59c9c5f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/target-user-voices-check/public-source-observations.json",
+      "kind": "file",
+      "sha256": "6f255124175c105e6d5d57d063af24205f264c4df7f89b3952d44911c100dd6e"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/task-design-discussion/task-design-discussion-1-5.md",
+      "kind": "file",
+      "sha256": "1098f085f08686a21ed230733cf9b4ed3e6a1776e0ab74699c7dba1480f7cc1d"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/task-design-discussion/task-design-discussion-11-15.md",
+      "kind": "file",
+      "sha256": "3d855382c5a67bc413b4ee1faca5be961c096c3f92a5734e1ff225e59d2f7711"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/task-design-discussion/task-design-discussion-16-20.md",
+      "kind": "file",
+      "sha256": "1fc2aab18cc45b6e731bd65a9f17c99282699e808dbf2fa5d8878c96761f4c1f"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/task-design-discussion/task-design-discussion-21-25.md",
+      "kind": "file",
+      "sha256": "379fd47f67dcb7408fe73e30876c21ef8125d1b824764d496e92db5a9d406dce"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/task-design-discussion/task-design-discussion-6-10.md",
+      "kind": "file",
+      "sha256": "9edd662f8cd7f25f3f1416eb9c2842bdba00d05f104ff9c43be5bbca3efad2bf"
+    },
+    {
+      "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/task-design-discussion/task-design-discussion.md",
+      "kind": "file",
+      "sha256": "9ef3d83bf283d98c09c05586485fd97e4eb89210dab024df74af9996d58e5f07"
+    },
+    {
+      "path": "AGENTS.md",
+      "kind": "file",
+      "sha256": "f1dc30aa5043545341a52d42cdc71611fb0c81d3284849088a47be5f2686c7f6"
+    },
+    {
+      "path": "CLAUDE.md",
+      "kind": "symlink",
+      "sha256": "a54ff182c7e8acf56acfd6e4b9c3ff41e2c41a31c9b211b2deb9df75d9a478f9"
+    },
+    {
+      "path": "README.md",
+      "kind": "file",
+      "sha256": "155945637ee34bce3da8593e55a5fb01d1c928712e98c9e18cb703fef2ef164b"
+    },
+    {
+      "path": "product-plans/README.md",
+      "kind": "file",
+      "sha256": "409c2feed49e0ff7fd1aeab2ad1732b54299976cbb1ef2bb3edba55659f43424"
+    },
+    {
+      "path": "scripts/agent/README.md",
+      "kind": "file",
+      "sha256": "60a780c37404f122475e489afe3d211b7b90d37c5fbc09a57f4626e46bb2e5eb"
+    },
+    {
+      "path": "scripts/agent/probe-cloud-workspace.sh",
+      "kind": "file",
+      "sha256": "a008004b6f095442822f259e6925375daa9003b85c27bb269d3ec02398269b09"
+    },
+    {
+      "path": "scripts/agent/watch-cloud-environment.js",
+      "kind": "file",
+      "sha256": "dffdc2185e021492e6cb78569a9fee8a4fe74955120196504cc72068d6ff396d"
+    },
+    {
+      "path": "scripts/agent/watch-cloud-environment.test.mjs",
+      "kind": "file",
+      "sha256": "d8129f7a80f104ea31cbc140588c97eaba97efd794e6425bc4e3619c87e61891"
+    },
+    {
+      "path": "what-defines-a-product/README.md",
+      "kind": "file",
+      "sha256": "df361d7bd1022796ca62d8f3ab192146afbdc7d1bf867a9bbf9c9552b6224955"
+    },
+    {
+      "path": "what-defines-a-product/how-to-build.md",
+      "kind": "file",
+      "sha256": "468409cd0273b01c8117fc8dadf3f9a9e0b8e87abc0f118604f9588b43fa9cc5"
+    },
+    {
+      "path": "what-defines-a-product/how-to-solve.md",
+      "kind": "file",
+      "sha256": "c540e4d5ce3aff62e84c558d6598eb9dc86cc0174df463549614be446f503958"
+    },
+    {
+      "path": "what-defines-a-product/what-must-hold.md",
+      "kind": "file",
+      "sha256": "98944225825d767d4e556a04a6cbc6471cb15c3715b982019234f2ebd44af949"
+    },
+    {
+      "path": "what-defines-a-product/why-to-build.md",
+      "kind": "file",
+      "sha256": "45d4249c40dd4b1de1d10d22546cb84931b15f2365dd4d627bc4bbdfde0e496e"
+    }
+  ]
+}
