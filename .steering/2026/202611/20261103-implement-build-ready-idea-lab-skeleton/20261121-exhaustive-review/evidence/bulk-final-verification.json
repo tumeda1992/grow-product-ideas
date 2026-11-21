@@ -1,0 +1,116 @@
+{
+  "head_before_record_commit": "f222426f13edb935c4626266f976e6d664b87edf",
+  "old_findings_applied": 16,
+  "cli_regression_tests": {
+    "count": 12,
+    "passed": true
+  },
+  "cr009_lifecycle": {
+    "scope": "template-derived fixtures and existing link checker; not autonomous skill execution",
+    "source_baseline": "29018ab3472c445ebe33190cb8d2f141f5d5096a",
+    "observations": [
+      {
+        "name": "旧雛形は未採用の正本節を参照して失敗する",
+        "expected_exit": 2,
+        "exit": 2,
+        "local_links": 2,
+        "issues": [
+          "missing-anchor"
+        ]
+      },
+      {
+        "name": "新雛形の初回作成は未来の参照を持たない",
+        "expected_exit": 0,
+        "exit": 0,
+        "local_links": 1,
+        "issues": []
+      },
+      {
+        "name": "保存済みの閉じ提案と根拠は採用前に検査できる",
+        "expected_exit": 0,
+        "exit": 0,
+        "local_links": 4,
+        "issues": []
+      },
+      {
+        "name": "提案の根拠を壊すと全体検査が失敗する",
+        "expected_exit": 2,
+        "exit": 2,
+        "local_links": 4,
+        "issues": [
+          "missing-target"
+        ]
+      },
+      {
+        "name": "修正後は旧履歴を保持して新提案へ参照する",
+        "expected_exit": 0,
+        "exit": 0,
+        "local_links": 4,
+        "issues": []
+      },
+      {
+        "name": "採用応答と正本だけ保存された中断点でも既存参照は実在する",
+        "expected_exit": 0,
+        "exit": 0,
+        "local_links": 4,
+        "issues": []
+      },
+      {
+        "name": "中断後の残り反映で正本参照と閉じた層の表示が揃う",
+        "expected_exit": 0,
+        "exit": 0,
+        "local_links": 4,
+        "issues": []
+      },
+      {
+        "name": "開け直しでは未採用案と前回の採用版を区別する",
+        "expected_exit": 0,
+        "exit": 0,
+        "local_links": 4,
+        "issues": []
+      }
+    ],
+    "ok": true
+  },
+  "frozen_original_C3_links": {
+    "ok": true,
+    "files": 16,
+    "local_links": 46,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "all_tracked_markdown_links": {
+    "ok": false,
+    "files": 470,
+    "local_links": 2210,
+    "external_not_fetched": 20,
+    "issues": [
+      {
+        "file": "/workspace/grow-product-ideas/.agents/skills/grow-product-idea/templates/layer-record.md",
+        "line": 19,
+        "target": "discussion.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/templates/layer.md",
+        "line": 13,
+        "target": "../README.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/templates/layer.md",
+        "line": 15,
+        "target": "discussion.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/inputs.md",
+        "line": 5,
+        "target": "README.md#起動と環境の観測",
+        "kind": "missing-anchor"
+      }
+    ]
+  },
+  "new_link_issue_keys": [],
+  "limits": "Documentation case tracing is static; CLI tests are executed. Historical cases and original review evidence remain frozen. Larger-input Astra review follows this push."
+}

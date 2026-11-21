@@ -301,6 +301,13 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-011-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-011-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `f222426`へ保存した。pushは全件適用後に行う。
 
 変更対象: `product-plans/README.md`, `what-defines-a-product/how-to-build.md`, `README.md`, `.agents/skills/grow-product-idea/templates/canonical.md`。
+
+## 全件適用後の確認
+
+全16件を適用し、各指摘を独立したcommitへ保存した。残11件の採用は全件委任に基づき、個別にユーザーが応答した履歴を作っていない。
+[全体確認](evidence/bulk-final-verification.json): 実CLIの12回帰テスト、CR-009の8場面、凍結した初回C3の46参照が成功した。
+追跡済みMarkdown全体の参照不備は従前の4件で増えていない。未展開の雛形と凍結した過去の入力の不備を、今回の修正で解消したとは記録しない。
+文書の判断は各指摘の机上追跡で確認しており、長い企画を自律agentで通し切った証拠ではない。次に修正後のHEADを固定してAstraで再レビューする。
