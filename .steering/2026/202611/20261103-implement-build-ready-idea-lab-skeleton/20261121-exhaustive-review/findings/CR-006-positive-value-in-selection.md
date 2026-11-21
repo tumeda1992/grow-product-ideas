@@ -5,8 +5,8 @@
 - 対象　[what-defines-a-product/README.md L45–50](../../../../../../what-defines-a-product/README.md)、[what-defines-a-product/why-to-build.md L119–133](../../../../../../what-defines-a-product/why-to-build.md)、[what-defines-a-product/how-to-solve.md L15–21・158–172・270–276](../../../../../../what-defines-a-product/how-to-solve.md)、[.agents/skills/propose-alternatives/SKILL.md L188–201](../../../../../../.agents/skills/propose-alternatives/SKILL.md)
 - 観点　価値と解き方の選定
 - 由来　全体レビュー。論点103で開発方針を導入した後も、作る理由の終端はこの二分のまま。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用（2026年11月21日の全件適用指示）
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -28,4 +28,5 @@
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+[全件適用の委任](../bulk-application.md)により採用し、本線へ適用した。
+設計・具体例での照合・機械検査と限界は[適用記録](../application.md#cr-006)と[検証記録](../evidence/CR-006-application.md)を参照する。
