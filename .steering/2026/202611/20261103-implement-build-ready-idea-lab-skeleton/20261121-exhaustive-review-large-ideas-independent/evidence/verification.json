@@ -1,0 +1,23 @@
+{
+  "head": "4d76be65f164fccb6a55f59892c990ba85538280",
+  "tracked_regular_files": 545,
+  "tracked_symlinks": 2,
+  "different_paths": [],
+  "changed_file_hashes": [],
+  "changed_symlinks": [],
+  "changes_outside_review": [],
+  "review_markdown_references": {
+    "ok": true,
+    "files": 10,
+    "local_links": 45,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "template_missing_fields": {
+    "IR-001-combined-value.md": [],
+    "IR-003-trial-before-goal-choice.md": [],
+    "IR-002-existing-product-handoff.md": []
+  },
+  "request_A_length": 1015,
+  "probe_replay_matches": true
+}

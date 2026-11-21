@@ -1,0 +1,20 @@
+{
+  "reviewed_head": "4d76be65f164fccb6a55f59892c990ba85538280",
+  "regular_file_hashes_unchanged": 545,
+  "symlinks_unchanged": 2,
+  "active_new_findings": [
+    "IR-001",
+    "IR-002"
+  ],
+  "withdrawn_candidate": "IR-003",
+  "probe_replay_matches": true,
+  "references_before_parent_updates": {
+    "ok": true,
+    "files": 10,
+    "local_links": 45,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "reviewer_completion": "Astra saved the conclusion, findings and verification and reported completion; the final response was interrupted by a model usage limit. Parent independently verified saved artifacts. No additional Astra pass is claimed.",
+  "adoption": "Previous LR-001 proposal remains unanswered. Review and resumption messages are not approval."
+}
