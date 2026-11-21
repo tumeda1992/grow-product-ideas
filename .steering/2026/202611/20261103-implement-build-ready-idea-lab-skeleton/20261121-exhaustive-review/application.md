@@ -236,6 +236,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-014-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-014-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `4df9886`へ保存した。pushは全件適用後に行う。
 
 変更対象: `what-defines-a-product/README.md`, `.agents/skills/grow-product-idea/SKILL.md`, `.agents/skills/grow-product-idea/templates/layer-record.md`。
+
+<a id="cr-015"></a>
+
+## CR-015: 不足を候補ごとに分け部分的な再開を可能にする
+
+[全件委任](bulk-application.md)に基づく適用。出どころと候補の不足を、識別子・公開で調べる性質・候補固有の事情へ分け、依存する比較だけを止める。how・専門・進行skillの取得と返りを接続した。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-015-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-015-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `what-defines-a-product/how-to-solve.md`, `.agents/skills/propose-alternatives/SKILL.md`, `.agents/skills/grow-product-idea/SKILL.md`。
