@@ -5,8 +5,8 @@
 - 対象　[what-defines-a-product/README.md L54–67](../../../../../../what-defines-a-product/README.md)、[what-defines-a-product/why-to-build.md L197–219・267–272](../../../../../../what-defines-a-product/why-to-build.md)、[what-defines-a-product/what-must-hold.md L21–25](../../../../../../what-defines-a-product/what-must-hold.md)、[what-defines-a-product/how-to-solve.md L79–97・210–227](../../../../../../what-defines-a-product/how-to-solve.md)
 - 観点　層の順序、差し戻し
 - 由来　全体レビュー。四層の順序と、下流から差を戻す正常系を再検討した。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -30,4 +30,7 @@
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+2026年11月21日、[論点5・提案0](../discussion.md#提案0論点5)への利用者の「ok」を受け、共通README・why・比較skillの入力へ適用した。
+[四ケースの追跡](../evidence/CR-003-precomparison-check.md)は文書上の確認、[参照検査](../evidence/CR-003-verification.json)は機械実行である。
+未採用の検討記録を受け取る入口と採用の責任を照合した。実際の運営負担・サービス仕様・全体試運転は未実施。
+[適用記録](../application.md)からコミットと限界を辿る。
