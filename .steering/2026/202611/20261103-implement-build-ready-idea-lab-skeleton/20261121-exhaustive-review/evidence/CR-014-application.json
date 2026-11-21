@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "files": 6,
+  "local_links": 86,
+  "external_not_fetched": 0,
+  "issues": [],
+  "unrendered_templates_excluded": [
+    ".agents/skills/grow-product-idea/templates/layer-record.md"
+  ]
+}

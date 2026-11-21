@@ -223,6 +223,19 @@ CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実
 - [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
 - [x] [具体例と文書review](evidence/CR-012-application.md)で成立・不成立を対照する。
 - [x] [参照の機械検査](evidence/CR-012-application.json)を実行する。
-- [ ] この指摘を一つのcommitへ保存する。
+- [x] commit `b3019ad`へ保存した。pushは全件適用後に行う。
 
 変更対象: `.agents/skills/propose-alternatives/SKILL.md`。
+
+<a id="cr-014"></a>
+
+## CR-014: 影響のない層を元の状態と採否へ戻す
+
+[全件委任](bulk-application.md)に基づく適用。共通規則・進行skill・層雛形で、待ちにする前の状態と採否を残し、変更なしなら復帰する手順を揃えた。正本の閉じた層・不足・出口も再評価の状態へ合わせる。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-014-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-014-application.json)を実行する。
+- [ ] この指摘を一つのcommitへ保存する。
+
+変更対象: `what-defines-a-product/README.md`, `.agents/skills/grow-product-idea/SKILL.md`, `.agents/skills/grow-product-idea/templates/layer-record.md`。

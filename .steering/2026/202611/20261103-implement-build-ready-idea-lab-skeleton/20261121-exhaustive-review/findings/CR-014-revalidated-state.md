@@ -5,8 +5,8 @@
 - 対象　[what-defines-a-product/README.md L69–79・93–104](../../../../../../what-defines-a-product/README.md)、[.agents/skills/grow-product-idea/SKILL.md L74–87・120–130](../../../../../../.agents/skills/grow-product-idea/SKILL.md)、[.agents/skills/grow-product-idea/templates/layer-record.md L15–19・39–43](../../../../../../.agents/skills/grow-product-idea/templates/layer-record.md)
 - 観点　再判定の状態遷移、再開
 - 由来　全体レビュー。差し戻しの正常系と、差が影響しない枝を別々に追跡した。
-- 採否　未判断
-- 対応状況　未着手
+- 採否　採用（2026年11月21日の全件適用指示）
+- 対応状況　適用・検証済み
 - 適用枠　挙動変更が必要
 - 依存する指摘　なし
 
@@ -28,4 +28,5 @@
 
 ## 合意・適用記録
 
-レビューと挙動変更を含む提案までを依頼範囲とした。採否は未合意。修正・修正後の検証・適用コミットはいずれも未実施。
+[全件適用の委任](../bulk-application.md)により採用し、本線へ適用した。
+設計・具体例での照合・機械検査と限界は[適用記録](../application.md#cr-014)と[検証記録](../evidence/CR-014-application.md)を参照する。
