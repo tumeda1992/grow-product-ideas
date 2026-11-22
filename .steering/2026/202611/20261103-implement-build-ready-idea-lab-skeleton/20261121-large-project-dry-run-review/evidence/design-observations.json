@@ -1,0 +1,25 @@
+{
+  "covered_visible_ids": [],
+  "control_open_visible_ids": [
+    "seed-17",
+    "seed-18",
+    "seed-19"
+  ],
+  "initial_rows": [
+    {
+      "number": 17,
+      "capacity_by_documented_count": 3,
+      "capacity_counting_visitor_only": 4
+    },
+    {
+      "number": 18,
+      "capacity_by_documented_count": 3,
+      "capacity_counting_visitor_only": 4
+    },
+    {
+      "number": 19,
+      "capacity_by_documented_count": 3,
+      "capacity_counting_visitor_only": 4
+    }
+  ]
+}

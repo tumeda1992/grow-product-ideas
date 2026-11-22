@@ -1,0 +1,19 @@
+{
+  "review_commit": "80b3836aae18bdc4e9f2daf9db6fa2eb0e359c34",
+  "references_after_parent_updates": {
+    "ok": true,
+    "files": 15,
+    "local_links": 153,
+    "external_not_fetched": 1,
+    "issues": []
+  },
+  "previous_proposal_feedback_and_decision_unchanged": true,
+  "previous_discussion_body_preserved": true,
+  "frozen_repository_and_shared_scope_still_match": true,
+  "generated_caches": [],
+  "post_review_tracking_updates": [
+    ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/discussion.md",
+    ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-review-sufficiency/README.md"
+  ],
+  "scope_note": "Tracking notices receive the review, without changing the frozen case, rail, plugin or new finding adoption."
+}
