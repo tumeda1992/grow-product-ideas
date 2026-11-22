@@ -1,0 +1,75 @@
+{
+  "observations": [
+    {
+      "claim": "target_and_slot",
+      "Q17_reserved": [
+        "2026-11-28",
+        17,
+        37200
+      ],
+      "Q18_to_17_rejected": "FOREIGN KEY constraint failed"
+    },
+    {
+      "claim": "before_physical_confirmation",
+      "runtime": "covered",
+      "new_view": [],
+      "paper": "prepared"
+    },
+    {
+      "claim": "confirmed_view_and_stale_update",
+      "payload": [
+        [
+          "Q17",
+          17,
+          "袋",
+          "左室",
+          "visitor",
+          "折り目は何度使った跡だろう",
+          2,
+          2
+        ]
+      ],
+      "render_location": "左室; shelf A1 not used for display",
+      "stale_rows": 0
+    },
+    {
+      "claim": "withdrawal_before_recovery",
+      "new_view": [],
+      "paper_status": "placed; recovery not inferred"
+    },
+    {
+      "claim": "F0_final_state",
+      "row_counts": {
+        "prompt": 0,
+        "paper_copy": 0,
+        "current_display": 0,
+        "aggregate": 1
+      },
+      "body_bytes_absent_in_this_file": true,
+      "catalog_before_and_after": [
+        [
+          17,
+          "袋",
+          "A1"
+        ],
+        [
+          18,
+          "道具",
+          "B2"
+        ],
+        [
+          19,
+          "写真",
+          "C1"
+        ]
+      ],
+      "integrity": "ok",
+      "foreign_key_issues": []
+    }
+  ],
+  "limits": [
+    "operator confirmations were synthetic; physical covering/recovery was not performed",
+    "proposed SQL and generated HTML fragment; not facility runtime or full browser application",
+    "body byte check covers this SQLite file, not external backups or printer storage"
+  ]
+}

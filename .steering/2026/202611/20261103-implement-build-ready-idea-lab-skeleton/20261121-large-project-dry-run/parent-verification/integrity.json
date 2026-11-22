@@ -1,0 +1,14 @@
+{
+  "baseline_hashes_pass": 32,
+  "baseline_manifest_sha256": "0ddf0dd8d905a10cf23bc59720d321dc6410214df38cdf1e1162bdd472064f3e",
+  "runner_references": {
+    "ok": true,
+    "files": 1,
+    "local_links": 22,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "startup_inputs_unchanged": 10,
+  "no_tracked_source_changes": true,
+  "earlier_invocation_correction": "Runner inspection first passed relative paths with cwd=/workspace and was rejected as invalid-source; corrected to absolute paths. No document change."
+}

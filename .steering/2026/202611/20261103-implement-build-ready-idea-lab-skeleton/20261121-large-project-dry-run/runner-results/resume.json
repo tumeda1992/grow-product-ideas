@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-22T04:12:21.768717+00:00",
+  "source_head": "52476f581c7c23359f37985f1a9a783586c50533",
+  "overrides": "none",
+  "date_basis": "2026-11-21 input; original upcoming weekend unchanged",
+  "current_text_alignment": [
+    "正本の観察表現の誤字を意味を変えず修正",
+    "whyの具体化中・本人優先未取得という旧い現在案内を採用済みへ修正"
+  ],
+  "preserved_decisions": [
+    "why topic1 proposal1 a",
+    "why topic2 proposal0"
+  ]
+}

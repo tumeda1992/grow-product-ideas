@@ -1,0 +1,137 @@
+{
+  "case_id": "20261121-reframe-local-collections",
+  "baseline": "20261122-K-S-s2",
+  "excludes": [
+    "baseline-sha256.json"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "7f3ff2cca00d7ee5735026c7cba6e1bbfefa82e8d3b416d69ba24533e59f87f4"
+    },
+    {
+      "path": "how-to-build/README.md",
+      "sha256": "dc245c7560d11df86a998698cb0a9a40c6daaed8990d8c645330f0dd9b09a124"
+    },
+    {
+      "path": "how-to-build/discussion.md",
+      "sha256": "f5de6e348f91cc07a9563af97911908295eb0e0b99d5a34edff8c533f2d060ac"
+    },
+    {
+      "path": "how-to-build/operations-and-acceptance.md",
+      "sha256": "ff41eb7c4fa8c99fd8bf7af80468e33a4bb23c5a5219928ce9e84ff838c864e9"
+    },
+    {
+      "path": "how-to-solve/README.md",
+      "sha256": "0c52a68f884227b6d54e2399e374a419697c0d99e70c7437f084a7680f2f3c2f"
+    },
+    {
+      "path": "how-to-solve/discussion.md",
+      "sha256": "4c1a7211990cccf5b4454accd54e24f462ab8ff6835fa622e96ef33cc8b7d51c"
+    },
+    {
+      "path": "materials/alternatives/README.md",
+      "sha256": "6bca4fb54b28cda1441c88da2cd99fd951052a083687ad094c329ffa2e8aab5d"
+    },
+    {
+      "path": "materials/alternatives/discussion.md",
+      "sha256": "98e5dc9d9e9e66c2d2dc7b9e0544263503b624e2dcbd2eb71c0d3f12caff5483"
+    },
+    {
+      "path": "materials/core-logic.md",
+      "sha256": "01fde1530f4358756a53b1911aee7eb71b504ae2e02649039af886dc53e5ad3f"
+    },
+    {
+      "path": "materials/data-model/README.md",
+      "sha256": "c49255ff0884d0cb40c4d059c2d5499f0fcff0986d0aa9328855257a03fc5e19"
+    },
+    {
+      "path": "materials/data-model/schema.sql",
+      "sha256": "51c24f82a7de971673bd0b82375664a2d0d043e21c131d586ea8edc92d8a03f9"
+    },
+    {
+      "path": "materials/experience-sketch.md",
+      "sha256": "91318b3c63c339c9f35fbc21089f6f5739c09bd8dffad27d6f0b261b67f1a69b"
+    },
+    {
+      "path": "materials/functional-structure.md",
+      "sha256": "da510f0d24ed949a8eafc0a47734109c5dbbd7bf5c17f9a7f77af8eb49680719"
+    },
+    {
+      "path": "materials/implementation-structure.md",
+      "sha256": "3b6df3600d7c0f7e0b9d37b1832442ec72f8990bb72026c215047cfca8e883a7"
+    },
+    {
+      "path": "materials/technical-feasibility/README.md",
+      "sha256": "f5dc289d0358e40a2b3f94854378ec74b72696774731767390ef77c020f83e9f"
+    },
+    {
+      "path": "materials/technical-feasibility/allocation-observations.json",
+      "sha256": "d02539cc4965177c2dc02c249bc0719ac0ebfd34c2b7dbbfc7baa086ffc080fe"
+    },
+    {
+      "path": "materials/technical-feasibility/allocation_probe.py",
+      "sha256": "915f1d93af2ef9f5e6e7720233e95909eeff76542143cf9c32d9995e81a18723"
+    },
+    {
+      "path": "materials/technical-feasibility/existing-site/README.md",
+      "sha256": "a3f1dd86fd1601fc4e2d4bfff5b0c570ce8a808e8bfa3b773f05df86b2cd3514"
+    },
+    {
+      "path": "materials/technical-feasibility/existing-site/catalog.json",
+      "sha256": "c345d7e7c65fee8d6137a287af2b3e0951245d486aab65dc9ce4f0bf067c0aba"
+    },
+    {
+      "path": "materials/technical-feasibility/existing-site/scripts/packing_list.py",
+      "sha256": "e93c1a57019a2a114263ec0db6340e5dda41f258892fe900a78591e6a3b498d4"
+    },
+    {
+      "path": "materials/technical-feasibility/http-observations.json",
+      "sha256": "2aaab12d62e85b032eb94a6f2465533d5657e023a49162d52b2fd2e57b7b6016"
+    },
+    {
+      "path": "materials/technical-feasibility/http_probe.py",
+      "sha256": "902cc77262656afb47f47a2c61b187a0348600e95bee38306ffd9cbe9d1f4484"
+    },
+    {
+      "path": "materials/technical-feasibility/model-observations.json",
+      "sha256": "e1cc28e542509e5f180881408a1fcfc8762b8e4dd7232526f043111122e02cbe"
+    },
+    {
+      "path": "materials/technical-feasibility/model_probe.py",
+      "sha256": "b751d40ffcbec305c48465ef9074658546e43ea952dc9bdfa7a59cf0dbc4632e"
+    },
+    {
+      "path": "materials/technical-feasibility/observations.json",
+      "sha256": "9a3a5215cf46a4acf3c01ad29a8e4968fa4677bd0bb2acb5c7401d349bd2577f"
+    },
+    {
+      "path": "materials/technical-feasibility/probe.py",
+      "sha256": "6777156775019bdd5e826dbe61c87467eb693733e1c5833b3a44b966307a27a2"
+    },
+    {
+      "path": "materials/technical-feasibility/synthetic-view-fragment.html",
+      "sha256": "c63c2c0f9a6d40582784a50a60b4c08539cb6ab7dbfde07673f382f179105d52"
+    },
+    {
+      "path": "materials/wireframes.html",
+      "sha256": "22c6d661b25c5cab3ad834cce91c0728342cd4bad7e7cf60880a8091f8bc3807"
+    },
+    {
+      "path": "what-must-hold/README.md",
+      "sha256": "fe30496b19daef8ccc43d624b1516d90100d91d5101bae61ab67fe1e2843c52f"
+    },
+    {
+      "path": "what-must-hold/discussion.md",
+      "sha256": "185b42a3dca40e32f89ccbc93dd3f36e3bf76bdf9913c14a6ac052ce9bad427b"
+    },
+    {
+      "path": "why-to-build/README.md",
+      "sha256": "19cb9745f50ab92b5e4375c5fe436f501648a1136d678818e260a991fd17f907"
+    },
+    {
+      "path": "why-to-build/discussion.md",
+      "sha256": "5da5f6914b54ab8811d3292cc117caff3b238f2811fad1abe82b3865b17cd597"
+    }
+  ]
+}

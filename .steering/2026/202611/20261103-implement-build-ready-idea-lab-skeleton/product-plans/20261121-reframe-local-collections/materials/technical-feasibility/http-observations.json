@@ -1,0 +1,85 @@
+{
+  "observations": [
+    {
+      "claim": "simultaneous_receipt",
+      "responses": [
+        [
+          200,
+          {
+            "id": "Q17",
+            "result": "same_receipt"
+          },
+          "no-store"
+        ],
+        [
+          201,
+          {
+            "id": "Q17"
+          },
+          "no-store"
+        ]
+      ],
+      "db_count_and_revisions": [
+        1,
+        1,
+        1
+      ],
+      "different_body_response": 409
+    },
+    {
+      "claim": "simultaneous_stale_updates",
+      "starting_revisions": [
+        1,
+        1
+      ],
+      "responses": [
+        [
+          409,
+          {
+            "changed": 0
+          },
+          "no-store"
+        ],
+        [
+          200,
+          {
+            "changed": 1
+          },
+          "no-store"
+        ]
+      ],
+      "db_state_and_revision": [
+        "withdrawn",
+        2
+      ]
+    },
+    {
+      "claim": "viewer_boundary",
+      "active_rows": 1,
+      "cache_control": "no-store",
+      "post_status": 405,
+      "withdrawn_rows": [],
+      "expired_rows": []
+    },
+    {
+      "claim": "purge_after_close",
+      "logical_rows": [
+        [
+          "Q17",
+          null,
+          "expired",
+          5
+        ]
+      ],
+      "replay_status": 410,
+      "synthetic_body_bytes_absent": true,
+      "metadata_row_retained": true,
+      "boundary": "this closed SQLite file only; no OS backup or printed copy guarantee"
+    }
+  ],
+  "limits": [
+    "localhost HTTP only; no facility LAN or real browser test",
+    "physical covering and paper recovery not automated or observed",
+    "finite SQL/HTTP protocol experiment; not product implementation"
+  ]
+}

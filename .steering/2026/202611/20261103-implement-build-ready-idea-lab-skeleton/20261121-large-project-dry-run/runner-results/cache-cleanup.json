@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-22T09:16:25.087386+00:00",
+  "removed": [
+    "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/materials/technical-feasibility/existing-site/scripts/__pycache__/packing_list.cpython-312.pyc",
+    "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-large-project-dry-run/runner-results/__pycache__/discussion_io.cpython-312.pyc"
+  ],
+  "remaining": [],
+  "subsequent_python": "python3 -B"
+}

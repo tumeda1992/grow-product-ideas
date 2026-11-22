@@ -1,0 +1,70 @@
+{
+  "K_parts_hours": {
+    "保存と受付キー": [
+      1,
+      1.5,
+      2.5
+    ],
+    "管理の入力・提供・取下げ": [
+      1,
+      1.5,
+      2.5
+    ],
+    "貸与端末の読取り": [
+      0.5,
+      1,
+      1.5
+    ],
+    "紙の問IDと印刷対象": [
+      0.5,
+      1,
+      2
+    ],
+    "局所起動と接続設定": [
+      0.5,
+      1,
+      2
+    ],
+    "終了・本文消去と回復": [
+      0.5,
+      1,
+      1.5
+    ],
+    "受入れと修正": [
+      0.75,
+      1.5,
+      3
+    ]
+  },
+  "K_total_hours": [
+    4.75,
+    8.5,
+    15.0
+  ],
+  "daily_person_minutes": {
+    "available": 240,
+    "setup": 20,
+    "observation": 30,
+    "debrief": 40,
+    "remaining": 150
+  },
+  "illustrative_K_work": {
+    "accepted_12_x2": 24,
+    "rejected_3_x1": 3,
+    "four_release_rounds_x6": 24,
+    "withdrawal_2_x3": 6,
+    "help_6_x1": 6,
+    "recovery_once": 10,
+    "final_clear": 8,
+    "checks": 4
+  },
+  "K_illustrative_subtotal": 85,
+  "paper_sheets": {
+    "display_10": 10,
+    "receipt_2": 2,
+    "signage_3": 3,
+    "guide_1": 1,
+    "observation_2": 2,
+    "total": 18
+  }
+}

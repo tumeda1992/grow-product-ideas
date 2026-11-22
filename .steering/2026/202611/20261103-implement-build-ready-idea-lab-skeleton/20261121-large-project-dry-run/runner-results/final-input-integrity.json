@@ -1,0 +1,52 @@
+[
+  {
+    "path": "/workspace/grow-product-ideas/AGENTS.md",
+    "sha256": "f1dc30aa5043545341a52d42cdc71611fb0c81d3284849088a47be5f2686c7f6",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/.agents/skills/grow-product-idea/SKILL.md",
+    "sha256": "f9cd99f8cc2b611144261f7e159168a4599bba8b601910369df520d5b3ce70f2",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/what-defines-a-product/README.md",
+    "sha256": "8e22b1ef9da6e9e3e39411e6f5aea1b806582cb2258e970ebdd170fb999aff16",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/product-plans/README.md",
+    "sha256": "72a75e52376a7d0e35ad8a962d81e4e4f9543820936866097088cc8d0220b355",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/what-defines-a-product/why-to-build.md",
+    "sha256": "1fd4c26206d70bd0082bf3e48f679bdc89b2fa413eec6e91b0e80c5a91bbfc71",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-large-project-dry-run/request.md",
+    "sha256": "894d6f04bb2fd565f4f8778761781ed1e56e81f52da8f273d4a2ac274db09a90",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-large-project-dry-run/execution.md",
+    "sha256": "cf1753f0b24daf2e6ac19fee625f55f32d2ccf9d18d4149d13e71079d516981d",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-large-project-dry-run/fixtures/existing-site/README.md",
+    "sha256": "a3f1dd86fd1601fc4e2d4bfff5b0c570ce8a808e8bfa3b773f05df86b2cd3514",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-large-project-dry-run/fixtures/existing-site/catalog.json",
+    "sha256": "c345d7e7c65fee8d6137a287af2b3e0951245d486aab65dc9ce4f0bf067c0aba",
+    "unchanged": true
+  },
+  {
+    "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-large-project-dry-run/fixtures/existing-site/scripts/packing_list.py",
+    "sha256": "e93c1a57019a2a114263ec0db6340e5dda41f258892fe900a78591e6a3b498d4",
+    "unchanged": true
+  }
+]

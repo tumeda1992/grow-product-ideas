@@ -1,0 +1,108 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "observations": [
+    {
+      "claim": "two_connections_old_revision",
+      "read_revisions": [
+        1,
+        1
+      ],
+      "first_rows": 1,
+      "stale_rows": 0,
+      "current": [
+        "active",
+        2
+      ]
+    },
+    {
+      "claim": "withdrawal_new_reads",
+      "state": [
+        [
+          "withdrawn",
+          3
+        ]
+      ],
+      "new_read": []
+    },
+    {
+      "claim": "response_lost_then_replay",
+      "replay": {
+        "result": "same_receipt",
+        "id": "Q17"
+      },
+      "changed_payload": {
+        "result": "receipt_conflict"
+      },
+      "row_count": 1
+    },
+    {
+      "claim": "process_exit_before_commit",
+      "observed": [
+        "withdrawn",
+        3
+      ]
+    },
+    {
+      "claim": "process_exit_after_commit",
+      "observed": [
+        "active",
+        4
+      ]
+    },
+    {
+      "claim": "expiry_and_pending",
+      "active_before_200": true,
+      "active_at_200": false,
+      "pending_new_read": []
+    },
+    {
+      "claim": "html_escape",
+      "tags": [
+        "p"
+      ],
+      "roundtrip_text_matches": true,
+      "escaped": "&lt;script&gt;alert(&quot;synthetic&quot;)&lt;/script&gt;\n袋 &amp; &quot;問い&quot;"
+    },
+    {
+      "claim": "existing_packing_contract",
+      "before": [
+        [
+          17,
+          "A1"
+        ],
+        [
+          18,
+          "B2"
+        ],
+        [
+          19,
+          "C1"
+        ]
+      ],
+      "after": [
+        [
+          17,
+          "A1"
+        ],
+        [
+          18,
+          "B2"
+        ],
+        [
+          19,
+          "C1"
+        ]
+      ],
+      "catalog_sha256": "c345d7e7c65fee8d6137a287af2b3e0951245d486aab65dc9ce4f0bf067c0aba"
+    }
+  ],
+  "limits": [
+    "synthetic SQLite and generated HTML only",
+    "not a browser, physical display or paper recall test",
+    "no facility or production network connections",
+    "not production implementation"
+  ]
+}
