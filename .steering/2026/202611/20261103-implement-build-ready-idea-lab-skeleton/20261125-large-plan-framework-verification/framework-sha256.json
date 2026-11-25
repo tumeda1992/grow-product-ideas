@@ -1,0 +1,28 @@
+{
+  "framework_commit": "2fbd04027c1fa32149794d1433a7ae2258e3c8b5",
+  "shared_plugin_commit": "1fc2fa3b127b279b2ec5c82daebffffe5eb36bf5",
+  "shared_plugin_version": "10.0.1",
+  "files": {
+    ".agents/skills/design-core-logic/SKILL.md": "2b2028b1bbcaad581e33f5cdc9c52bc5fd968a185bc8560560fa642ae76bb0ce",
+    ".agents/skills/design-data-model/SKILL.md": "c43dda1e3279a92ca93271cb8ed070dda43be0d4e65e972bcf16be09c3f4e354",
+    ".agents/skills/functional-structure-design/SKILL.md": "11ee5417f7ad09436526e8809228711ffd61d84905c6d50d8b8cafc08f0b69db",
+    ".agents/skills/gather-target-user-voices/SKILL.md": "28cdf01f636bf6298b56efba72ed3110d439cea7668a0119e590c9fbd440208a",
+    ".agents/skills/grow-product-idea/SKILL.md": "f9cd99f8cc2b611144261f7e159168a4599bba8b601910369df520d5b3ce70f2",
+    ".agents/skills/grow-product-idea/scripts/check-plan-links.py": "32f5c890387601727361f50029cb92b01cb7408eed5cd3dc6b935a82d36c66dc",
+    ".agents/skills/grow-product-idea/scripts/tests/test_check_plan_links.py": "f7fccad571f883008cbd1a2bc99fbda7b08c620e425ebead2e21d9ad5d89a477",
+    ".agents/skills/grow-product-idea/templates/canonical.md": "82504a0c4fcb55c6e5cfe6bf3b313313fe021f36aa77e97f75f7e2231e61fdc7",
+    ".agents/skills/grow-product-idea/templates/layer-record.md": "8cc54dbcef5e2d6c4fa298b7a907b58b1353a3644f43bc38c546904887088f09",
+    ".agents/skills/implementation-structure-design/SKILL.md": "80635ce4d2957d9eceb49a0255e75ec8acab6285fb28ad0bd9bd60109e9fdd8c",
+    ".agents/skills/propose-alternatives/SKILL.md": "0d9c60e1d1542757ace615e497ae5da332fced80d9d14f15a3af3a6436c532e5",
+    ".agents/skills/sketch-experience/SKILL.md": "736295490fc7f80c12d6dd2486f721c5ce36e1bc1b8ae2cd2565fbbad8d2a775",
+    ".agents/skills/verify-technical-feasibility/SKILL.md": "9a5f8c4e885e3a6f5429d1fcbf7d8172ec59b5f08efb2e0b83f9a35277d86753",
+    "AGENTS.md": "f1dc30aa5043545341a52d42cdc71611fb0c81d3284849088a47be5f2686c7f6",
+    "README.md": "25ac0dcfd2f606f8f665851be36268160b341151f4da7513afe1e8ca607ec3ed",
+    "product-plans/README.md": "72a75e52376a7d0e35ad8a962d81e4e4f9543820936866097088cc8d0220b355",
+    "what-defines-a-product/README.md": "8e22b1ef9da6e9e3e39411e6f5aea1b806582cb2258e970ebdd170fb999aff16",
+    "what-defines-a-product/how-to-build.md": "50735316db22f60d5101b527438cf1c26bb6c5ff6b9dabfc52976fd5794176cf",
+    "what-defines-a-product/how-to-solve.md": "f67c56d65a91dcbacdf595faf9bc325239f3c8d9a5e158de66c5c56dfbfef520",
+    "what-defines-a-product/what-must-hold.md": "c6f6ea3cfc235e3634863c179a9579fd88a09ecfcc265ce8a4068b71db183eab",
+    "what-defines-a-product/why-to-build.md": "1fd4c26206d70bd0082bf3e48f679bdc89b2fa413eec6e91b0e80c5a91bbfc71"
+  }
+}
