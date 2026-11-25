@@ -1,0 +1,16 @@
+{
+  "copy": "/tmp/drr009-reentry-pb17daal/case",
+  "frozen_original_unchanged": true,
+  "files_changed_in_copy": [
+    "README.md",
+    "why-to-build/README.md",
+    "how-to-solve/README.md",
+    "how-to-build/README.md",
+    "materials/alternatives/README.md"
+  ],
+  "source_sha256": "f67c56d65a91dcbacdf595faf9bc325239f3c8d9a5e158de66c5c56dfbfef520",
+  "method": "same operator manually applied updated layer and grow-product-idea reentry to copy; no specialist response or owner selection",
+  "scope": "local known counterexample, not new full dry run",
+  "method_section": "how-to-solve: 解き方の選定 > 決め方 > 2. 補う点（組）ごとに、境目で比べて選ぶ > 選んだ部分を、今回届ける版として組み直す",
+  "record_correction": "README initially called this section 段5; corrected heading only after comparing source and saved reentry.patch; past execution unchanged."
+}
