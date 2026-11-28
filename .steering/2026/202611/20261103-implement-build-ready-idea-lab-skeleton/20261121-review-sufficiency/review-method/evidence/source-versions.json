@@ -1,0 +1,53 @@
+{
+  "reviewed_old_release": {
+    "head": "4589a50b4a3c9a3c499dd5bdd51762a9e5791266",
+    "versions": {
+      ".codex-plugin": "8.2.5",
+      ".claude-plugin": "8.2.5"
+    },
+    "skill_sha256": "f24fec1f66e3ac5bfbc6d2a8c054935ac7398a9f83f1a77b09023ed885cc83b7"
+  },
+  "reviewed_current_release": {
+    "source_head": "0b23f21ce83ddb85e0e1aa9d786a1478a9bc2cbb",
+    "upstream_head": "0b23f21ce83ddb85e0e1aa9d786a1478a9bc2cbb",
+    "versions": {
+      ".codex-plugin": "9.1.0",
+      ".claude-plugin": "9.1.0"
+    },
+    "files": [
+      {
+        "path": "plugins/tumeda-dev/skills/exhaustive-review/SKILL.md",
+        "sha256": "4f86d39d3f6f773568dab188880c6b4bbd0c8bda8a212458f95d9b41a53d8f8f",
+        "matches_upstream_commit": true
+      },
+      {
+        "path": "plugins/tumeda-dev/skills/exhaustive-review/review-findings.md",
+        "sha256": "4b16460fe2807e7ff50fb987ec0eba7cbc55e4dec61e8afa6d4af1b71bb222ee",
+        "matches_upstream_commit": true
+      },
+      {
+        "path": "plugins/tumeda-dev/skills/exhaustive-review/templates/finding.md",
+        "sha256": "7f0d146cc8ce5818766a03fab1bf856b9dccde4f78d66dbacafad2a160d5c5c5",
+        "matches_upstream_commit": true
+      },
+      {
+        "path": "plugins/tumeda-dev/skills/runtime-model-profiles.md",
+        "sha256": "0037c7d199d54ea9394241f5ba4a60d21f0e0e38e9d2328b616d3e054792ec24",
+        "matches_upstream_commit": true
+      }
+    ]
+  },
+  "product_versions": {
+    "old_review": "fea97767d741b2a174261a240996d4f11d8c2361",
+    "independent_review": "4d76be65f164fccb6a55f59892c990ba85538280",
+    "current_review": "023ca0b0dbb3362291c85b3817baa627f7f55a11",
+    "checked_paths": [
+      "README.md",
+      "what-defines-a-product",
+      ".agents/skills",
+      "product-plans/README.md"
+    ],
+    "changed_old_to_independent": [],
+    "changed_independent_to_current": []
+  }
+}

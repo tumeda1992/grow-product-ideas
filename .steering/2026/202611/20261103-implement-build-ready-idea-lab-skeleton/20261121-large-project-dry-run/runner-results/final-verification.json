@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-22T09:22:02.910608+00:00",
+  "head_read_only": "52476f581c7c23359f37985f1a9a783586c50533",
+  "baseline": "20261122-K-S-s2",
+  "manifest_sha256": "0ddf0dd8d905a10cf23bc59720d321dc6410214df38cdf1e1162bdd472064f3e",
+  "case_files_excluding_manifest": 32,
+  "all_manifest_hashes_match": true,
+  "all_manifest_paths_match": true,
+  "remaining_cache": [],
+  "all_recorded_inputs_and_sources_unchanged": true,
+  "discussion_checks": "all five logical discussion files passed",
+  "product_state": "build-ready; four layers closed; downstream not received",
+  "real_product_facility_physical_value_acceptance": "unperformed"
+}

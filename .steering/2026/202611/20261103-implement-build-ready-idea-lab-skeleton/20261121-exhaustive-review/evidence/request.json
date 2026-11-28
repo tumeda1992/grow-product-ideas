@@ -1,0 +1,11 @@
+{
+  "user_request_verbatim": "what-must-hold.md で、「2. 全ての条件が成り立っているのに、言い分が崩れる日を作る」については子どもの予定を母親だけが決める架空プロダクトの名残で「日」って言ってるだけで、すべてのプロダクトで「日」じゃないよね。というか .steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261117-find-compatible-pen-refills のドライランで大してフィードバック挙げていないくせにhowで破綻して頓挫してんるよね。\nあと、ドライランだから最低限回して破綻が無いかを確かめてそれに関しては問題なさそうだけど、依頼内容だけで1000字あるようなもの、だったら詰まっているかというとwhyで壮大な夢として1000字なやつとかを書いたやつが回るのか気になる。これは後で回すからレビューのときにはこの観点で大丈夫かどうかを見てもらいたい\n\nそういう観点で初見で見ると仮定し、全体をゼロベースで厳しくレビューしてもらいたい。exhaustive-reviewスキルを使ってastraで回してほしいけど、今はあれは挙動を変えないようにってなってるけど、全然挙動変える勢いでマジレスしてほしいから挙動を変えずにってところだけ曲げてレビューして。",
+  "review_model": "gpt-6.2-astra",
+  "scope": "full",
+  "behavior_preservation_constraint": false,
+  "implementation_authorized": false,
+  "long_input_trial_deferred": true,
+  "interpretation": "挙動の変更を含む改善案までレビューする。実際の変更適用と長文ドライランは今回行わない。",
+  "timezone": "Asia/Tokyo",
+  "date": "2026-11-21"
+}

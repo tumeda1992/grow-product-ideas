@@ -1,0 +1,31 @@
+{
+  "baseline_items_checked": 24,
+  "unchanged": [
+    ".agents/skills/design-core-logic/SKILL.md",
+    ".agents/skills/design-data-model/SKILL.md",
+    ".agents/skills/functional-structure-design/SKILL.md",
+    ".agents/skills/gather-target-user-voices/SKILL.md",
+    ".agents/skills/grow-product-idea/SKILL.md",
+    ".agents/skills/grow-product-idea/scripts/check-plan-links.py",
+    ".agents/skills/grow-product-idea/templates/canonical.md",
+    ".agents/skills/grow-product-idea/templates/layer-record.md",
+    ".agents/skills/implementation-structure-design/SKILL.md",
+    ".agents/skills/propose-alternatives/SKILL.md",
+    ".agents/skills/sketch-experience/SKILL.md",
+    ".agents/skills/verify-technical-feasibility/SKILL.md",
+    ".claude/skills",
+    ".validation/inputs.md",
+    ".validation/run-conditions.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "README.md",
+    "product-plans/README.md",
+    "what-defines-a-product/README.md",
+    "what-defines-a-product/how-to-build.md",
+    "what-defines-a-product/how-to-solve.md",
+    "what-defines-a-product/what-must-hold.md",
+    "what-defines-a-product/why-to-build.md"
+  ],
+  "shared_manifests_unchanged": 4,
+  "limit": "Shared source files beyond these manifests have end-of-run identities; this check does not prove skill auto-loading or procedural conformance."
+}

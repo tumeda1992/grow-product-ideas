@@ -1,0 +1,52 @@
+{
+  "before_acceptance": {
+    "exit": 2,
+    "ok": false,
+    "files": 3,
+    "local_links": 2,
+    "external_not_fetched": 0,
+    "issues": [
+      {
+        "file": "why-to-build/README.md",
+        "line": 3,
+        "target": "../README.md#アウトカム",
+        "kind": "missing-anchor"
+      }
+    ]
+  },
+  "after_acceptance_control": {
+    "exit": 0,
+    "ok": true,
+    "files": 3,
+    "local_links": 2,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "quoted_definition": {
+    "source": "> [根拠]: missing.md\n>\n> この判断は[根拠]に依る。\n",
+    "rendered": "<blockquote>\n<p>この判断は<a href=\"missing.md\">根拠</a>に依る。</p>\n</blockquote>",
+    "checker": {
+      "exit": 0,
+      "ok": true,
+      "files": 1,
+      "local_links": 0,
+      "external_not_fetched": 0,
+      "issues": []
+    }
+  },
+  "unquoted_control": {
+    "exit": 2,
+    "ok": false,
+    "files": 1,
+    "local_links": 1,
+    "external_not_fetched": 0,
+    "issues": [
+      {
+        "file": "README.md",
+        "line": 1,
+        "target": "missing.md",
+        "kind": "missing-target"
+      }
+    ]
+  }
+}

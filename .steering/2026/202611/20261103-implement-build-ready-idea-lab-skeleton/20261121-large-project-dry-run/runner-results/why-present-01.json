@@ -1,0 +1,88 @@
+[
+  {
+    "action": "check",
+    "format": "single",
+    "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+    "problems": [],
+    "topic_count": 1,
+    "next_topic": 2,
+    "split_required": false
+  },
+  {
+    "action": "read",
+    "format": "single",
+    "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+    "problems": [],
+    "chunks": [
+      {
+        "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+        "start_line": 1,
+        "end_line": 4,
+        "text": "# 議論記録\n\nこの記録の利用者応答は「合成利用者役（親担当）」から受け取る。実際の利用者や第三者の経験・意思の確認には替えない。\n\n"
+      },
+      {
+        "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+        "start_line": 5,
+        "end_line": 10,
+        "text": "## 論点1: 元の一回とQRの着想で、何を良さとして残したいか\n\n**ステータス:** 応答待ち\n\n**種別:** 認識合わせ\n\n"
+      },
+      {
+        "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+        "start_line": 11,
+        "end_line": 37,
+        "text": "### イテレーション0（論点1）: 価値選択の根拠を受け取る\n\n#### 認識合わせ0（論点1）\n\n元の一回を、あなたから見た前後と気持ちで補ってください。何を期待して展示していて、誰のどの言葉・行いで何が変わり、終わった後に何が残りましたか。\n\nQRの着想は、その一回のどの良さを広げられると思ったからですか。その場で話す以外でも届くこと、少ない言葉でも残せること、一人で受け取れること、又は別の理由でしょうか。\n制作自体の楽しみ・学びだけでもやる意味があるかは未確認です。価値を届ける手段として作りたいのか、独立した目的もあるか教えてください。\n\n当人の一回の記憶と今の評価が対象です。他の来館者の気持ちや、第三者の再利用許可をあなたの答えで確認した扱いにはしません。\n\n#### 検討記録（論点1・イテレーション0）\n\n起点: [体験理解](README.md#1-体験理解--価値を見つけ目標を選ぶ根拠を捉える)。\n\n##### 認識合わせ: 語りの収集と、その場で見方が変わる体験の差\n\n###### 共有できる事実と、現在の読解\n\n[原入力](../README.md#受け入れ時の入力)では、撮影場所の向きの指摘でスタッフの認識が変わったことが着想の根拠。依頼者は傍で聞き、広める許可は取っていない。AIによる昔話の補填と参加の強制は望んでいない。\nassistantの読解では、良い話を保存することより、別の見方に出会った人が資料へ目を戻すことが中核かもしれない。ただしこれは本人の価値選択ではない。\n\n###### 本人にしか確定できない前提\n\n当時、依頼者が何を知り、そのやり取りの何に惹かれ、後で何が残ったか。QRなら何を保てると感じたか。制作そのものにも独立した目的があるか。これらはfixtureや公開資料では取得できず、答えによって記録の継承、同席の対話、時間をずらした受け渡しの優先が変わる。\n\n#### 認識合わせ0への回答（論点1）\n"
+      }
+    ],
+    "needs_full_read": [],
+    "total_chunks": 3,
+    "next_offset": null,
+    "complete": true
+  },
+  {
+    "action": "read",
+    "format": "single",
+    "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+    "problems": [],
+    "chunks": [
+      {
+        "path": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+        "start_line": 1,
+        "end_line": 37,
+        "text": "# 議論記録\n\nこの記録の利用者応答は「合成利用者役（親担当）」から受け取る。実際の利用者や第三者の経験・意思の確認には替えない。\n\n## 論点1: 元の一回とQRの着想で、何を良さとして残したいか\n\n**ステータス:** 応答待ち\n\n**種別:** 認識合わせ\n\n### イテレーション0（論点1）: 価値選択の根拠を受け取る\n\n#### 認識合わせ0（論点1）\n\n元の一回を、あなたから見た前後と気持ちで補ってください。何を期待して展示していて、誰のどの言葉・行いで何が変わり、終わった後に何が残りましたか。\n\nQRの着想は、その一回のどの良さを広げられると思ったからですか。その場で話す以外でも届くこと、少ない言葉でも残せること、一人で受け取れること、又は別の理由でしょうか。\n制作自体の楽しみ・学びだけでもやる意味があるかは未確認です。価値を届ける手段として作りたいのか、独立した目的もあるか教えてください。\n\n当人の一回の記憶と今の評価が対象です。他の来館者の気持ちや、第三者の再利用許可をあなたの答えで確認した扱いにはしません。\n\n#### 検討記録（論点1・イテレーション0）\n\n起点: [体験理解](README.md#1-体験理解--価値を見つけ目標を選ぶ根拠を捉える)。\n\n##### 認識合わせ: 語りの収集と、その場で見方が変わる体験の差\n\n###### 共有できる事実と、現在の読解\n\n[原入力](../README.md#受け入れ時の入力)では、撮影場所の向きの指摘でスタッフの認識が変わったことが着想の根拠。依頼者は傍で聞き、広める許可は取っていない。AIによる昔話の補填と参加の強制は望んでいない。\nassistantの読解では、良い話を保存することより、別の見方に出会った人が資料へ目を戻すことが中核かもしれない。ただしこれは本人の価値選択ではない。\n\n###### 本人にしか確定できない前提\n\n当時、依頼者が何を知り、そのやり取りの何に惹かれ、後で何が残ったか。QRなら何を保てると感じたか。制作そのものにも独立した目的があるか。これらはfixtureや公開資料では取得できず、答えによって記録の継承、同席の対話、時間をずらした受け渡しの優先が変わる。\n\n#### 認識合わせ0への回答（論点1）\n"
+      }
+    ],
+    "needs_full_read": [],
+    "total_chunks": 1,
+    "next_offset": null,
+    "complete": true
+  },
+  {
+    "action": "compare",
+    "format": "single",
+    "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+    "problems": [],
+    "snapshot": {
+      "format": "single",
+      "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+      "files": [
+        {
+          "path": "discussion.md",
+          "realpath": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+          "sha256": "b3dc3234a8c369263940064b2cf349ab547ddb5c06bdcca09b5a7c425e496592"
+        }
+      ]
+    },
+    "changed": false,
+    "previous": {
+      "format": "single",
+      "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+      "files": [
+        {
+          "path": "discussion.md",
+          "realpath": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+          "sha256": "b3dc3234a8c369263940064b2cf349ab547ddb5c06bdcca09b5a7c425e496592"
+        }
+      ]
+    }
+  }
+]

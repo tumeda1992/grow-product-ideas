@@ -1,0 +1,38 @@
+{
+  "commit": "80b3836aae18bdc4e9f2daf9db6fa2eb0e359c34",
+  "frozen_hashes_match": {
+    "repository": 92,
+    "tumeda-dev-9.1.1": 60
+  },
+  "baseline_manifest_sha256": "0ddf0dd8d905a10cf23bc59720d321dc6410214df38cdf1e1162bdd472064f3e",
+  "case_link_check": {
+    "ok": true,
+    "files": 19,
+    "local_links": 178,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "review_links_from_repo_root": {
+    "ok": true,
+    "files": 13,
+    "local_links": 109,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "evidence_replays": "two JSON outputs match",
+  "active_findings": [
+    "DRR-001",
+    "DRR-002",
+    "DRR-003",
+    "DRR-006",
+    "DRR-007",
+    "DRR-009"
+  ],
+  "withdrawn_candidates": [
+    "DRR-004",
+    "DRR-005",
+    "DRR-008"
+  ],
+  "review_trailing_whitespace": "none",
+  "case_baseline_files_match": 32
+}

@@ -1,0 +1,102 @@
+{
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "same_groups": [
+    {
+      "days": [
+        "prior",
+        "prior"
+      ],
+      "opportunities": 10,
+      "distinct": 5
+    },
+    {
+      "days": [
+        "prior",
+        "late"
+      ],
+      "opportunities": 9,
+      "distinct": 9
+    },
+    {
+      "days": [
+        "late",
+        "prior"
+      ],
+      "opportunities": 9,
+      "distinct": 9
+    },
+    {
+      "days": [
+        "late",
+        "late"
+      ],
+      "opportunities": 8,
+      "distinct": 4
+    }
+  ],
+  "disjoint_days": [
+    {
+      "days": [
+        "prior",
+        "prior"
+      ],
+      "opportunities": 10,
+      "distinct": 10
+    },
+    {
+      "days": [
+        "prior",
+        "late"
+      ],
+      "opportunities": 9,
+      "distinct": 9
+    },
+    {
+      "days": [
+        "late",
+        "prior"
+      ],
+      "opportunities": 9,
+      "distinct": 9
+    },
+    {
+      "days": [
+        "late",
+        "late"
+      ],
+      "opportunities": 8,
+      "distinct": 8
+    }
+  ],
+  "update": {
+    "reads": [
+      [
+        "R7",
+        1,
+        null
+      ],
+      [
+        "R7",
+        1,
+        null
+      ]
+    ],
+    "rows": [
+      1,
+      0
+    ],
+    "after": [
+      "R7",
+      2,
+      "p1"
+    ],
+    "stale": 0,
+    "fresh": 1,
+    "final": [
+      "R7",
+      4,
+      "p2"
+    ]
+  }
+}

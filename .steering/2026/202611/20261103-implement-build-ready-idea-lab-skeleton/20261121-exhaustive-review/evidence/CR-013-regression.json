@@ -1,0 +1,70 @@
+{
+  "tests": 12,
+  "result": "passed",
+  "scope": "real CLI fixtures; static repository links",
+  "before": {
+    "ok": false,
+    "files": 467,
+    "local_links": 2190,
+    "external_not_fetched": 20,
+    "issues": [
+      {
+        "file": "/workspace/grow-product-ideas/.agents/skills/grow-product-idea/templates/layer-record.md",
+        "line": 19,
+        "target": "discussion.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/templates/layer.md",
+        "line": 13,
+        "target": "../README.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/templates/layer.md",
+        "line": 15,
+        "target": "discussion.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/inputs.md",
+        "line": 5,
+        "target": "README.md#起動と環境の観測",
+        "kind": "missing-anchor"
+      }
+    ]
+  },
+  "after": {
+    "ok": false,
+    "files": 467,
+    "local_links": 2190,
+    "external_not_fetched": 20,
+    "issues": [
+      {
+        "file": "/workspace/grow-product-ideas/.agents/skills/grow-product-idea/templates/layer-record.md",
+        "line": 19,
+        "target": "discussion.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/templates/layer.md",
+        "line": 13,
+        "target": "../README.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/archive/skills/grow-product-idea/templates/layer.md",
+        "line": 15,
+        "target": "discussion.md",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/integration-check/require-build-rerun/inputs.md",
+        "line": 5,
+        "target": "README.md#起動と環境の観測",
+        "kind": "missing-anchor"
+      }
+    ]
+  },
+  "new_issue_keys": []
+}

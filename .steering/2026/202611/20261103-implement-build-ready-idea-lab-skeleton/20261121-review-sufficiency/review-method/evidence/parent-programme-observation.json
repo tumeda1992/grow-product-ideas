@@ -1,0 +1,18 @@
+[
+  {
+    "zone": "America/New_York",
+    "initial": "2026-10-26T10:00:00-04:00",
+    "following_week": "2026-11-02T09:00:00-05:00",
+    "expected_following_week": "2026-11-02T10:00:00-05:00",
+    "same_occurrence_deduplicated": true,
+    "same_local_start_time": false
+  },
+  {
+    "zone": "Asia/Tokyo",
+    "initial": "2026-10-26T10:00:00+09:00",
+    "following_week": "2026-11-02T10:00:00+09:00",
+    "expected_following_week": "2026-11-02T10:00:00+09:00",
+    "same_occurrence_deduplicated": true,
+    "same_local_start_time": true
+  }
+]

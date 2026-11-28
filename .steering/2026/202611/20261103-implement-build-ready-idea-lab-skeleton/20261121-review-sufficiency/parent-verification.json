@@ -1,0 +1,46 @@
+{
+  "review_head": "023ca0b0dbb3362291c85b3817baa627f7f55a11",
+  "fixed_entries": 562,
+  "changes_before_metadata_updates": [
+    ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/discussion.md"
+  ],
+  "only_inserted_parent_note": true,
+  "LR001_original_proposal_response_and_status_unchanged": true,
+  "replays": {
+    "rail": {
+      "replayed": true,
+      "json_matches": true
+    },
+    "review-method": {
+      "replayed": true,
+      "json_matches": true
+    }
+  },
+  "references": {
+    "ok": true,
+    "files": 13,
+    "local_links": 96,
+    "external_not_fetched": 5,
+    "issues": []
+  },
+  "parent_judgment": "SR-001は新規フローが読む前提・IR-002の実装先同定と独立。正しい変更先・同じ版でも既存の別業務への意味変更が残る対照を支持。旧12+SR001の設計責務を今回の重要な不足を覆う修正集合として支持。通常入口での修正後の実績とはしない。",
+  "final_metadata_updates": {
+    "changed_tracked_paths": [
+      ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas-independent/README.md",
+      ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/discussion.md",
+      ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/pending-escalations/009-theme-complete-review-and-findings-review.md"
+    ],
+    "product_rail_and_specialist_source_unchanged": true,
+    "LR001_proposal_response_and_status_unchanged": true,
+    "pending009_frozen_original_unchanged": true,
+    "current_references": {
+      "ok": true,
+      "files": 17,
+      "local_links": 143,
+      "external_not_fetched": 6,
+      "issues": []
+    },
+    "plugin_main": "78ab8091947100d4bb3597cff0d36618e340f4ed",
+    "plugin_version": "9.1.1"
+  }
+}

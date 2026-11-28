@@ -1,0 +1,94 @@
+{
+  "reviewed_commit": "80b3836aae18bdc4e9f2daf9db6fa2eb0e359c34",
+  "review_model": "gpt-6.2-astra",
+  "reasoning_effort": "xhigh",
+  "skill_release": "9.1.1",
+  "independent_parent_replays": [
+    {
+      "script": "check_selected_design.py",
+      "result": {
+        "covered_visible_ids": [],
+        "control_open_visible_ids": [
+          "seed-17",
+          "seed-18",
+          "seed-19"
+        ],
+        "initial_rows": [
+          {
+            "number": 17,
+            "capacity_by_documented_count": 3,
+            "capacity_counting_visitor_only": 4
+          },
+          {
+            "number": 18,
+            "capacity_by_documented_count": 3,
+            "capacity_counting_visitor_only": 4
+          },
+          {
+            "number": 19,
+            "capacity_by_documented_count": 3,
+            "capacity_counting_visitor_only": 4
+          }
+        ]
+      }
+    },
+    {
+      "script": "check_decision_boundaries.py",
+      "result": {
+        "same_complete_sql_dump_after_distinct_requests": true,
+        "local_checks": {
+          "A2/B1": [
+            true,
+            true
+          ],
+          "A2/B2": [
+            true,
+            true
+          ]
+        },
+        "direct_sibling_reference": [
+          {
+            "line": 1,
+            "target": "../B/current.md",
+            "kind": "outside-plan"
+          }
+        ]
+      }
+    }
+  ],
+  "observations_match_reviewer_outputs": true,
+  "frozen_hashes_match": {
+    "repository": 92,
+    "tumeda-dev-9.1.1": 60
+  },
+  "case_baseline_files_match": 32,
+  "review_references_before_parent_tracking_updates": {
+    "ok": true,
+    "files": 13,
+    "local_links": 109
+  },
+  "active_findings": [
+    "DRR-001",
+    "DRR-002",
+    "DRR-003",
+    "DRR-006",
+    "DRR-007",
+    "DRR-009"
+  ],
+  "withdrawn_candidates": [
+    "DRR-004",
+    "DRR-005",
+    "DRR-008"
+  ],
+  "supervision": {
+    "broadest_claim": "The value and version exploration worked, but the selected design's build-ready decision is not supported.",
+    "challenges": "Checked whether existing C3, the actual measurement contract, and local handoffs already distinguish the proposed counterexamples; 004,005,008 withdrawn. 006 narrowed to the actual entry-location comparison.",
+    "reflection": "Compared previous fixed targets, 13 actual patches, and this dry-run; distinguished case execution/acceptance failures from new source defects.",
+    "new_findings_applied": false
+  },
+  "limits": [
+    "Local schema/protocol experiments and static contract contrasts, not production, physical devices or observed visitor value.",
+    "Three fatal design findings block reliance on this recorded build-ready outcome; adoption by the synthetic role is not proof of feasibility.",
+    "Case remains an immutable reviewed baseline. Subsequent records only receive the review; no new product or plugin changes applied."
+  ]
+}

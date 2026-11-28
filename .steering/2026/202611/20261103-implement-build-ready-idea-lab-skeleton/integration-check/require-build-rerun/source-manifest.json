@@ -1,0 +1,134 @@
+{
+  "prepared_at_utc": "2026-11-17T11:48:58.185944+00:00",
+  "workspace": "/tmp/grow-require-build-108/workspace",
+  "source_repository": "/workspace/grow-product-ideas",
+  "source_is_working_tree": true,
+  "fixed_input_sha256": "0e25896f9ad895862d2d82f37bb04b7d590fcd4bee4eaee7386c2e545c2f4fd4",
+  "files": [
+    {
+      "path": ".agents/skills/design-core-logic/SKILL.md",
+      "sha256": "f42b6a7d3d6ab8650d89bea5165a20438cb834995c3c7dd00e16cc1c98efd939"
+    },
+    {
+      "path": ".agents/skills/design-data-model/SKILL.md",
+      "sha256": "c43dda1e3279a92ca93271cb8ed070dda43be0d4e65e972bcf16be09c3f4e354"
+    },
+    {
+      "path": ".agents/skills/functional-structure-design/SKILL.md",
+      "sha256": "5167831d009ec68a21cef11eecf0b8a2feec48847ef8e6c7fc3de0a7f3db31b1"
+    },
+    {
+      "path": ".agents/skills/gather-target-user-voices/SKILL.md",
+      "sha256": "24b88321592bb3c77a0ca774a6dfeb05e29d7d72948d79f6931fa217d3e42b08"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/SKILL.md",
+      "sha256": "3d22c4758e7af92fd6a45a90a7d3c76393945a4c45c8ae3fc4a587279952947a"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/scripts/check-plan-links.py",
+      "sha256": "a5f9004417a389066e98b844f59eee4509a5394e9e13973ce00ac35a341a4655"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/templates/canonical.md",
+      "sha256": "d5a969fab53d5ace8d983254d6ebc143a64b4e6556d39fe8e10af6011b799450"
+    },
+    {
+      "path": ".agents/skills/grow-product-idea/templates/layer-record.md",
+      "sha256": "e82062257edfe5337f531195fb41ed0f2e919482867cba0b61e0bdad46214e31"
+    },
+    {
+      "path": ".agents/skills/implementation-structure-design/SKILL.md",
+      "sha256": "80635ce4d2957d9eceb49a0255e75ec8acab6285fb28ad0bd9bd60109e9fdd8c"
+    },
+    {
+      "path": ".agents/skills/propose-alternatives/SKILL.md",
+      "sha256": "6c2c99907e29c2bec4d04fd2b55e6d0379e768c1bb1e32710a3cf47120f43246"
+    },
+    {
+      "path": ".agents/skills/sketch-experience/SKILL.md",
+      "sha256": "736295490fc7f80c12d6dd2486f721c5ce36e1bc1b8ae2cd2565fbbad8d2a775"
+    },
+    {
+      "path": ".agents/skills/verify-technical-feasibility/SKILL.md",
+      "sha256": "9a5f8c4e885e3a6f5429d1fcbf7d8172ec59b5f08efb2e0b83f9a35277d86753"
+    },
+    {
+      "path": ".claude/skills",
+      "symlink": "../.agents/skills"
+    },
+    {
+      "path": ".validation/inputs.md",
+      "sha256": "0e25896f9ad895862d2d82f37bb04b7d590fcd4bee4eaee7386c2e545c2f4fd4"
+    },
+    {
+      "path": ".validation/run-conditions.md",
+      "sha256": "5cb0723e39e1a09cf82f495f101535c28e198348cff399acce5c4f384c661521"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "f1dc30aa5043545341a52d42cdc71611fb0c81d3284849088a47be5f2686c7f6"
+    },
+    {
+      "path": "CLAUDE.md",
+      "symlink": "AGENTS.md"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2964663bbf469c25ac2eef901cebb6a9ba533f58ff63f2f375f7ffceabd2da1e"
+    },
+    {
+      "path": "product-plans/README.md",
+      "sha256": "4dd00ad5fa3ff6c56e48447bd445cb972beb2e8fee66ce4e6f18f702aaa60b39"
+    },
+    {
+      "path": "what-defines-a-product/README.md",
+      "sha256": "fb8acba426ec94dfb730ea068f3a8a5db2a7e938001633d6477a38d00cdc0278"
+    },
+    {
+      "path": "what-defines-a-product/how-to-build.md",
+      "sha256": "da6929e27c2078b7f842eafab682255f8235d88d55768a8733da5be9848e0f68"
+    },
+    {
+      "path": "what-defines-a-product/how-to-solve.md",
+      "sha256": "2234028105c5b2427cac178a5f01738b8446e74c1367a8d1d2a36dfa418fa76e"
+    },
+    {
+      "path": "what-defines-a-product/what-must-hold.md",
+      "sha256": "3114e144ed18df368353726a3456fe5076592bf045300021bb9578ebbdb6d0af"
+    },
+    {
+      "path": "what-defines-a-product/why-to-build.md",
+      "sha256": "58985e652e9ac3b02165c4a21c92d1405c70901efd954f6cfd45b14c2a260f1a"
+    }
+  ],
+  "shared_manifests": [
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/.codex-plugin/plugin.json",
+      "sha256": "44ccc59bc0ae2cfda2376ecb6a90f8f8a1806aba40b0f507d88b562905945ba2"
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/plugins/tumeda-dev/.claude-plugin/plugin.json",
+      "sha256": "67b120253e6e7d215deae6eff82083e85fc9436512713218523d63e0e00be014"
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/.claude-plugin/marketplace.json",
+      "sha256": "1d71d89864fa0ebfcad9be7cc38f25f6dd09146d88d684617be55166347e7297"
+    },
+    {
+      "path": "/workspace/.cache/grow-product-ideas/plugins/tumeda-dev/.agents/plugins/marketplace.json",
+      "sha256": "b9278a0a79ac02e8bff33241e3887b5d5ba8a470d16c0e1e14407d9bf84270fb"
+    }
+  ],
+  "command": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--sandbox",
+    "workspace-write",
+    "--cd",
+    "/tmp/grow-require-build-108/workspace",
+    "--json",
+    "-"
+  ]
+}

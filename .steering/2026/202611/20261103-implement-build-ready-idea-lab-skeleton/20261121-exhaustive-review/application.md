@@ -1,0 +1,313 @@
+# レビュー指摘の適用記録
+
+## 適用の合意と単位
+
+[discussion.mdの論点1・提案0](discussion.md#提案0論点1)に対する利用者の「ok」に基づく。
+1指摘ごとに適用・検証・結果記録を完了し、1指摘1コミットとする。
+適用対象は、各論点で合意した指摘に限る。今回の適用対象は[論点5・提案0](discussion.md#提案0論点5)のCR-003。未採否の指摘は適用しない。
+
+## CR-009: 採用前後の参照と保存順序
+
+### 合意済み設計
+
+提案0の完全diffを設計の正本とする。
+進行をgrow-product-idea、参照先の役割をproduct-plansの記録規約、初回値を層の雛形で揃える。
+canonicalの役割とcheckerは維持する。過去の凍結案件は改稿しない。
+
+### 実行するtask
+
+- [x] 合意を保存し、3ファイルを合意済みdiffどおり適用する。
+- [x] 初回・提案・修正・採用・中断再開・開け直しと、不正参照の対照を検証する。
+- [x] 文書reviewとorigin単位のdoc-enricher reviewを行い、指摘・結果を同期する。
+- [x] CR-009だけを対象としてコミットし、実行SHAを記録する。
+
+### 検証結果と限界
+
+[検査script](evidence/check-cr009-lifecycle.py)で8場面が期待に一致した。[実測](evidence/check-cr009-lifecycle.json)
+旧雛形・根拠欠損の対照は失敗し、初回・提案・修正・採用の中断再開・開け直しの有効参照は成功した。
+未採用が正本へ入らず、旧履歴を保持して受け入れた版を一度だけ反映することをfixtureで照合した。
+自律agentの対話全体の実行と長文の新規ドライランは未実施。
+
+文書reviewとdoc-enricherの結果は[論点1の内部記録](internal-records/discussion.md.topic-1.md#iteration-0-record-3)に保存した。
+役割表の「言い切り」に「採用済み」を補い、同じ採用前後の意味へ同期した。それ以外の本線変更は合意済みdiffと一致する。
+
+### 保存するコミット
+
+`fix: CR-009 採用前の閉じ提案を実在する参照で検査する`
+本線3ファイル、合意・検証・採否・適用記録、再現コードをこの指摘の一組として保存する。
+実行SHA: `86c68ac`。コミット後にこの行と完了チェックを追記した。
+この修正コミットのpushは未実施。
+
+## CR-008: 未閉じ保留と出口別の再開
+
+### 合意済み設計
+
+論点2・提案0の完全diffを設計の正本とする。
+進行skillが出口別の分岐、層共通READMEが案件の保留と層の状態の区別、canonical雛形が保留で残す情報を持つ。
+CR-009の採用前後の参照・検査、凍結した旧案件は維持する。
+
+### 実行するtask
+
+- [x] 合意を保存し、承認された3ファイルのdiffを適用する。
+- [x] 8場面の状態・次の行いを文書上で追跡し、CR-009の参照検査を回帰実行する。
+- [x] 文書review・doc-enricherの提案reviewを行い、指摘と適用結果を同期する。
+- [x] CR-008を1コミットで保存し、実行SHAを記録する。
+
+### 検証結果と限界
+
+[8場面の進行確認](evidence/CR-008-transition-check.md)は文書上の追跡。
+CR-009の8場面を回帰実行し、旧C3の46参照にも失敗がないことを確かめた。[実行結果](evidence/CR-008-verification.json)
+機械検査は参照の成立、文書上の追跡は判断の順序を確認するもので、自律agentの対話全体は未実施。
+step5冒頭の適格性照合は選定済みの版がある時に限定し、未選定からの保留も成立させた。
+補正は同じ未閉じ保留のdecisionを成立させる範囲で、開発方針と採否は変えていない。
+文書review・doc-enricherの追加提案なし。[内部記録](internal-records/discussion.md.topic-2.md#iteration-0-record-3)
+
+### 保存するコミット
+
+`fix: CR-008 未閉じの保留と出口別の再開を接続する`
+本線3ファイルと、その合意・採否・検証・適用記録を一組として保存する。
+実行SHA: `4c74aa5`。コミット後にこの行と完了チェックを追記した。
+CR-009・CR-008の修正コミットのpushは未実施。
+
+## CR-001: 原要求を探索と採否へ結ぶ
+
+### 合意済み設計
+
+論点3・提案0の完全diffに従い、whyが原文の意味を読む入口と目標提案前の逆向きの照合、閉じへ進む判断を持つ。
+product-plansの記録規約は、必要な対応を既存の層記録・決定過程・正本へ結ぶ配置を持つ。
+原文全ての必須化、新しい台帳、単純な依頼の形式的な独立論点は導入しない。
+
+### 実行するtask
+
+- [x] 合意を保存し、2ファイルを承認されたdiffに沿って適用する。
+- [x] 四ケースと不十分な対照を文書上で追い、採用と未検討の違い、後続への受渡しを確認する。
+- [x] 文書review・doc-enricherの提案reviewを行い、指摘と適用結果を同期する。
+- [x] CR-001を1コミットに保存し、実行SHAを記録する。
+
+### 検証結果と限界
+
+[四ケースの確認](evidence/CR-001-input-check.md)は文書上の照合。
+撤回の脱落・「後で」だけの記述・採否のない範囲外を、採用・見送りの根拠と区別できる手順を確認した。
+通知の着想の必須化と、単一目的への台帳追加も避ける境界を確認した。
+語の保持として入口の「症状」を維持した以外は合意済みdiffと一致する。
+自律agentの長文実試運転とwhy全体の合格の実証ではない。
+文書review・doc-enricherの追加提案なし。[内部記録](internal-records/discussion.md.topic-3.md#iteration-0-record-3)
+
+### 保存するコミット
+
+`fix: CR-001 原文の要求を探索と採否へ結ぶ`
+本線2ファイル、合意・採否・検証・適用記録をこの指摘の一組として保存する。
+実行SHA: `6833ab8`。コミット後にこの行と完了チェックを追記した。
+CR-009・CR-008・CR-001の修正3コミットのpushは未実施。
+
+## CR-002: 未経験の願いを仮説から選ぶ
+
+### 合意済み設計
+
+論点4・提案0の完全diffに従い、whyの入口・根拠・満了条件・閉じを、経験と未来の仮説の双方で一貫させる。
+本人の今の価値選択、未来の仮定、未観測の効果を正本でも区別してwhat以降へ渡す。
+過去の捏造、効果の実証扱い、目標を安い検証作業へ縮めることは採用しない。
+
+### 実行するtask
+
+- [x] 合意を保存し、2ファイルの完全diffを適用する。
+- [x] 三条件と不十分な対照を机上追跡し、CR-009の参照検査を回帰実行する。
+- [x] 文書review・doc-enricherの提案reviewを行い、指摘と適用結果を同期する。
+- [x] CR-002を1コミットに保存し、実行SHAを記録する。
+
+### 検証結果と限界
+
+[三条件の確認](evidence/CR-002-hypothesis-check.md)は文書上の追跡。
+経験なしでも今の優先を選べる場合、類似体験が根拠になる場合、希望だけで選べない場合を区別し、未来の効果を確認済みにしない境界を確認した。
+[参照の検査結果](evidence/CR-002-verification.json)では、CR-009の8場面が期待に一致した。
+452件の追跡済みMarkdownの比較は適用前後とも不備4件、新しい参照先・種別の不備は0件だった。
+自律agentによる長文の新規試運転は未実施。
+本線は承認済みdiffと一致する。文書review・doc-enricherの追加提案なし。[内部記録](internal-records/discussion.md.topic-4.md#iteration-0-record-3)
+
+### 保存するコミット
+
+`fix: CR-002 未経験の願いを価値の仮説から選べるようにする`
+本線2ファイルと合意・採否・検証・適用記録を、この指摘の一組として保存する。
+実行SHA: `aa5340e`。コミット後にこの行と完了チェックを追記した。
+CR-009・CR-008・CR-001・CR-002の修正4コミットのpushは未実施。
+
+## CR-003: 目標選択のための予備比較
+
+### 合意済み設計
+
+論点5・提案0の完全diffに従い、共通READMEで正式な採用と専門材料の取得を分け、whyで条件付きの目標を選ぶための限定比較を行う。
+propose-alternativesは、未採用の価値候補と仮の比較条件を検討記録から受け、材料を返す。
+whatの条件採用とhowの正式選定は前倒ししない。
+
+### 実行するtask
+
+- [x] 合意を保存し、3ファイルの完全diffを適用する。
+- [x] 四ケースで入口・比較・採用の責任を机上追跡し、参照を機械検査する。
+- [x] 文書review・doc-enricherの提案reviewを行い、指摘と適用結果を同期する。
+- [x] CR-003を1コミットに保存し、実行SHAを記録する。
+
+### 検証結果と限界
+
+[四ケースの確認](evidence/CR-003-precomparison-check.md)は机上追跡。
+単独照会・限定した予備比較・境目を跨ぐ値の幅・方法で目標が変わらない場合を区別した。
+未採用の比較入力を受ける一方、曖昧な内容は返し、専門は採否しない境界を保持する。
+[機械検査](evidence/CR-003-verification.json)では、合意済みdiffの反映と変更本文の参照を確認した。
+サービス仕様、運営の実時間、企画全体のドライランは未実施。
+文書review・doc-enricherの追加提案なし。[内部記録](internal-records/discussion.md.topic-5.md#iteration-0-record-3)
+
+### 保存するコミット
+
+`fix: CR-003 目標選択に必要な予備比較と専門入力を接続する`
+本線3ファイルと合意・採否・検証・適用記録を一組として保存する。
+実行SHA: `566ff5e`。コミット後にこの行と完了チェックを追記した。
+CR-009・CR-008・CR-001・CR-002・CR-003の修正5コミットのpushは未実施。
+
+<a id="cr-006"></a>
+
+## CR-006: 利用者へ届く価値を採用理由へ通す
+
+[全件委任](bulk-application.md)に基づく適用。howの得失表・選定理由・閉じと正本の雛形を揃え、whyで選んだ価値への寄与と制作目的を分けた。既存の手間の回数・期間・費用の根拠は保持した。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-006-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-006-application.json)を実行する。
+- [x] commit `77e6a39`へ保存した。pushは全件適用後に行う。
+
+変更対象: `what-defines-a-product/how-to-solve.md`, `.agents/skills/grow-product-idea/templates/canonical.md`。
+
+<a id="cr-007"></a>
+
+## CR-007: 採用する版全体の費用と同時成立を確定する
+
+[全件委任](bulk-application.md)に基づく適用。補う点ごとの仮選択を実際の版へ組み、費用・共有資源・時間帯・継ぎ目を再評価し、利用者が全体を受け入れてから閉じる手順と正本を揃えた。既存の厳密な組合せの根拠は再利用する。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-007-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-007-application.json)を実行する。
+- [x] commit `4d055fe`へ保存した。pushは全件適用後に行う。
+
+変更対象: `.agents/skills/grow-product-idea/templates/canonical.md`, `what-defines-a-product/how-to-solve.md`。
+
+<a id="cr-004"></a>
+
+## CR-004: 反例の単位と探索を言い分に合わせる
+
+[全件委任](bulk-application.md)に基づく適用。whatの反例を一日と四方向の全枡から解き、言い分の成否を観察できる単位・境界・関連から探す。全条件真の具体の根拠、版の対応、反例不在を証明にしない規律は残す。whyの一般的な探索語も合わせた。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-004-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-004-application.json)を実行する。
+- [x] commit `64fd4b9`へ保存した。pushは全件適用後に行う。
+
+変更対象: `what-defines-a-product/what-must-hold.md`, `what-defines-a-product/why-to-build.md`。
+
+<a id="cr-005"></a>
+
+## CR-005: 条件の不足と余計な制約を両方向で検査する
+
+[全件委任](bulk-application.md)に基づく適用。全条件真でも言い分偽になる十分性の検査を維持し、その条件が偽でも正当な別証拠で同じ言い分へ届く必要性の検査を加えた。必須の証拠性質と偶然の媒体を分け、明示された資料要求は元の約束として保つ。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-005-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-005-application.json)を実行する。
+- [x] commit `e1da4ba`へ保存した。pushは全件適用後に行う。
+
+変更対象: `what-defines-a-product/what-must-hold.md`。
+
+<a id="cr-012"></a>
+
+## CR-012: 対案を結果と判断の実質的な差で区別する
+
+[全件委任](bulk-application.md)に基づく適用。対案の違いを置き場所・担い手・制作有無の限定列挙から、同じ入力での受益・機会・損失・負担又は判断基準へ改めた。既存の軸は探索の例として保持した。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-012-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-012-application.json)を実行する。
+- [x] commit `b3019ad`へ保存した。pushは全件適用後に行う。
+
+変更対象: `.agents/skills/propose-alternatives/SKILL.md`。
+
+<a id="cr-014"></a>
+
+## CR-014: 影響のない層を元の状態と採否へ戻す
+
+[全件委任](bulk-application.md)に基づく適用。共通規則・進行skill・層雛形で、待ちにする前の状態と採否を残し、変更なしなら復帰する手順を揃えた。正本の閉じた層・不足・出口も再評価の状態へ合わせる。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-014-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-014-application.json)を実行する。
+- [x] commit `4df9886`へ保存した。pushは全件適用後に行う。
+
+変更対象: `what-defines-a-product/README.md`, `.agents/skills/grow-product-idea/SKILL.md`, `.agents/skills/grow-product-idea/templates/layer-record.md`。
+
+<a id="cr-015"></a>
+
+## CR-015: 不足を候補ごとに分け部分的な再開を可能にする
+
+[全件委任](bulk-application.md)に基づく適用。出どころと候補の不足を、識別子・公開で調べる性質・候補固有の事情へ分け、依存する比較だけを止める。how・専門・進行skillの取得と返りを接続した。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-015-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-015-application.json)を実行する。
+- [x] commit `eaa16c9`へ保存した。pushは全件適用後に行う。
+
+変更対象: `what-defines-a-product/how-to-solve.md`, `.agents/skills/propose-alternatives/SKILL.md`, `.agents/skills/grow-product-idea/SKILL.md`。
+
+<a id="cr-016"></a>
+
+## CR-016: 新規案件の同名衝突で上書きしない
+
+[全件委任](bulk-application.md)に基づく適用。進行skillと配置規約で、排他的作成・衝突時の同定・別案件の命名・明示した再開を定めた。新規の正本生成はdirectoryの確保後に限る。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-016-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-016-application.json)を実行する。
+- [x] commit `54fe7b4`へ保存した。pushは全件適用後に行う。
+
+変更対象: `.agents/skills/grow-product-idea/SKILL.md`, `product-plans/README.md`。
+
+<a id="cr-013"></a>
+
+## CR-013: 引用の参照定義とコード境界を検査する
+
+[全件委任](bulk-application.md)に基づく適用。checkerが引用・入れ子の引用の参照定義を解析し、元の行番号で欠損を返す。引用のコードfenceの終端とコンテナの終了を扱い、コード内の例を参照として誤検出しない。実CLIの12回帰テストを追加した。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-013-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-013-application.json)を実行する。
+- [x] commit `988223d`へ保存した。pushは全件適用後に行う。
+
+変更対象: `.agents/skills/grow-product-idea/scripts/check-plan-links.py`, `.agents/skills/grow-product-idea/scripts/tests/test_check_plan_links.py`。
+
+<a id="cr-010"></a>
+
+## CR-010: 試運転の妥当な出口と検査範囲を分ける
+
+[全件委任](bulk-application.md)に基づく適用。ドライランだけに適用する振返りをrootの保守入口へ置き、進行skillから繋いだ。原依頼→実際に通った判断→未検査→次の入力を既存の保守記録へ返す。通常案件の新台帳は作らない。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-010-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-010-application.json)を実行する。
+- [x] commit `5f56bed`へ保存した。pushは全件適用後に行う。
+
+変更対象: `README.md`, `.agents/skills/grow-product-idea/SKILL.md`。
+
+<a id="cr-011"></a>
+
+## CR-011: 持出し後の現在の判断を後続で所有する
+
+[全件委任](bulk-application.md)に基づく適用。持出し元を採用時の基準版、後続のsteering／task-designを現在の計画・採否のownerと定めた。基準版・差・現在の記録への接続を写しの出口へ渡し、常時二重同期は設けない。
+
+- [x] 指摘を現行の入口・判断・保存先へ照合し、必要な範囲を修正する。
+- [x] [具体例と文書review](evidence/CR-011-application.md)で成立・不成立を対照する。
+- [x] [参照の機械検査](evidence/CR-011-application.json)を実行する。
+- [x] commit `f222426`へ保存した。pushは全件適用後に行う。
+
+変更対象: `product-plans/README.md`, `what-defines-a-product/how-to-build.md`, `README.md`, `.agents/skills/grow-product-idea/templates/canonical.md`。
+
+## 全件適用後の確認
+
+全16件を適用し、各指摘を独立したcommitへ保存した。残11件の採用は全件委任に基づき、個別にユーザーが応答した履歴を作っていない。
+[全体確認](evidence/bulk-final-verification.json): 実CLIの12回帰テスト、CR-009の8場面、凍結した初回C3の46参照が成功した。
+追跡済みMarkdown全体の参照不備は従前の4件で増えていない。未展開の雛形と凍結した過去の入力の不備を、今回の修正で解消したとは記録しない。
+文書の判断は各指摘の机上追跡で確認しており、長い企画を自律agentで通し切った証拠ではない。次に修正後のHEADを固定してAstraで再レビューする。

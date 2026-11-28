@@ -1,0 +1,305 @@
+{
+  "at": "2026-11-17T12:39:13.860072+00:00",
+  "artifacts": [
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/README.md",
+      "sha256": "b9778f60ca8625eaad5e3501aafdaae3ddf38ecc629b523c1b6ab63a68b9f96e",
+      "bytes": 11658
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-build/README.md",
+      "sha256": "6a29e556d58e8c0c5bbd4e236cc5033dc872190fc43d19cb0717ce2794197b10",
+      "bytes": 13453
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-build/discussion.md",
+      "sha256": "4e9af3f363755a8a15b291193b25a31a39603064a148ed8d9f1147c346d67469",
+      "bytes": 6023
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-1.md",
+      "sha256": "9329247ca48e2ed0a205075ab67a006140450e54aeceee236977eaa181d998a8",
+      "bytes": 1866
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-2.md",
+      "sha256": "db4a1b06e681e3a70c7d43979da96c56ac9aec3d96196ac2818b097ad6bdd08a",
+      "bytes": 1597
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-build/internal-records/discussion.md.topic-3.md",
+      "sha256": "5bf2b5aa3c02be3719b09d0e55063af761e7c957fedc1f1efc4304ff45511c2e",
+      "bytes": 1697
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-solve/README.md",
+      "sha256": "87673d843a88882d52c3ca450a51bcbaaf9cc5227e566a9d21805f7e4e6d9853",
+      "bytes": 15035
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-solve/discussion.md",
+      "sha256": "d612eb9e6b804bfad7a6c86d98517b2d1a5627766016028e12b2758ca9f5048e",
+      "bytes": 4412
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "sha256": "cb27d9cef292867290b051f008005368fc9121fc0f92bcc943628e3d98a7697d",
+      "bytes": 2046
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/how-to-solve/internal-records/discussion.md.topic-2.md",
+      "sha256": "90e40f1ef13a62f059b69dc450909cb1a8add07c652906e7990f676fee76c8d3",
+      "bytes": 1605
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/alternatives.md",
+      "sha256": "f8b4224bb2a064ffcd89864c1e0f217c03e935818003d22d68309acbfddf4cd8",
+      "bytes": 13791
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/core-logic.md",
+      "sha256": "4a0fcbfa5c9867f457468b34675a48bd6d3c7ca12de83f1f0ceca9c4915dc17a",
+      "bytes": 7305
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/data-model.md",
+      "sha256": "7eb6dc372634bb0b5341879718d69edad93010896e8e92d7406a5c83a2920cde",
+      "bytes": 8060
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/experience-sketch.md",
+      "sha256": "0d3f79ebe89efc29db10b730e5b662f73b95f46c689b140367f6e28024b26b18",
+      "bytes": 8841
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/functional-structure.md",
+      "sha256": "5fd6c1e4cd12cfbd47dc3180a1f87de7064862af123eef06e851376b1b7d65ee",
+      "bytes": 4704
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/implementation-structure.md",
+      "sha256": "8e10a180204a51381b2a8f510f036c43cd9c3439ebd3b965ae73832c95d7a1be",
+      "bytes": 7967
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/input-v1.md",
+      "sha256": "1c046960d2838a0b4544566548e6477f0e3f1d384906044752abd6b3a578c97a",
+      "bytes": 11711
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/technical-feasibility/README.md",
+      "sha256": "22f87a4bd8475851d8cc89f9cfc0a19de731fc53c966dcbcefdc872877228ff9",
+      "bytes": 3680
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/technical-feasibility/observations.json",
+      "sha256": "36e2651b0808dd35c6f8975da9029c8e2ac38a2d2f5bdd13d87a360eeca48900",
+      "bytes": 529
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/materials/technical-feasibility/probe.py",
+      "sha256": "44d6c7b7b39a0b92bc6e3b5a835ef2154063a696383a6a6c7df653cb56e9d0c7",
+      "bytes": 2404
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/what-must-hold/README.md",
+      "sha256": "98844605c127e59b6c225aba26bb1c0f832ae6dc87c55fa3bd6570c478d1e083",
+      "bytes": 9568
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/what-must-hold/discussion.md",
+      "sha256": "60f202296d26f632206092d0891c78e2c64dbd481bf1b5fad5d9631bd0646829",
+      "bytes": 1758
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "sha256": "76d33130e7f80ef9365c9a257e497d8685a629de2cbf88752bb514e9f4aa48b5",
+      "bytes": 1374
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/why-to-build/README.md",
+      "sha256": "3b4c57a1f54dcb7974f534e8c430f429dc07c7807de0884cd0c4b19ed99d509c",
+      "bytes": 6028
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/why-to-build/discussion.md",
+      "sha256": "15ed7e280e6df9ea5bc2c4bed9f98807e4058e91f3dae480fcac2b3d8af7e76a",
+      "bytes": 3747
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/why-to-build/internal-records/discussion.md.topic-1.md",
+      "sha256": "a431a22b4f557614a1720d4206e2aa5c6ab17f982809247ab7d0dd20c24088aa",
+      "bytes": 1760
+    },
+    {
+      "path": "product-plans/20261117-compare-card-game-choices/why-to-build/internal-records/discussion.md.topic-2.md",
+      "sha256": "f9affd090e98137a276621ae39e21936ebde1a6024333944f28c70d34f8bf77e",
+      "bytes": 1346
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/README.md",
+      "sha256": "b2b9442e1a8ef5c0e7b2cda8ba8b540e688e43f82f67d92b91294f3827f9a635",
+      "bytes": 7144
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/how-to-solve/README.md",
+      "sha256": "a65a8f79abcd4ad12ba1476d53737ae16248294ba82b5b7e1c82fddf5b03c87d",
+      "bytes": 12938
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/how-to-solve/discussion.md",
+      "sha256": "f0a202e1fca7a0cd8acc1bcea4e8a37420c15d3a2ea985e42f14a6a69d2c9197",
+      "bytes": 2392
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "sha256": "069efd02c62d266affa86270190f7a1fb9ef86c6e53bdc5d1c5f98acf5d91f28",
+      "bytes": 1908
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/materials/alternatives/README.md",
+      "sha256": "c6bed7fdbb6ed1cd2d9fca7fe0b04d17f0c1349e60779a915a6dc0df17fe827f",
+      "bytes": 9738
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/materials/alternatives/discussion.md",
+      "sha256": "82b41e4ada8439489fa9bfd2400196abc0322d09f5112d9b61efeca4e686b653",
+      "bytes": 2353
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/materials/alternatives/internal-records/discussion.md.topic-1.md",
+      "sha256": "216b7130db21fcdf6fc3cd29d0532aa2852d4dc1384eeeaa9c999da799dfb2aa",
+      "bytes": 1832
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/materials/experience-sketch.md",
+      "sha256": "ecf9a52047c4bafb4ac075d1552b56ad8b7368128d2c502fc4a180fe17b0b09a",
+      "bytes": 3898
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/materials/input-v1.md",
+      "sha256": "c5f3da178ffeb90f98bf840f55b6a83edb9f31a982e0b708f346c4a0603999ce",
+      "bytes": 9535
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/what-must-hold/README.md",
+      "sha256": "6d7e550187cbd47fb275b3532dceaa04be62991c280e6858167abcb637fb6d73",
+      "bytes": 8149
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/what-must-hold/discussion.md",
+      "sha256": "e6f280d0edfbd359fe1fcd0030b98bd30671ce8b0053c194d8537c6eb5fe6dae",
+      "bytes": 1844
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "sha256": "4e98516263ff79f05440cb498eee19732e3fb0195e966145ee9b3713a9802065",
+      "bytes": 1401
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/why-to-build/README.md",
+      "sha256": "0ed5c372811ff3efad15f5306e5369f047dc849cf46d11b0c783242be4b5426c",
+      "bytes": 6582
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/why-to-build/discussion.md",
+      "sha256": "f0854bb444f2151a9ca3a3725b306dfb88e43e29b355cc75088e3bcd7bd99ca6",
+      "bytes": 3649
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/why-to-build/internal-records/discussion.md.topic-1.md",
+      "sha256": "8af1b72124b839509efb09e7525c58c2b55e39666d8b32dc1d99649e5fe4ff14",
+      "bytes": 1821
+    },
+    {
+      "path": "product-plans/20261117-coordinate-dinner-changes/why-to-build/internal-records/discussion.md.topic-2.md",
+      "sha256": "ce0ba0db04f174c08103741daaf2ad8e117bc6e67500ee64fe542708cbddb831",
+      "bytes": 1267
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/README.md",
+      "sha256": "97cae4c7479bbff1dc4d641279a8b81d2d32205396692c3a8eb0f03faa73ce96",
+      "bytes": 6601
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/how-to-solve/README.md",
+      "sha256": "2e8ffb3ee1000285d6ce03ab4ab3185332e8bf831432e7dcb8ad4527af21d53a",
+      "bytes": 12473
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/how-to-solve/discussion.md",
+      "sha256": "6aa28e8b290967236bb15855fe6f6cc71bedaf77b8e73b91b0383194518aab01",
+      "bytes": 2278
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/how-to-solve/internal-records/discussion.md.topic-1.md",
+      "sha256": "b67147b87697ad73ee992b6e38b8e129eab545840e8474d8f8ef59abf9948b27",
+      "bytes": 1896
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/materials/alternatives/README.md",
+      "sha256": "2d6c4e51a8f90c8e2f04375fa9fd8df40515b55b0fc4bee88842faa035e2b78e",
+      "bytes": 7804
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/materials/alternatives/discussion.md",
+      "sha256": "52db2fc38273b1f6c63bd82b26bedbf45ea14a21bd832482ae0f94d257a3054b",
+      "bytes": 2161
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/materials/alternatives/internal-records/discussion.md.topic-1.md",
+      "sha256": "24e6132260b4b66aaec0c717cd4e93289df803375ad99890d885b7669fe76338",
+      "bytes": 1590
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/materials/core-logic.md",
+      "sha256": "b7738305f255a9f28429d610c6821369f47eb11fbc6cdae7d2b303bf8520de6c",
+      "bytes": 3091
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/materials/input-v1.md",
+      "sha256": "1a2ea543fb192a931480d446938f59f8254a78b84ffe4ecccb017c0637727a89",
+      "bytes": 9325
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/materials/technical-feasibility.md",
+      "sha256": "32f77d9248e5ed342ab7ff6bf0afa27bb8b85284f439274dd87928c1ed243efa",
+      "bytes": 2359
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/what-must-hold/README.md",
+      "sha256": "5cce134eef4402061f75f1d2294d89cad0460420cb4d090f3b23f32c75462a02",
+      "bytes": 8852
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/what-must-hold/discussion.md",
+      "sha256": "95120ab2136d2671232f3c710b11f1b1cd4127141bb888d6b1cec9569e5fc256",
+      "bytes": 1822
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/what-must-hold/internal-records/discussion.md.topic-1.md",
+      "sha256": "2438ea7a2a4432cd3b002fbee88512b878a3d2139190d278a3e9df4f54952d91",
+      "bytes": 1435
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/why-to-build/README.md",
+      "sha256": "1a332569f208a0e759b6a96947490a0de89f686d521cff59efd4ab43ef3e8efe",
+      "bytes": 6219
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/why-to-build/discussion.md",
+      "sha256": "367f2ff1bbc8d8a28c119e9b6b8a1842b5d1ec6c6298d5904ad9701e41686d7e",
+      "bytes": 3606
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/why-to-build/internal-records/discussion.md.topic-1.md",
+      "sha256": "d00bb71477d452535c421cf30b6295b8310ad7338ae9d79a2536b2c706d6820e",
+      "bytes": 1816
+    },
+    {
+      "path": "product-plans/20261117-check-refill-availability/why-to-build/internal-records/discussion.md.topic-2.md",
+      "sha256": "0d989a9ea62798f4dc3e90776b926294b38f028d3dc931b0a2d9b1a002828a1e",
+      "bytes": 1324
+    }
+  ]
+}

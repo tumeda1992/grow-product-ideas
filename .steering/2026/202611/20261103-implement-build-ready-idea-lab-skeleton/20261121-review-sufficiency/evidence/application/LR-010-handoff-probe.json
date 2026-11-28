@@ -1,0 +1,44 @@
+{
+  "baseline": {
+    "ok": true,
+    "files": 1,
+    "local_links": 0,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "companion": {
+    "ok": true,
+    "files": 1,
+    "local_links": 2,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "normal_material_external": {
+    "ok": false,
+    "files": 2,
+    "local_links": 1,
+    "external_not_fetched": 0,
+    "issues": [
+      {
+        "file": "/tmp/tmpu7ynmdc7/initial_product_plan/bad.md",
+        "line": 1,
+        "target": "../.steering/current/decision.md",
+        "kind": "outside-plan"
+      }
+    ]
+  },
+  "missing_successor": {
+    "ok": false,
+    "files": 1,
+    "local_links": 1,
+    "external_not_fetched": 0,
+    "issues": [
+      {
+        "file": "/tmp/tmpu7ynmdc7/initial_product_plan-handoff.md",
+        "line": 2,
+        "target": ".steering/missing.md",
+        "kind": "missing-target"
+      }
+    ]
+  }
+}

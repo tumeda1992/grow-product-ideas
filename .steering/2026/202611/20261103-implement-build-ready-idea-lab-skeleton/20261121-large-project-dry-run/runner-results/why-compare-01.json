@@ -1,0 +1,29 @@
+{
+  "action": "compare",
+  "format": "single",
+  "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+  "problems": [],
+  "snapshot": {
+    "format": "single",
+    "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+    "files": [
+      {
+        "path": "discussion.md",
+        "realpath": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+        "sha256": "034d6350f851eff30d84ac11a10deff6b8934050542c895f10c44d111c7b1b96"
+      }
+    ]
+  },
+  "changed": false,
+  "previous": {
+    "format": "single",
+    "entry": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+    "files": [
+      {
+        "path": "discussion.md",
+        "realpath": "/workspace/grow-product-ideas/.steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/product-plans/20261121-reframe-local-collections/why-to-build/discussion.md",
+        "sha256": "034d6350f851eff30d84ac11a10deff6b8934050542c895f10c44d111c7b1b96"
+      }
+    ]
+  }
+}

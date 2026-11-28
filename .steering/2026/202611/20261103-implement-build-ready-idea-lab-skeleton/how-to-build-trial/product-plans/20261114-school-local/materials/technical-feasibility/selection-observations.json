@@ -1,0 +1,27 @@
+{
+  "R1_before_booking": [
+    [
+      "participate",
+      15
+    ]
+  ],
+  "R2_without_reconfirmation": [
+    [
+      null,
+      null
+    ]
+  ],
+  "R2_unknown_duration": [
+    [
+      "needs_check",
+      null
+    ]
+  ],
+  "retained_R1": [
+    [
+      "participate",
+      15
+    ]
+  ],
+  "observed": "all expected; source-specific selection and unknown duration preserved"
+}

@@ -1,0 +1,19 @@
+{
+  "method": "manual four-case tracing; executable reference validation",
+  "autonomous_agent_execution": false,
+  "exact_approved_patch_present": true,
+  "review_references": {
+    "ok": true,
+    "files": 29,
+    "local_links": 243,
+    "external_not_fetched": 0,
+    "issues": []
+  },
+  "changed_source_references": {
+    "ok": true,
+    "files": 3,
+    "local_links": 9,
+    "external_not_fetched": 0,
+    "issues": []
+  }
+}

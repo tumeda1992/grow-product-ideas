@@ -1,0 +1,44 @@
+{
+  "method": "親担当による既存checkerのread-only実行。Astraの意味のレビューの代替ではない",
+  "files": [
+    "README.md",
+    "product-plans/README.md",
+    "what-defines-a-product/README.md",
+    "what-defines-a-product/how-to-build.md",
+    "what-defines-a-product/how-to-solve.md",
+    "what-defines-a-product/what-must-hold.md",
+    "what-defines-a-product/why-to-build.md",
+    ".agents/skills/design-core-logic/SKILL.md",
+    ".agents/skills/design-data-model/SKILL.md",
+    ".agents/skills/functional-structure-design/SKILL.md",
+    ".agents/skills/gather-target-user-voices/SKILL.md",
+    ".agents/skills/grow-product-idea/SKILL.md",
+    ".agents/skills/grow-product-idea/templates/canonical.md",
+    ".agents/skills/grow-product-idea/templates/layer-record.md",
+    ".agents/skills/implementation-structure-design/SKILL.md",
+    ".agents/skills/propose-alternatives/SKILL.md",
+    ".agents/skills/sketch-experience/SKILL.md",
+    ".agents/skills/verify-technical-feasibility/SKILL.md"
+  ],
+  "result": {
+    "ok": false,
+    "files": 18,
+    "local_links": 29,
+    "external_not_fetched": 0,
+    "issues": [
+      {
+        "file": "/workspace/grow-product-ideas/.agents/skills/grow-product-idea/templates/layer-record.md",
+        "line": 18,
+        "target": "../README.md#{節のアンカー}",
+        "kind": "missing-target"
+      },
+      {
+        "file": "/workspace/grow-product-ideas/.agents/skills/grow-product-idea/templates/layer-record.md",
+        "line": 19,
+        "target": "discussion.md",
+        "kind": "missing-target"
+      }
+    ]
+  },
+  "limits": "存在/anchorだけ。意味の一致・手順の実行可能性・長文入力の耐性を保証しない。長文ドライランは実施していない。"
+}

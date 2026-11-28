@@ -1,0 +1,45 @@
+{
+  "checker_cases": [
+    {
+      "name": "before_acceptance",
+      "exit": 0,
+      "files": 1,
+      "local_links": 0,
+      "issues": []
+    },
+    {
+      "name": "accepted_reader_starts_from_copy",
+      "exit": 2,
+      "files": 1,
+      "local_links": 1,
+      "issues": [
+        {
+          "kind": "outside-plan",
+          "line": 3,
+          "target": "../.steering/project/decision.md"
+        }
+      ]
+    },
+    {
+      "name": "same_references_resolve_under_destination_repo",
+      "exit": 0,
+      "files": 2,
+      "local_links": 2,
+      "issues": []
+    },
+    {
+      "name": "20261117-find-compatible-pen-refills",
+      "exit": 0,
+      "files": 16,
+      "local_links": 46,
+      "issues": []
+    },
+    {
+      "name": "20261117-check-refill-availability",
+      "exit": 0,
+      "files": 17,
+      "local_links": 50,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "head": "023ca0b0dbb3362291c85b3817baa627f7f55a11",
+  "snapshot_sha256": "2dae30d050df14b0218960d8efb90155722fc843f05df5fe7d988785917d8aaa",
+  "fixed_files": 562,
+  "regular_files": 560,
+  "symlinks": 2,
+  "known_parent_note": {
+    "path": ".steering/2026/202611/20261103-implement-build-ready-idea-lab-skeleton/20261121-exhaustive-review-large-ideas/discussion.md",
+    "inserted_lines": 23,
+    "fixed_sha256": "43c386a3bbe5a81372fd937b16cc9145aa1b2c64a620377fcc3f0ba3ba04ff70",
+    "current_sha256": "fb001915c8b4a50437559d637b9196010121dd111c743dd8b81717faad6c85a7",
+    "removing_only_this_insertion_matches_fixed": true
+  },
+  "other_changed_fixed_files": [],
+  "review_markdown_link_count": {
+    "README.md": 8,
+    "coverage.md": 13,
+    "evidence/proposed-changes.md": 6,
+    "evidence/theatre.md": 5,
+    "evidence/tide.md": 4,
+    "findings/SR-001-existing-consumers.md": 7
+  },
+  "broken_relative_links": [],
+  "authored_finding_files": [
+    "SR-001-existing-consumers.md"
+  ],
+  "example_command": "python3 -B evidence/check_examples.py",
+  "example_reproduced_byte_for_byte": true,
+  "checks": "資料内のファイル相対リンク、参照表と受付期限の構成例、固定対象を照合。実製品・修正後のgrowの実行は含まない。"
+}

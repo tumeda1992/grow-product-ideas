@@ -1,0 +1,405 @@
+{
+  "rule": "s1; confirm-completed time, >= 300 seconds preparation, cutoff inclusive 40200",
+  "observations": [
+    {
+      "case": "all17",
+      "inputs": [
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ]
+      ],
+      "results": [
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 37200
+        },
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 38400
+        },
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 39600
+        },
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 40500
+        },
+        {
+          "result": "no_target_slot"
+        },
+        {
+          "result": "no_target_slot"
+        },
+        {
+          "result": "no_target_slot"
+        },
+        {
+          "result": "no_target_slot"
+        },
+        {
+          "result": "no_target_slot"
+        },
+        {
+          "result": "no_target_slot"
+        },
+        {
+          "result": "no_target_slot"
+        },
+        {
+          "result": "no_target_slot"
+        }
+      ],
+      "occupied": [
+        [
+          17,
+          37200,
+          "all170"
+        ],
+        [
+          17,
+          38400,
+          "all171"
+        ],
+        [
+          17,
+          39600,
+          "all172"
+        ],
+        [
+          17,
+          40500,
+          "all173"
+        ]
+      ],
+      "accepted": 4
+    },
+    {
+      "case": "balanced",
+      "inputs": [
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          17,
+          36300
+        ],
+        [
+          18,
+          36300
+        ],
+        [
+          18,
+          36300
+        ],
+        [
+          18,
+          36300
+        ],
+        [
+          18,
+          36300
+        ],
+        [
+          19,
+          36300
+        ],
+        [
+          19,
+          36300
+        ],
+        [
+          19,
+          36300
+        ],
+        [
+          19,
+          36300
+        ]
+      ],
+      "results": [
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 37200
+        },
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 38400
+        },
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 39600
+        },
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 40500
+        },
+        {
+          "result": "accepted",
+          "number": 18,
+          "slot": 37200
+        },
+        {
+          "result": "accepted",
+          "number": 18,
+          "slot": 38400
+        },
+        {
+          "result": "accepted",
+          "number": 18,
+          "slot": 39600
+        },
+        {
+          "result": "accepted",
+          "number": 18,
+          "slot": 40500
+        },
+        {
+          "result": "accepted",
+          "number": 19,
+          "slot": 37200
+        },
+        {
+          "result": "accepted",
+          "number": 19,
+          "slot": 38400
+        },
+        {
+          "result": "accepted",
+          "number": 19,
+          "slot": 39600
+        },
+        {
+          "result": "accepted",
+          "number": 19,
+          "slot": 40500
+        }
+      ],
+      "occupied": [
+        [
+          17,
+          37200,
+          "balanced0"
+        ],
+        [
+          17,
+          38400,
+          "balanced1"
+        ],
+        [
+          17,
+          39600,
+          "balanced2"
+        ],
+        [
+          17,
+          40500,
+          "balanced3"
+        ],
+        [
+          18,
+          37200,
+          "balanced4"
+        ],
+        [
+          18,
+          38400,
+          "balanced5"
+        ],
+        [
+          18,
+          39600,
+          "balanced6"
+        ],
+        [
+          18,
+          40500,
+          "balanced7"
+        ],
+        [
+          19,
+          37200,
+          "balanced8"
+        ],
+        [
+          19,
+          38400,
+          "balanced9"
+        ],
+        [
+          19,
+          39600,
+          "balanced10"
+        ],
+        [
+          19,
+          40500,
+          "balanced11"
+        ]
+      ],
+      "accepted": 12
+    },
+    {
+      "case": "late17",
+      "inputs": [
+        [
+          17,
+          40140
+        ],
+        [
+          17,
+          40140
+        ],
+        [
+          17,
+          40140
+        ]
+      ],
+      "results": [
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 40500
+        },
+        {
+          "result": "no_target_slot"
+        },
+        {
+          "result": "no_target_slot"
+        }
+      ],
+      "occupied": [
+        [
+          17,
+          40500,
+          "late170"
+        ]
+      ],
+      "accepted": 1
+    },
+    {
+      "case": "exact_cutoff",
+      "inputs": [
+        [
+          18,
+          40200
+        ]
+      ],
+      "results": [
+        {
+          "result": "accepted",
+          "number": 18,
+          "slot": 40500
+        }
+      ],
+      "occupied": [
+        [
+          18,
+          40500,
+          "exact_cutoff0"
+        ]
+      ],
+      "accepted": 1
+    },
+    {
+      "case": "after_cutoff",
+      "inputs": [
+        [
+          18,
+          40201
+        ]
+      ],
+      "results": [
+        {
+          "result": "closed"
+        }
+      ],
+      "occupied": [],
+      "accepted": 0
+    },
+    {
+      "case": "two_connections_final_slot",
+      "results": [
+        {
+          "result": "accepted",
+          "number": 17,
+          "slot": 40500
+        },
+        {
+          "result": "no_target_slot"
+        }
+      ],
+      "replay": {
+        "result": "same_receipt",
+        "number": 17,
+        "slot": 40500
+      }
+    }
+  ],
+  "limits": [
+    "SQLite allocation only; receipt payload equality verified separately by HTTP experiment",
+    "reserved slot is not physical display completion or real visitor impact"
+  ]
+}

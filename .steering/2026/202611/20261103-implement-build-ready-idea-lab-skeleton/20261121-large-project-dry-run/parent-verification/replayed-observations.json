@@ -1,0 +1,675 @@
+{
+  "allocation-observations.json": {
+    "rule": "s1; confirm-completed time, >= 300 seconds preparation, cutoff inclusive 40200",
+    "observations": [
+      {
+        "case": "all17",
+        "inputs": [
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ]
+        ],
+        "results": [
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 37200
+          },
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 38400
+          },
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 39600
+          },
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 40500
+          },
+          {
+            "result": "no_target_slot"
+          },
+          {
+            "result": "no_target_slot"
+          },
+          {
+            "result": "no_target_slot"
+          },
+          {
+            "result": "no_target_slot"
+          },
+          {
+            "result": "no_target_slot"
+          },
+          {
+            "result": "no_target_slot"
+          },
+          {
+            "result": "no_target_slot"
+          },
+          {
+            "result": "no_target_slot"
+          }
+        ],
+        "occupied": [
+          [
+            17,
+            37200,
+            "all170"
+          ],
+          [
+            17,
+            38400,
+            "all171"
+          ],
+          [
+            17,
+            39600,
+            "all172"
+          ],
+          [
+            17,
+            40500,
+            "all173"
+          ]
+        ],
+        "accepted": 4
+      },
+      {
+        "case": "balanced",
+        "inputs": [
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            17,
+            36300
+          ],
+          [
+            18,
+            36300
+          ],
+          [
+            18,
+            36300
+          ],
+          [
+            18,
+            36300
+          ],
+          [
+            18,
+            36300
+          ],
+          [
+            19,
+            36300
+          ],
+          [
+            19,
+            36300
+          ],
+          [
+            19,
+            36300
+          ],
+          [
+            19,
+            36300
+          ]
+        ],
+        "results": [
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 37200
+          },
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 38400
+          },
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 39600
+          },
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 40500
+          },
+          {
+            "result": "accepted",
+            "number": 18,
+            "slot": 37200
+          },
+          {
+            "result": "accepted",
+            "number": 18,
+            "slot": 38400
+          },
+          {
+            "result": "accepted",
+            "number": 18,
+            "slot": 39600
+          },
+          {
+            "result": "accepted",
+            "number": 18,
+            "slot": 40500
+          },
+          {
+            "result": "accepted",
+            "number": 19,
+            "slot": 37200
+          },
+          {
+            "result": "accepted",
+            "number": 19,
+            "slot": 38400
+          },
+          {
+            "result": "accepted",
+            "number": 19,
+            "slot": 39600
+          },
+          {
+            "result": "accepted",
+            "number": 19,
+            "slot": 40500
+          }
+        ],
+        "occupied": [
+          [
+            17,
+            37200,
+            "balanced0"
+          ],
+          [
+            17,
+            38400,
+            "balanced1"
+          ],
+          [
+            17,
+            39600,
+            "balanced2"
+          ],
+          [
+            17,
+            40500,
+            "balanced3"
+          ],
+          [
+            18,
+            37200,
+            "balanced4"
+          ],
+          [
+            18,
+            38400,
+            "balanced5"
+          ],
+          [
+            18,
+            39600,
+            "balanced6"
+          ],
+          [
+            18,
+            40500,
+            "balanced7"
+          ],
+          [
+            19,
+            37200,
+            "balanced8"
+          ],
+          [
+            19,
+            38400,
+            "balanced9"
+          ],
+          [
+            19,
+            39600,
+            "balanced10"
+          ],
+          [
+            19,
+            40500,
+            "balanced11"
+          ]
+        ],
+        "accepted": 12
+      },
+      {
+        "case": "late17",
+        "inputs": [
+          [
+            17,
+            40140
+          ],
+          [
+            17,
+            40140
+          ],
+          [
+            17,
+            40140
+          ]
+        ],
+        "results": [
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 40500
+          },
+          {
+            "result": "no_target_slot"
+          },
+          {
+            "result": "no_target_slot"
+          }
+        ],
+        "occupied": [
+          [
+            17,
+            40500,
+            "late170"
+          ]
+        ],
+        "accepted": 1
+      },
+      {
+        "case": "exact_cutoff",
+        "inputs": [
+          [
+            18,
+            40200
+          ]
+        ],
+        "results": [
+          {
+            "result": "accepted",
+            "number": 18,
+            "slot": 40500
+          }
+        ],
+        "occupied": [
+          [
+            18,
+            40500,
+            "exact_cutoff0"
+          ]
+        ],
+        "accepted": 1
+      },
+      {
+        "case": "after_cutoff",
+        "inputs": [
+          [
+            18,
+            40201
+          ]
+        ],
+        "results": [
+          {
+            "result": "closed"
+          }
+        ],
+        "occupied": [],
+        "accepted": 0
+      },
+      {
+        "case": "two_connections_final_slot",
+        "results": [
+          {
+            "result": "accepted",
+            "number": 17,
+            "slot": 40500
+          },
+          {
+            "result": "no_target_slot"
+          }
+        ],
+        "replay": {
+          "result": "same_receipt",
+          "number": 17,
+          "slot": 40500
+        }
+      }
+    ],
+    "limits": [
+      "SQLite allocation only; receipt payload equality verified separately by HTTP experiment",
+      "reserved slot is not physical display completion or real visitor impact"
+    ]
+  },
+  "http-observations.json": {
+    "observations": [
+      {
+        "claim": "simultaneous_receipt",
+        "responses": [
+          [
+            201,
+            {
+              "id": "Q17"
+            },
+            "no-store"
+          ],
+          [
+            200,
+            {
+              "id": "Q17",
+              "result": "same_receipt"
+            },
+            "no-store"
+          ]
+        ],
+        "db_count_and_revisions": [
+          1,
+          1,
+          1
+        ],
+        "different_body_response": 409
+      },
+      {
+        "claim": "simultaneous_stale_updates",
+        "starting_revisions": [
+          1,
+          1
+        ],
+        "responses": [
+          [
+            409,
+            {
+              "changed": 0
+            },
+            "no-store"
+          ],
+          [
+            200,
+            {
+              "changed": 1
+            },
+            "no-store"
+          ]
+        ],
+        "db_state_and_revision": [
+          "withdrawn",
+          2
+        ]
+      },
+      {
+        "claim": "viewer_boundary",
+        "active_rows": 1,
+        "cache_control": "no-store",
+        "post_status": 405,
+        "withdrawn_rows": [],
+        "expired_rows": []
+      },
+      {
+        "claim": "purge_after_close",
+        "logical_rows": [
+          [
+            "Q17",
+            null,
+            "expired",
+            5
+          ]
+        ],
+        "replay_status": 410,
+        "synthetic_body_bytes_absent": true,
+        "metadata_row_retained": true,
+        "boundary": "this closed SQLite file only; no OS backup or printed copy guarantee"
+      }
+    ],
+    "limits": [
+      "localhost HTTP only; no facility LAN or real browser test",
+      "physical covering and paper recovery not automated or observed",
+      "finite SQL/HTTP protocol experiment; not product implementation"
+    ]
+  },
+  "model-observations.json": {
+    "observations": [
+      {
+        "claim": "target_and_slot",
+        "Q17_reserved": [
+          "2026-11-28",
+          17,
+          37200
+        ],
+        "Q18_to_17_rejected": "FOREIGN KEY constraint failed"
+      },
+      {
+        "claim": "before_physical_confirmation",
+        "runtime": "covered",
+        "new_view": [],
+        "paper": "prepared"
+      },
+      {
+        "claim": "confirmed_view_and_stale_update",
+        "payload": [
+          [
+            "Q17",
+            17,
+            "袋",
+            "左室",
+            "visitor",
+            "折り目は何度使った跡だろう",
+            2,
+            2
+          ]
+        ],
+        "render_location": "左室; shelf A1 not used for display",
+        "stale_rows": 0
+      },
+      {
+        "claim": "withdrawal_before_recovery",
+        "new_view": [],
+        "paper_status": "placed; recovery not inferred"
+      },
+      {
+        "claim": "F0_final_state",
+        "row_counts": {
+          "prompt": 0,
+          "paper_copy": 0,
+          "current_display": 0,
+          "aggregate": 1
+        },
+        "body_bytes_absent_in_this_file": true,
+        "catalog_before_and_after": [
+          [
+            17,
+            "袋",
+            "A1"
+          ],
+          [
+            18,
+            "道具",
+            "B2"
+          ],
+          [
+            19,
+            "写真",
+            "C1"
+          ]
+        ],
+        "integrity": "ok",
+        "foreign_key_issues": []
+      }
+    ],
+    "limits": [
+      "operator confirmations were synthetic; physical covering/recovery was not performed",
+      "proposed SQL and generated HTML fragment; not facility runtime or full browser application",
+      "body byte check covers this SQLite file, not external backups or printer storage"
+    ]
+  },
+  "observations.json": {
+    "environment": {
+      "python": "3.12.14",
+      "sqlite": "3.53.1"
+    },
+    "observations": [
+      {
+        "claim": "two_connections_old_revision",
+        "read_revisions": [
+          1,
+          1
+        ],
+        "first_rows": 1,
+        "stale_rows": 0,
+        "current": [
+          "active",
+          2
+        ]
+      },
+      {
+        "claim": "withdrawal_new_reads",
+        "state": [
+          [
+            "withdrawn",
+            3
+          ]
+        ],
+        "new_read": []
+      },
+      {
+        "claim": "response_lost_then_replay",
+        "replay": {
+          "result": "same_receipt",
+          "id": "Q17"
+        },
+        "changed_payload": {
+          "result": "receipt_conflict"
+        },
+        "row_count": 1
+      },
+      {
+        "claim": "process_exit_before_commit",
+        "observed": [
+          "withdrawn",
+          3
+        ]
+      },
+      {
+        "claim": "process_exit_after_commit",
+        "observed": [
+          "active",
+          4
+        ]
+      },
+      {
+        "claim": "expiry_and_pending",
+        "active_before_200": true,
+        "active_at_200": false,
+        "pending_new_read": []
+      },
+      {
+        "claim": "html_escape",
+        "tags": [
+          "p"
+        ],
+        "roundtrip_text_matches": true,
+        "escaped": "&lt;script&gt;alert(&quot;synthetic&quot;)&lt;/script&gt;\n袋 &amp; &quot;問い&quot;"
+      },
+      {
+        "claim": "existing_packing_contract",
+        "before": [
+          [
+            17,
+            "A1"
+          ],
+          [
+            18,
+            "B2"
+          ],
+          [
+            19,
+            "C1"
+          ]
+        ],
+        "after": [
+          [
+            17,
+            "A1"
+          ],
+          [
+            18,
+            "B2"
+          ],
+          [
+            19,
+            "C1"
+          ]
+        ],
+        "catalog_sha256": "c345d7e7c65fee8d6137a287af2b3e0951245d486aab65dc9ce4f0bf067c0aba"
+      }
+    ],
+    "limits": [
+      "synthetic SQLite and generated HTML only",
+      "not a browser, physical display or paper recall test",
+      "no facility or production network connections",
+      "not production implementation"
+    ]
+  }
+}

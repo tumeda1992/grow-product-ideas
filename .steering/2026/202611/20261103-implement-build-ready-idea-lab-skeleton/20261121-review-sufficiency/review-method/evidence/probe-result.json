@@ -1,0 +1,32 @@
+[
+  {
+    "region": "Europe/Berlin",
+    "week": 1,
+    "rows_after_two_calls": 1,
+    "same_notice": true,
+    "notice": "2026-03-23T09:00:00+01:00",
+    "venue_expected": "2026-03-23T09:00:00+01:00",
+    "venue_contract_met": true,
+    "elapsed_hours_contract_met": true
+  },
+  {
+    "region": "Europe/Berlin",
+    "week": 2,
+    "rows_after_two_calls": 1,
+    "same_notice": true,
+    "notice": "2026-03-30T10:00:00+02:00",
+    "venue_expected": "2026-03-30T09:00:00+02:00",
+    "venue_contract_met": false,
+    "elapsed_hours_contract_met": true
+  },
+  {
+    "region": "Asia/Tokyo",
+    "week": 2,
+    "rows_after_two_calls": 1,
+    "same_notice": true,
+    "notice": "2026-03-30T09:00:00+09:00",
+    "venue_expected": "2026-03-30T09:00:00+09:00",
+    "venue_contract_met": true,
+    "elapsed_hours_contract_met": true
+  }
+]

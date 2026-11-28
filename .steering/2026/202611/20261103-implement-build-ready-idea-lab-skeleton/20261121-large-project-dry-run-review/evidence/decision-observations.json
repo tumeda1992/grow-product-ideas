@@ -1,0 +1,20 @@
+{
+  "same_complete_sql_dump_after_distinct_requests": true,
+  "local_checks": {
+    "A2/B1": [
+      true,
+      true
+    ],
+    "A2/B2": [
+      true,
+      true
+    ]
+  },
+  "direct_sibling_reference": [
+    {
+      "line": 1,
+      "target": "../B/current.md",
+      "kind": "outside-plan"
+    }
+  ]
+}
